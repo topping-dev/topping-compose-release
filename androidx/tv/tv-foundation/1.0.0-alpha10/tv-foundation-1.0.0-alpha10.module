@@ -1,0 +1,255 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.tv",
+    "module": "tv-foundation",
+    "version": "1.0.0-alpha10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-text",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tv-foundation-1.0.0-alpha10.aar",
+          "url": "tv-foundation-1.0.0-alpha10.aar",
+          "size": 481154,
+          "sha512": "a30fb6652d34877d01f3c1cacde644a1c2e42cbd967d4b5da403dc8c738cb906b600703fd91f64901fde199470048f462edef29bd57f5282a94f69bbda2caae8",
+          "sha256": "c715cd831ea8bc7a987c3f4215e4af94b554b9de174adcf57fcfa278558a7ebb",
+          "sha1": "fd79172d8c549bb19a4e5880773896fa3ce32a7b",
+          "md5": "12909ef8b0de9705529d13217e649ef5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-text",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.profileinstaller",
+          "module": "profileinstaller",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tv-foundation-1.0.0-alpha10.aar",
+          "url": "tv-foundation-1.0.0-alpha10.aar",
+          "size": 481154,
+          "sha512": "a30fb6652d34877d01f3c1cacde644a1c2e42cbd967d4b5da403dc8c738cb906b600703fd91f64901fde199470048f462edef29bd57f5282a94f69bbda2caae8",
+          "sha256": "c715cd831ea8bc7a987c3f4215e4af94b554b9de174adcf57fcfa278558a7ebb",
+          "sha1": "fd79172d8c549bb19a4e5880773896fa3ce32a7b",
+          "md5": "12909ef8b0de9705529d13217e649ef5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tv-foundation-1.0.0-alpha10-sources.jar",
+          "url": "tv-foundation-1.0.0-alpha10-sources.jar",
+          "size": 108141,
+          "sha512": "0fe2cfe728a1f3938e58cbf7dc3d63f09d062848e2e6afc01239ec5e77a3d50e8ad348454af536aeb20b34d8f50eba3c96d25fd70a49e4676f35a007771a4d39",
+          "sha256": "9e6b778f9a34049446ab8165696decd0b0d71055691132c3f240e7f2e16c78be",
+          "sha1": "56d879d8b5d29434fd8fddd863de7655d9c2111e",
+          "md5": "d4758a7723774f18049d553ea09a4661"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "tv-foundation-1.0.0-alpha10-versionMetadata.json",
+          "url": "tv-foundation-1.0.0-alpha10-versionMetadata.json",
+          "size": 17941,
+          "sha512": "317de7e4ab2819e6aa2acc9f435923332a9989dc4a698a7ebac70fb56d4137799f903011465159250d273c868b195dcb18142ce4f3fc8c727fb8cf75e2b3a018",
+          "sha256": "f29dad8ceb1c40471d996fe7208aedc7eaa792155afdf4555b901295327c91ca",
+          "sha1": "51fe66606da5aafa21adcb335bfffdc69a264985",
+          "md5": "cdbdaaa583488359718feb391ceb073c"
+        }
+      ]
+    }
+  ]
+}

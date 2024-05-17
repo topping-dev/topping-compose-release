@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../internal-testutils-paging/unspecified/internal-testutils-paging-unspecified.module",
+    "group": "androidx",
+    "module": "internal-testutils-paging",
+    "version": "unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "internal-testutils-paging-jvm.jar",
+          "url": "internal-testutils-paging-jvm-unspecified.jar",
+          "size": 34465,
+          "sha512": "7982020da698c7802b815b6ec77f798ef911e2835547b936372db8a360c025281b966aba3b51ca043f5efff7c01e19af1f0eeec41472f7a5b7d16b0e9bbc5d62",
+          "sha256": "ae284b5a1b33c3ec9ca40d063d71cfd577ad3d2e2e4077f5db4f3a59a642f18f",
+          "sha1": "f9d6005b11ddac4dbe4627af579bf8d6892018d4",
+          "md5": "914c37b5f24826fbd5de70741460d03d"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "androidx.paging",
+          "module": "paging-common",
+          "version": {
+            "requires": "3.3.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "internal-testutils-paging-jvm.jar",
+          "url": "internal-testutils-paging-jvm-unspecified.jar",
+          "size": 34465,
+          "sha512": "7982020da698c7802b815b6ec77f798ef911e2835547b936372db8a360c025281b966aba3b51ca043f5efff7c01e19af1f0eeec41472f7a5b7d16b0e9bbc5d62",
+          "sha256": "ae284b5a1b33c3ec9ca40d063d71cfd577ad3d2e2e4077f5db4f3a59a642f18f",
+          "sha1": "f9d6005b11ddac4dbe4627af579bf8d6892018d4",
+          "md5": "914c37b5f24826fbd5de70741460d03d"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "internal-testutils-paging-jvm-sources.jar",
+          "url": "internal-testutils-paging-jvm-unspecified-sources.jar",
+          "size": 10642,
+          "sha512": "c5e9e63118dd1ab853894b125dc1775a6b1c69a9c00aa358022245242863478d163ef07e699265a8a29df7a7e708e1293ddcdd1f818a35f7ea7e80269b347a56",
+          "sha256": "38a7b83b9bb7e6c405ba39cedd700b7bcc48d8c192e20b7a4f33bce4e68bd3d5",
+          "sha1": "e8d25b8ec232bb6d0a7c35604564d957f95c2512",
+          "md5": "e500332a5551cfea3becca524142364e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-text/1.6.0-alpha06-topping01/ui-text-1.6.0-alpha06-topping01.module",
+    "group": "androidx.compose.ui",
+    "module": "ui-text",
+    "version": "1.6.0-alpha06-topping01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.skiko",
+          "module": "skiko",
+          "version": {
+            "requires": "0.7.81"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-text.klib",
+          "url": "ui-text-iosx64-1.6.0-alpha06-topping01.klib",
+          "size": 667515,
+          "sha512": "c9a11e523188a8a8a4eee941502ac35e32c996ac88aa0a7261b57872a5469bcba639311db393c2e8b7b724b285d1ab7280d81d3fc4c548acfa67bd37e1fd767c",
+          "sha256": "f02a619f180b163278a0a559db3c93c6c7fb42d2b01f7d8357ef339c278cf1cd",
+          "sha1": "d26c3b442b23f15a6c4c0fbe527938f01fe38db4",
+          "md5": "21ad8272df58f2d7185c21fc5aa23998"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ui-text-iosx64-1.6.0-alpha06-topping01-sources.jar",
+          "url": "ui-text-iosx64-1.6.0-alpha06-topping01-sources.jar",
+          "size": 240824,
+          "sha512": "c7bfc5b232de9ce68c0a5bc0c1d16cf8ece44da0d1671c37046aef014c6ca7c792f28d6493300f6b227e63bf5ca96b8f22f8ed334b28e99d150259f5cdcbe450",
+          "sha256": "4a49996f69dfdb2c6a1388ff2fb7f0902dd692bfd194317a0e1fbb3412bbb43c",
+          "sha1": "80017fcd50fa91b5e86cb90d6bb3956ea79d56d4",
+          "md5": "d43b81d49b7245004b2e13db7cd80da8"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.skiko",
+          "module": "skiko",
+          "version": {
+            "requires": "0.7.81"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-text-iosx64-1.6.0-alpha06-topping01-metadata.jar",
+          "url": "ui-text-iosx64-1.6.0-alpha06-topping01-metadata.jar",
+          "size": 24982,
+          "sha512": "0930f5fd7b46c337ba6f4259496bb69842a9618999f68ca47f4eb962dbf3b75dec48a32f11af055eb57a11c91685a9e125490adf6ad547469741b7afcd18d99d",
+          "sha256": "507c05b87d84d2882e2bd3384bf90d45f5c5ecb586299a28c1907070fef7ce26",
+          "sha1": "5e95720f3fcced12c9022a65aea794ce15965f05",
+          "md5": "d4119be38efb03b532f15288c69652a3"
+        }
+      ]
+    }
+  ]
+}

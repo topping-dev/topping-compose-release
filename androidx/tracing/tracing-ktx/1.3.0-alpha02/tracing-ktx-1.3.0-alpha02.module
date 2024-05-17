@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.tracing",
+    "module": "tracing-ktx",
+    "version": "1.3.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing",
+          "version": {
+            "requires": "1.3.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-ktx-1.3.0-alpha02.aar",
+          "url": "tracing-ktx-1.3.0-alpha02.aar",
+          "size": 5936,
+          "sha512": "ffa35ef539518ec3260fcbf15f71260f9b88846e99d57dd791abb2ff2d75fa09456f9d8a6c9832290d96ce0571c3984a85afaad6b76dac57d280d4a5aa468836",
+          "sha256": "dafe95c3be0b92fddcfae6e7e8f36a03d589cd029b6f76cd9180b4ec1be2b4e6",
+          "sha1": "e9a420de023934530391dd10bb454f90ce0e6ab3",
+          "md5": "a63f4a2010f501530d3dc3d11fd9b08b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.tracing",
+          "module": "tracing",
+          "version": {
+            "requires": "1.3.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tracing-ktx-1.3.0-alpha02.aar",
+          "url": "tracing-ktx-1.3.0-alpha02.aar",
+          "size": 5936,
+          "sha512": "ffa35ef539518ec3260fcbf15f71260f9b88846e99d57dd791abb2ff2d75fa09456f9d8a6c9832290d96ce0571c3984a85afaad6b76dac57d280d4a5aa468836",
+          "sha256": "dafe95c3be0b92fddcfae6e7e8f36a03d589cd029b6f76cd9180b4ec1be2b4e6",
+          "sha1": "e9a420de023934530391dd10bb454f90ce0e6ab3",
+          "md5": "a63f4a2010f501530d3dc3d11fd9b08b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tracing-ktx-1.3.0-alpha02-sources.jar",
+          "url": "tracing-ktx-1.3.0-alpha02-sources.jar",
+          "size": 1656,
+          "sha512": "c6092f4ea7f3b0b03f9af1301f0a8e5cd138104c10bddc5d0cbe657f4cd53b9dab8083c5cedb826bade086510a272d44c2f27dda318669131e8c221031fc3766",
+          "sha256": "ffe30e8a097e9a23e73980560eba26013b508fc6b1a77ef02ab1832812d1ceda",
+          "sha1": "8e25658e67c3d1c860e4de547c86d6a1ddf18ccd",
+          "md5": "57669e2c5735365f605ecab51e4e91e6"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "tracing-ktx-1.3.0-alpha02-versionMetadata.json",
+          "url": "tracing-ktx-1.3.0-alpha02-versionMetadata.json",
+          "size": 698,
+          "sha512": "b2400b8df1f98659ebd57b09db7bf43ed0b22ffff6e956306e78443e02d4125384e9a9885f88c30d83abebfe60e47c2ba5afbe0ec6e550b36985325b6daf0fa9",
+          "sha256": "f64e24c306d8494ac8c0b5643a5a6910e5de0857356eaab6011db003c2d8ffb7",
+          "sha1": "9357fca5f5ba83d204bef3a02935e6d26f5f3133",
+          "md5": "03d0b6456b5cc271579074da6fad0170"
+        }
+      ]
+    }
+  ]
+}

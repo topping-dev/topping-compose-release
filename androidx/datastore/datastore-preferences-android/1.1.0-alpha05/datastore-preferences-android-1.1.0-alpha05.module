@@ -1,0 +1,195 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../datastore-preferences/1.1.0-alpha05/datastore-preferences-1.1.0-alpha05.module",
+    "group": "androidx.datastore",
+    "module": "datastore-preferences",
+    "version": "1.1.0-alpha05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.datastore",
+          "module": "datastore",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences-core",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "datastore-preferences-release.aar",
+          "url": "datastore-preferences-android-1.1.0-alpha05.aar",
+          "size": 16642,
+          "sha512": "e66d89455146ecd292c635efe7fcb80a93c62258d81ef87df5f2b5868bed1b5b3bcb289212b0bf81025eabb26dab84adb7913fdfe8698f843f00d5dd863a0a00",
+          "sha256": "08d00c2ddf8fc9495e0593a20c473726f7d92550ce0b87d630fc907331bcc726",
+          "sha1": "a7f0dcca8d8ee3bfd79f97321060b63797e215d3",
+          "md5": "6ef46094b2a9b9d84d347d93aa21c35c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.datastore",
+          "module": "datastore",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences-core",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "datastore-preferences-release.aar",
+          "url": "datastore-preferences-android-1.1.0-alpha05.aar",
+          "size": 16642,
+          "sha512": "e66d89455146ecd292c635efe7fcb80a93c62258d81ef87df5f2b5868bed1b5b3bcb289212b0bf81025eabb26dab84adb7913fdfe8698f843f00d5dd863a0a00",
+          "sha256": "08d00c2ddf8fc9495e0593a20c473726f7d92550ce0b87d630fc907331bcc726",
+          "sha1": "a7f0dcca8d8ee3bfd79f97321060b63797e215d3",
+          "md5": "6ef46094b2a9b9d84d347d93aa21c35c"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "fake-sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "datastore-preferences-android-1.1.0-alpha05-sources.jar",
+          "url": "datastore-preferences-android-1.1.0-alpha05-sources.jar",
+          "size": 6841,
+          "sha512": "9c1e9cfb7cdba77c62386e5eadbf6758dd4bc2a4249f240429a5071628bf0fe7a715e867346d6c00022246c4db4a294c132ffb333830df61ef70f7196a8c9fe2",
+          "sha256": "bc5f861d610cbac83f1b820a08b4f8a278b182d99bf881f7bc00eac3916799f1",
+          "sha1": "f74e72d43bc1453ae1f38a465ff35051a0f42881",
+          "md5": "e2cf58b5bbc949a19efce4383fbe90c9"
+        }
+      ]
+    }
+  ]
+}

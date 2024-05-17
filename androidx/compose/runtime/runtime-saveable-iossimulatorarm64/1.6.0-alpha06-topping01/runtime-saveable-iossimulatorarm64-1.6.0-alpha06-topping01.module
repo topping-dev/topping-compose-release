@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../runtime-saveable/1.6.0-alpha06-topping01/runtime-saveable-1.6.0-alpha06-topping01.module",
+    "group": "androidx.compose.runtime",
+    "module": "runtime-saveable",
+    "version": "1.6.0-alpha06-topping01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "runtime-saveable.klib",
+          "url": "runtime-saveable-iossimulatorarm64-1.6.0-alpha06-topping01.klib",
+          "size": 41123,
+          "sha512": "420d11fd61b5ccb8246db36832b380f8a9b9c0ce0d890c4a4feb347c2e3ec380a3c983f8abea7bba2ddbe63384162c413259d289d09c3cee5c516176d826770c",
+          "sha256": "9dd822443f3760a94b8aeaf9a511f4368de7fe62626a85d1e39984f537d6191d",
+          "sha1": "2b633c9dc055975046d056349201c26b4e96ffcd",
+          "md5": "5e5ebfb0b764f67fc4a271e144694908"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "runtime-saveable-iossimulatorarm64-1.6.0-alpha06-topping01-sources.jar",
+          "url": "runtime-saveable-iossimulatorarm64-1.6.0-alpha06-topping01-sources.jar",
+          "size": 11533,
+          "sha512": "f83659f1298dd8837cf5a0d7345e9704aaa6998191efb1602e9cd3ddd746f9f33dc34b86dfe1c2663ab7ee79e94b3536279ee5624c60bcd8d8b4368f78e7c595",
+          "sha256": "d957fd3d4f67875cc990daa62c15ac1beebf0220c090c93db8ae04fad64bdafa",
+          "sha1": "abf68b835dfdf24a970b8444c5067ffda33a37ca",
+          "md5": "32c68128cbc35f49d91a14546b3d744c"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "runtime-saveable-iossimulatorarm64-1.6.0-alpha06-topping01-metadata.jar",
+          "url": "runtime-saveable-iossimulatorarm64-1.6.0-alpha06-topping01-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

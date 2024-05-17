@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.animation",
+    "module": "animation-tooling-internal",
+    "version": "1.6.0-alpha06-topping01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "animation-tooling-internal-1.6.0-alpha06-topping01.jar",
+          "url": "animation-tooling-internal-1.6.0-alpha06-topping01.jar",
+          "size": 6822,
+          "sha512": "5b9d806a7a92f1362cf1ad22578a08d5974d88ce1076abb87e71aceb765d6f59906582a4ddf03985becaefc12e542adb2e0628dc7299374ef7f0da23a3f6d024",
+          "sha256": "799724595ef8219fd47c44386e99052b27bd8de635ce2801abb615ced63a307f",
+          "sha1": "32bca34ab6943d9ea0d7dbb2990ab141b4a2e7c7",
+          "md5": "4d917a858841dc4b761b13281b64ec59"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "animation-tooling-internal-1.6.0-alpha06-topping01.jar",
+          "url": "animation-tooling-internal-1.6.0-alpha06-topping01.jar",
+          "size": 6822,
+          "sha512": "5b9d806a7a92f1362cf1ad22578a08d5974d88ce1076abb87e71aceb765d6f59906582a4ddf03985becaefc12e542adb2e0628dc7299374ef7f0da23a3f6d024",
+          "sha256": "799724595ef8219fd47c44386e99052b27bd8de635ce2801abb615ced63a307f",
+          "sha1": "32bca34ab6943d9ea0d7dbb2990ab141b4a2e7c7",
+          "md5": "4d917a858841dc4b761b13281b64ec59"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "animation-tooling-internal-1.6.0-alpha06-topping01-sources.jar",
+          "url": "animation-tooling-internal-1.6.0-alpha06-topping01-sources.jar",
+          "size": 3789,
+          "sha512": "7406976a7d59adae17dcef40705de69adba312d040be78f0c39bcaa6f35364b74ea1ae3b6215c4b054213d37455994d89ca7b0c4aca31969f4c0c36baf9bdc2f",
+          "sha256": "ef48aa0bdc2320f1bd055855c6a1437fc0a6dc86c660b4969211775f4c785c2c",
+          "sha1": "549fb5b37cd77c9de7617cbb06a3ad235fd64674",
+          "md5": "fc4ee0ef84b7b3e9123efb21cc265f1e"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "animation-tooling-internal-1.6.0-alpha06-topping01-versionMetadata.json",
+          "url": "animation-tooling-internal-1.6.0-alpha06-topping01-versionMetadata.json",
+          "size": 2115,
+          "sha512": "836e80b4e5e8acf60eca95c829f8d23b1d7894977d677a5ac3cb06eddcd47cb23fff30a6b8940bee9adf4d750194917936fde981d2a67cdc901d7a97f15ccd46",
+          "sha256": "ea5fa1fdc4da4c0ad2dae26054aa8fb45f85955e5ebb6e7ac76baed2fb064179",
+          "sha1": "33099ee49c49f52249ed2beb72b0054bdbee740c",
+          "md5": "e63738e87af041dafd9fe0844302962e"
+        }
+      ]
+    }
+  ]
+}

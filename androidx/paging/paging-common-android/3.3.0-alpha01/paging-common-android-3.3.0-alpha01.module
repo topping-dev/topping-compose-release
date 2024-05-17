@@ -1,0 +1,195 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../paging-common/3.3.0-alpha01/paging-common-3.3.0-alpha01.module",
+    "group": "androidx.paging",
+    "module": "paging-common",
+    "version": "3.3.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.arch.core",
+          "module": "core-common",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "paging-common-release.aar",
+          "url": "paging-common-android-3.3.0-alpha01.aar",
+          "size": 667204,
+          "sha512": "cd9631abbdb55ae5683d0110483dc57633b1261de2dc70e4fe2d893543c0d86de28d00139d65e970d1b6bb5649d899b5f26339021169f1ee0a20d7ba102440ee",
+          "sha256": "9b72b96c4dfd09bd2a2901957b4af96ea129d570d3de17cc71fdf7b92041fbc6",
+          "sha1": "9906ec463c54ef2549fe429e6990a0c4feb1b544",
+          "md5": "a37f57881a5bc9ed2f3f2709c959c265"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.arch.core",
+          "module": "core-common",
+          "version": {
+            "requires": "2.2.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "paging-common-release.aar",
+          "url": "paging-common-android-3.3.0-alpha01.aar",
+          "size": 667204,
+          "sha512": "cd9631abbdb55ae5683d0110483dc57633b1261de2dc70e4fe2d893543c0d86de28d00139d65e970d1b6bb5649d899b5f26339021169f1ee0a20d7ba102440ee",
+          "sha256": "9b72b96c4dfd09bd2a2901957b4af96ea129d570d3de17cc71fdf7b92041fbc6",
+          "sha1": "9906ec463c54ef2549fe429e6990a0c4feb1b544",
+          "md5": "a37f57881a5bc9ed2f3f2709c959c265"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "fake-sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "paging-common-android-3.3.0-alpha01-sources.jar",
+          "url": "paging-common-android-3.3.0-alpha01-sources.jar",
+          "size": 157026,
+          "sha512": "5663b99adb6940cb420ef0d68a588212728b7e788f8390b8fe1ee60cbc53b8789b6f1de292a8c12cd9f656ad537d2fba6dc52edbe8e90107b9db3b0506089389",
+          "sha256": "3422f8cab1148ed6d78c080e6cd921bab250e57ef662a2f763d5477b27365921",
+          "sha1": "8bc93dc298f827db60f54a8ddcf58f3cac59db34",
+          "md5": "d42f4ba71e251f1d61c41600e258ea7c"
+        }
+      ]
+    }
+  ]
+}

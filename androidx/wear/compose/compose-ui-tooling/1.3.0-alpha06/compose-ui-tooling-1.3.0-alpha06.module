@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.wear.compose",
+    "module": "compose-ui-tooling",
+    "version": "1.3.0-alpha06",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-ui-tooling-1.3.0-alpha06.aar",
+          "url": "compose-ui-tooling-1.3.0-alpha06.aar",
+          "size": 5155,
+          "sha512": "6f1ed1c13345abbe768ad0b7f7d0b2a830bf8f3d888ae1571a010ea9061954e8f82f77e5986dcafd8dc5d0b987cd4da47827a28e7d9a1636a0e5a25a5baae254",
+          "sha256": "f5c9f53ef8249bca1bb0cc34f3c3f0c2a4e8b790c09b70742e12692115565d81",
+          "sha1": "d6b7165b619c3cfe118658804d5e2e0e6a27d3a1",
+          "md5": "b564dd8c6f10049fb9815390ed2e0c96"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.wear",
+          "module": "wear-tooling-preview",
+          "version": {
+            "requires": "1.0.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-ui-tooling-1.3.0-alpha06.aar",
+          "url": "compose-ui-tooling-1.3.0-alpha06.aar",
+          "size": 5155,
+          "sha512": "6f1ed1c13345abbe768ad0b7f7d0b2a830bf8f3d888ae1571a010ea9061954e8f82f77e5986dcafd8dc5d0b987cd4da47827a28e7d9a1636a0e5a25a5baae254",
+          "sha256": "f5c9f53ef8249bca1bb0cc34f3c3f0c2a4e8b790c09b70742e12692115565d81",
+          "sha1": "d6b7165b619c3cfe118658804d5e2e0e6a27d3a1",
+          "md5": "b564dd8c6f10049fb9815390ed2e0c96"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "compose-ui-tooling-1.3.0-alpha06-sources.jar",
+          "url": "compose-ui-tooling-1.3.0-alpha06-sources.jar",
+          "size": 5559,
+          "sha512": "3e0c7e8b2f2b5052e8e21615121b60d7d2fde0afa4a1119318ae2df15bd78d3e9756aeab046dd39099c2aad3d7eeffee853f7fd37153eb9674681d8fbeff6b3e",
+          "sha256": "916853ecae3ee88a7b39c00ded282c429e774415011c0851141c10cad8d416cc",
+          "sha1": "a4d2f0b79344874ff2ad21a6e86c5edce90cfe6e",
+          "md5": "31c9c121b929f3da076f1f12970cdc73"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "compose-ui-tooling-1.3.0-alpha06-versionMetadata.json",
+          "url": "compose-ui-tooling-1.3.0-alpha06-versionMetadata.json",
+          "size": 584,
+          "sha512": "1e0054820a58e3e63409a609d301ba318fef3b0c15e1693d661476dd8a36084f285584b864a5ca8d7f842bcf9b7ffd82191b0d0a1ac38fd01b8f7ffd1538fefe",
+          "sha256": "37d214c88d8d5c1b2a0bd8f687ea776d7dfdf5bbe4647a26df01f29dfd317067",
+          "sha1": "eb6146a37924144fc8994955325910554af649c6",
+          "md5": "71a2cb142b5f09cdda31561d0d244802"
+        }
+      ]
+    }
+  ]
+}

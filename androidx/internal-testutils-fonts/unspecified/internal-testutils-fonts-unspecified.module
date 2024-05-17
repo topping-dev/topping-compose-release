@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx",
+    "module": "internal-testutils-fonts",
+    "version": "unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "internal-testutils-fonts-metadata.jar",
+          "url": "internal-testutils-fonts-unspecified.jar",
+          "size": 26315,
+          "sha512": "d9b0385d38157fa75fd1c7e341d66a013233b85d5d087d76260bbdb6077f0d48ce87e06f21adc3d3ba1f0d2586466cc74fbccbee2a2f0703d0cfee17c9735948",
+          "sha256": "a5c707f1950df5161e61a5cb6cdfefc08baec80bd46a8078f998c95e5582180f",
+          "sha1": "ba89a436cb22d725a4dc9d3ac274eaf11b2b3a3b",
+          "md5": "56435383781a9526cf8393e21eec8745"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "internal-testutils-fonts-kotlin-sources.jar",
+          "url": "internal-testutils-fonts-unspecified-sources.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../internal-testutils-fonts-desktop/unspecified/internal-testutils-fonts-desktop-unspecified.module",
+        "group": "androidx",
+        "module": "internal-testutils-fonts-desktop",
+        "version": "unspecified"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../internal-testutils-fonts-desktop/unspecified/internal-testutils-fonts-desktop-unspecified.module",
+        "group": "androidx",
+        "module": "internal-testutils-fonts-desktop",
+        "version": "unspecified"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../internal-testutils-fonts-desktop/unspecified/internal-testutils-fonts-desktop-unspecified.module",
+        "group": "androidx",
+        "module": "internal-testutils-fonts-desktop",
+        "version": "unspecified"
+      }
+    }
+  ]
+}

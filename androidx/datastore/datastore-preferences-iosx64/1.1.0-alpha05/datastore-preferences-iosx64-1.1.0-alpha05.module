@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../datastore-preferences/1.1.0-alpha05/datastore-preferences-1.1.0-alpha05.module",
+    "group": "androidx.datastore",
+    "module": "datastore-preferences",
+    "version": "1.1.0-alpha05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.datastore",
+          "module": "datastore",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences-core",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "datastore-preferences.klib",
+          "url": "datastore-preferences-iosx64-1.1.0-alpha05.klib",
+          "size": 5656,
+          "sha512": "b0db5bd2e1651a5dad5669898004f33e579c596e30a8afd0808bf8cd624a3e6bf8f6739c12196b88f4d19405b5902a579ed5fa4941122e766f93a3b2e262e478",
+          "sha256": "fc62af92ca06cec1a9a205b998de1d30a7a316b2f51986451c04c361336c7f60",
+          "sha1": "3d5ec12571ad4048eb876207d7c22186cbc0379f",
+          "md5": "68802094de7db6fa43467fddd1fa96c6"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "datastore-preferences-iosx64-1.1.0-alpha05-sources.jar",
+          "url": "datastore-preferences-iosx64-1.1.0-alpha05-sources.jar",
+          "size": 1561,
+          "sha512": "660ae721dea1911b354371a961644841a65c4d3a7007db7902ed1e8fb088519e7fb0bf863c3d6b2fda2d290f94286ea03e95674fc4feeb763868d1bb040ebb52",
+          "sha256": "05ccf7d85c1f5703ed47a7a6bc09a1bc589c7ca264e101a8bb03068fdbec2c77",
+          "sha1": "84b6f65693f3e6af5e8e5ef0446a4e953a6ee22c",
+          "md5": "3d45d8c87ab7eabc89b9d6b68ef5db5a"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.datastore",
+          "module": "datastore",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences-core",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "datastore-preferences-iosx64-1.1.0-alpha05-metadata.jar",
+          "url": "datastore-preferences-iosx64-1.1.0-alpha05-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

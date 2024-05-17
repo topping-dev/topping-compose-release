@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.room",
+    "module": "room-migration",
+    "version": "2.7.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "room-migration-2.7.0-alpha01.jar",
+          "url": "room-migration-2.7.0-alpha01.jar",
+          "size": 43976,
+          "sha512": "a4c99b33b2a4a213a7fef2030fc3a3267b668fabee984c8c40065b1c66d917101f5753cff1441e8e062cf820103758314e55eb313c9a2c8f5fe4861df90e2c8a",
+          "sha256": "4f67203ea6e6d32aad101c593f1bb59efef99caaf3afc60aa4df1c3880739df5",
+          "sha1": "4b016039027def857cd47bd99268cd014ae7fc9a",
+          "md5": "1239dc8ca667acec74b7797d1b9c1159"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.room",
+          "module": "room-common",
+          "version": {
+            "requires": "2.7.0-alpha01"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "room-migration-2.7.0-alpha01.jar",
+          "url": "room-migration-2.7.0-alpha01.jar",
+          "size": 43976,
+          "sha512": "a4c99b33b2a4a213a7fef2030fc3a3267b668fabee984c8c40065b1c66d917101f5753cff1441e8e062cf820103758314e55eb313c9a2c8f5fe4861df90e2c8a",
+          "sha256": "4f67203ea6e6d32aad101c593f1bb59efef99caaf3afc60aa4df1c3880739df5",
+          "sha1": "4b016039027def857cd47bd99268cd014ae7fc9a",
+          "md5": "1239dc8ca667acec74b7797d1b9c1159"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "room-migration-2.7.0-alpha01-sources.jar",
+          "url": "room-migration-2.7.0-alpha01-sources.jar",
+          "size": 16556,
+          "sha512": "c55a92010b4094fb99f512e6b7c0553f4a829fd692c283da8b4a12ee52b6fb9f169fc5fc59443de9f3aed2f294bbbac21ca44ef34c1bdec8f573ef17f33cf097",
+          "sha256": "4efa9a704768da7dc458ab989597d2faff671bdddab0d0fa400d4314f25078e0",
+          "sha1": "f220d57ca8064fa4a3aa1aff3dccd0e6d698241e",
+          "md5": "bef00e6657f5a5b62dbec5d98378ddfe"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "room-migration-2.7.0-alpha01-versionMetadata.json",
+          "url": "room-migration-2.7.0-alpha01-versionMetadata.json",
+          "size": 2,
+          "sha512": "b25b294cb4deb69ea00a4c3cf3113904801b6015e5956bd019a8570b1fe1d6040e944ef3cdee16d0a46503ca6e659a25f21cf9ceddc13f352a3c98138c15d6af",
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sha1": "97d170e1550eee4afc0af065b78cda302a97674c",
+          "md5": "d751713988987e9331980363e24189ce"
+        }
+      ]
+    }
+  ]
+}

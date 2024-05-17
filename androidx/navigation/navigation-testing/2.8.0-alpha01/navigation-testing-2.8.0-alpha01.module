@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.navigation",
+    "module": "navigation-testing",
+    "version": "2.8.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-testing",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-runtime",
+          "version": {
+            "requires": "2.8.0-alpha01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation-testing-2.8.0-alpha01.aar",
+          "url": "navigation-testing-2.8.0-alpha01.aar",
+          "size": 18892,
+          "sha512": "26361ebfcd3e3078fb95f5f332672312b3c5014c74a5e1fb29b18547597a576c03d36740e9bb8d72c1777959541cb360c5dd292cf9699ad806bcb7cae0bf270d",
+          "sha256": "7a6795ac32144b1665f14db95436a726ebfebee9e79fa8bf1b7e0b952baee436",
+          "sha1": "01db9c5ac7e5075cd438e1c7d1bd7064f1b28489",
+          "md5": "2d6cc045ecd475368640162ebd070bdd"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-testing",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-runtime",
+          "version": {
+            "requires": "2.8.0-alpha01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation-testing-2.8.0-alpha01.aar",
+          "url": "navigation-testing-2.8.0-alpha01.aar",
+          "size": 18892,
+          "sha512": "26361ebfcd3e3078fb95f5f332672312b3c5014c74a5e1fb29b18547597a576c03d36740e9bb8d72c1777959541cb360c5dd292cf9699ad806bcb7cae0bf270d",
+          "sha256": "7a6795ac32144b1665f14db95436a726ebfebee9e79fa8bf1b7e0b952baee436",
+          "sha1": "01db9c5ac7e5075cd438e1c7d1bd7064f1b28489",
+          "md5": "2d6cc045ecd475368640162ebd070bdd"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "navigation-testing-2.8.0-alpha01-sources.jar",
+          "url": "navigation-testing-2.8.0-alpha01-sources.jar",
+          "size": 4988,
+          "sha512": "85e65c462e7874e0a7e2dc42767f5f82b202f0dc9e96c0caa1ea180c8683de0545e2424f99faeaf06b1349bf93bb8d7d1be392197fb4d64cc1eaf0665067d20d",
+          "sha256": "a2ad84bf2ef5a167564122c244cdde4ee1e5a9a8f4daaa60bb72f60705f9e4c3",
+          "sha1": "ce06c2f4920d0ff67e74afd2bfd3fbeba36b6902",
+          "md5": "a2bade6ad6ba6b184e8dcbaff4c2b5fe"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "navigation-testing-2.8.0-alpha01-versionMetadata.json",
+          "url": "navigation-testing-2.8.0-alpha01-versionMetadata.json",
+          "size": 1540,
+          "sha512": "fc00adcba24f3d76226057fb2ec981fb7ba158b1de9f115dde99c506dc8b3ea3da418c030758013588772b20117a6714ceb304a3a2a79ec194985164a289a21c",
+          "sha256": "c2f6c89715c2ebe6afc7e801adcb0701ed4572ad91f43d850dfdee5e342c6590",
+          "sha1": "7a09c0830d8fd78a435ee2b320c084519e8bb199",
+          "md5": "4ee4f45b1a47eab4a0e8aa97f23babf9"
+        }
+      ]
+    }
+  ]
+}

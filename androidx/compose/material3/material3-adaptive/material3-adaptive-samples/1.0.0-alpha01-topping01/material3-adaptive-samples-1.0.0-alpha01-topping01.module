@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.material3.material3-adaptive",
+    "module": "material3-adaptive-samples",
+    "version": "1.0.0-alpha01-topping01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "material3-adaptive-samples-1.0.0-alpha01-topping01.aar",
+          "url": "material3-adaptive-samples-1.0.0-alpha01-topping01.aar",
+          "size": 22973,
+          "sha512": "4331b1aaae2ef326ca39cb21583d4ec957d4fd7ddc456e2b4b8c49ea409866d72d270573c9fc3754dcf0f6eded214700e4393dd4a91a2c3ac42135ffef840189",
+          "sha256": "9b98a1bf5780736286d697a0336484b94d7846ff26c62e3f4f54d909838e9279",
+          "sha1": "f8d9f97e5b1dc4ca5e4cdc71878ad7c74af29938",
+          "md5": "ecb45b3ac9329dbe431180ad2f5688c8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.2.0-alpha08-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3-adaptive",
+          "version": {
+            "requires": "1.0.0-alpha01-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3-window-size-class",
+          "version": {
+            "requires": "1.2.0-alpha08-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-adaptive-samples-1.0.0-alpha01-topping01.aar",
+          "url": "material3-adaptive-samples-1.0.0-alpha01-topping01.aar",
+          "size": 22973,
+          "sha512": "4331b1aaae2ef326ca39cb21583d4ec957d4fd7ddc456e2b4b8c49ea409866d72d270573c9fc3754dcf0f6eded214700e4393dd4a91a2c3ac42135ffef840189",
+          "sha256": "9b98a1bf5780736286d697a0336484b94d7846ff26c62e3f4f54d909838e9279",
+          "sha1": "f8d9f97e5b1dc4ca5e4cdc71878ad7c74af29938",
+          "md5": "ecb45b3ac9329dbe431180ad2f5688c8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "material3-adaptive-samples-1.0.0-alpha01-topping01-sources.jar",
+          "url": "material3-adaptive-samples-1.0.0-alpha01-topping01-sources.jar",
+          "size": 2165,
+          "sha512": "38c22b46c19c26503577b5e31ac6826aaed32c4e7202353cd0bcc17897ed7a2e07f49d49d8e31b4641a1456ef3d2091afa6353d192529e85fa81f03c932a7ec7",
+          "sha256": "73ab183f317bdeecfac18988b48e48135b04f23728b860edb84e9a026beb0689",
+          "sha1": "55f8ddd0c327a0f3bfc14445e502da6834d2b591",
+          "md5": "e9ccaee3af64f56d547805a06b9434da"
+        }
+      ]
+    }
+  ]
+}

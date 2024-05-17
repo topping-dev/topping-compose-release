@@ -1,0 +1,157 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-unit/1.6.0-alpha06-topping01/ui-unit-1.6.0-alpha06-topping01.module",
+    "group": "androidx.compose.ui",
+    "module": "ui-unit",
+    "version": "1.6.0-alpha06-topping01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-geometry",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-unit.klib",
+          "url": "ui-unit-iosarm64-1.6.0-alpha06-topping01.klib",
+          "size": 101174,
+          "sha512": "857a828c61667dd38016b048b0b11816087ad17138d6396a8117334f46918d31310f6aedab2c2d140df27c1a13250a144c4096239e7eb300fbd5be083e169c4a",
+          "sha256": "6acd582824de6bde631477d9da584ea70b52de60ece9bc59bf0fc2475dd22fc3",
+          "sha1": "691e257f50faabd52211d170fff83dc1f1280074",
+          "md5": "57a43fb829845c852d4b77e188199274"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ui-unit-iosarm64-1.6.0-alpha06-topping01-sources.jar",
+          "url": "ui-unit-iosarm64-1.6.0-alpha06-topping01-sources.jar",
+          "size": 36722,
+          "sha512": "c148bbbdb075468d05fdd4a51e4f1301b563b975906a1a6688c8a1196f0411e58be4e858cc14f4c2137aceafd9c8ba0e29c7c4d467776cdb2105b3692f7f0732",
+          "sha256": "cc05fa5292fcd5bc2d2ff4d84e7a218306f54a736c18e45bc3f0a7a181f7e7f7",
+          "sha1": "aa53c2a79cc878f8be41544d41c05e722b44ff57",
+          "md5": "d8f287b2fb3ca118a4948e609bf97bed"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-geometry",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-unit-iosarm64-1.6.0-alpha06-topping01-metadata.jar",
+          "url": "ui-unit-iosarm64-1.6.0-alpha06-topping01-metadata.jar",
+          "size": 7354,
+          "sha512": "6e173550faf544621348248e5cb0bf1e16da49971e1ce4a3cb2ec63636e556d2a5f6dcfef2743b28eedbd5e67052e837a235a4e7f6358527925f68a175cdb2e4",
+          "sha256": "772353767002950d5a0f6cb902ea6c0e04fdcf692b60ffdac6965b2f8b022e65",
+          "sha1": "44894d9b431177b075b822ffabebcc603817bc3b",
+          "md5": "f4708f6dd484bc823d2215339c7ea6a7"
+        }
+      ]
+    }
+  ]
+}

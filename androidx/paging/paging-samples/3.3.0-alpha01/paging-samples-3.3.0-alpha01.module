@@ -1,0 +1,178 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.paging",
+    "module": "paging-samples",
+    "version": "3.3.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "paging-samples-3.3.0-alpha01.aar",
+          "url": "paging-samples-3.3.0-alpha01.aar",
+          "size": 203742,
+          "sha512": "c1e0e535b056dd1bb00bac8b4839cfd47e9a4a56930bd307bf4fa649d8d68e34abc50c13d5e296a17169e35991b5221bb73e793bbd949371fa4688c8d0eacdbb",
+          "sha256": "fe16dc4cb0e89b7c80232516ddf9744017c8d30cba1ace52bf1062cfe5986889",
+          "sha1": "2f677c620b0257bc5faa6dd5b2660412b0186e71",
+          "md5": "2a3097a3e4b742d0937f20549491585e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.1.0-rc02"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "androidx.multidex",
+          "module": "multidex",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "androidx.paging",
+          "module": "paging-common",
+          "version": {
+            "requires": "3.3.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.paging",
+          "module": "paging-guava",
+          "version": {
+            "requires": "3.3.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.paging",
+          "module": "paging-runtime",
+          "version": {
+            "requires": "3.3.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.paging",
+          "module": "paging-rxjava2",
+          "version": {
+            "requires": "3.3.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.2.0-rc01"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-ktx",
+          "version": {
+            "requires": "2.3.0-rc01"
+          }
+        },
+        {
+          "group": "androidx.swiperefreshlayout",
+          "module": "swiperefreshlayout",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.1-android"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.7.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "paging-samples-3.3.0-alpha01.aar",
+          "url": "paging-samples-3.3.0-alpha01.aar",
+          "size": 203742,
+          "sha512": "c1e0e535b056dd1bb00bac8b4839cfd47e9a4a56930bd307bf4fa649d8d68e34abc50c13d5e296a17169e35991b5221bb73e793bbd949371fa4688c8d0eacdbb",
+          "sha256": "fe16dc4cb0e89b7c80232516ddf9744017c8d30cba1ace52bf1062cfe5986889",
+          "sha1": "2f677c620b0257bc5faa6dd5b2660412b0186e71",
+          "md5": "2a3097a3e4b742d0937f20549491585e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "paging-samples-3.3.0-alpha01-sources.jar",
+          "url": "paging-samples-3.3.0-alpha01-sources.jar",
+          "size": 40572,
+          "sha512": "d3287a7486e64cb3913f12094a231a78c8816047555de6fe8b54cf2ba27b8745780e6339e8c7ad70afcef605eaa8bb8a6b3fdf1c18ad7c794f686ffa098dad1b",
+          "sha256": "240b8aeb4c535965b55a489c581c141efc8b2d923adcd2c6f4f36f30a30d24b0",
+          "sha1": "16c439c87795d1c66e890e950f19d93f07e5602c",
+          "md5": "71d1fa48ebe9cc063e0c880027101e31"
+        }
+      ]
+    }
+  ]
+}

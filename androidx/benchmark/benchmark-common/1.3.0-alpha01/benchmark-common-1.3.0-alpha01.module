@@ -1,0 +1,171 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.benchmark",
+    "module": "benchmark-common",
+    "version": "1.3.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.squareup.wire",
+          "module": "wire-runtime",
+          "version": {
+            "requires": "4.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "benchmark-common-1.3.0-alpha01.aar",
+          "url": "benchmark-common-1.3.0-alpha01.aar",
+          "size": 3991919,
+          "sha512": "628105581ee73f0151825468ebb640d5fc0156002ebadb1ac1cc87a41ad9a7456d77a076ea58ec20e564fe74a6c3e1a51b9008e0410b8cc0000fe9ad5e03bd38",
+          "sha256": "ca5c6886666dc91299d6e7b35e8e072c21dfe62ad48c7388ceae67236317fc91",
+          "sha1": "139bede0e7f7325524d776870523a944fbf38229",
+          "md5": "65c192bc1e611cf7f114c1eb0568c81b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "monitor",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-ktx",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-perfetto-handshake",
+          "version": {
+            "requires": "1.0.0-beta03"
+          }
+        },
+        {
+          "group": "com.squareup.wire",
+          "module": "wire-runtime",
+          "version": {
+            "requires": "4.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "benchmark-common-1.3.0-alpha01.aar",
+          "url": "benchmark-common-1.3.0-alpha01.aar",
+          "size": 3991919,
+          "sha512": "628105581ee73f0151825468ebb640d5fc0156002ebadb1ac1cc87a41ad9a7456d77a076ea58ec20e564fe74a6c3e1a51b9008e0410b8cc0000fe9ad5e03bd38",
+          "sha256": "ca5c6886666dc91299d6e7b35e8e072c21dfe62ad48c7388ceae67236317fc91",
+          "sha1": "139bede0e7f7325524d776870523a944fbf38229",
+          "md5": "65c192bc1e611cf7f114c1eb0568c81b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "benchmark-common-1.3.0-alpha01-sources.jar",
+          "url": "benchmark-common-1.3.0-alpha01-sources.jar",
+          "size": 117694,
+          "sha512": "cae9f1b8be8f7cbe375fd75e6c44cb8d221cab546aa199937008baabbd4bf52522960522c5bbcc628f61fe85e938343c40a7a1509f93a1282ebbe34f9a6fe59a",
+          "sha256": "771be3dcbc5008fdd076b9c95ce4406ecdbfbe73012e79968dc9dfdeb6453cb6",
+          "sha1": "5b9af73eb5825613b79c2b81bbed76a3d76b5867",
+          "md5": "79b70c702b4de6706d77b199fe6ef0f1"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "benchmark-common-1.3.0-alpha01-versionMetadata.json",
+          "url": "benchmark-common-1.3.0-alpha01-versionMetadata.json",
+          "size": 7595,
+          "sha512": "b85cc727a5bd5e32adc64759d5939f4d4a87466d7752fc4d4df2180c3499e05a9d50e502d1373f4e2e5be66b7441eefd8917a98df4f6f3c041ff960ea3be8854",
+          "sha256": "a65db77e82b23f50f5d1b8632700dd47f6c0615a1abfeb4ed3fc716306bdfe18",
+          "sha1": "f3f3451c651525ec3b992158dc0f0af6a75e2141",
+          "md5": "59889db8c4a7bd04a0133b7493b6aed4"
+        }
+      ]
+    }
+  ]
+}

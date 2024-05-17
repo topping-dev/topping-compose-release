@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.ui",
+    "module": "ui-samples",
+    "version": "1.6.0-alpha06-topping01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ui-samples-1.6.0-alpha06-topping01.aar",
+          "url": "ui-samples-1.6.0-alpha06-topping01.aar",
+          "size": 786682,
+          "sha512": "4ba670440ad80090dab203c852bc7bc623b86e5fd2e79c87cb53e0c9e7a1ba59e7246d075e862ea842b96d9c93b3b09f2566bd12887050ee5feac6043cabef1e",
+          "sha256": "01fae4e0e399e8131c3026d99f641b64ec59f19b26cdc0abd91e7d73b73299ba",
+          "sha1": "0510e40c179a34e54697a2ef831344c33badb5b0",
+          "md5": "6e5aac91667e69a2bf64fdabfa086db2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-core",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-samples-1.6.0-alpha06-topping01.aar",
+          "url": "ui-samples-1.6.0-alpha06-topping01.aar",
+          "size": 786682,
+          "sha512": "4ba670440ad80090dab203c852bc7bc623b86e5fd2e79c87cb53e0c9e7a1ba59e7246d075e862ea842b96d9c93b3b09f2566bd12887050ee5feac6043cabef1e",
+          "sha256": "01fae4e0e399e8131c3026d99f641b64ec59f19b26cdc0abd91e7d73b73299ba",
+          "sha1": "0510e40c179a34e54697a2ef831344c33badb5b0",
+          "md5": "6e5aac91667e69a2bf64fdabfa086db2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-samples-1.6.0-alpha06-topping01-sources.jar",
+          "url": "ui-samples-1.6.0-alpha06-topping01-sources.jar",
+          "size": 47524,
+          "sha512": "2cb70cf0a60df08a588486a93189d1fbb23edea752f6cc2b5af330dfcd883e42f62246bd161eb16566763636e10c2c0408d926d4ca131db235167eb1260d5591",
+          "sha256": "34595e8584ab9cd9bfb0eb92ea776068c6f37bb6bd795938b12bd16a79118eba",
+          "sha1": "c1e114097f17ee2fb98df10aa26a56930b2c658a",
+          "md5": "e7d94a9abc16a2e19048645a18faaacb"
+        }
+      ]
+    }
+  ]
+}

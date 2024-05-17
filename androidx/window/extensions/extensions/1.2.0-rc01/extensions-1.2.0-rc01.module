@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.window.extensions",
+    "module": "extensions",
+    "version": "1.2.0-rc01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "extensions-1.2.0-rc01.aar",
+          "url": "extensions-1.2.0-rc01.aar",
+          "size": 36631,
+          "sha512": "f66fe2d42000218abf9c495cc6d3b5342259ec7414124aa9f51c78061c471b75a9b98aeb9f4237a7ba8fde88988eed7845a7c762ff32eb3fbec50339ef1ecfe9",
+          "sha256": "da665fd9815ac03d01f8c770f698d47937d8e11c7b5ad576ca1323deafa5068d",
+          "sha1": "e605f185815fd253b152f5fae006747ebf1b0352",
+          "md5": "be750a6bcd51e04845fed5f2df40a80e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.window.extensions.core",
+          "module": "core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "extensions-1.2.0-rc01.aar",
+          "url": "extensions-1.2.0-rc01.aar",
+          "size": 36631,
+          "sha512": "f66fe2d42000218abf9c495cc6d3b5342259ec7414124aa9f51c78061c471b75a9b98aeb9f4237a7ba8fde88988eed7845a7c762ff32eb3fbec50339ef1ecfe9",
+          "sha256": "da665fd9815ac03d01f8c770f698d47937d8e11c7b5ad576ca1323deafa5068d",
+          "sha1": "e605f185815fd253b152f5fae006747ebf1b0352",
+          "md5": "be750a6bcd51e04845fed5f2df40a80e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "extensions-1.2.0-rc01-sources.jar",
+          "url": "extensions-1.2.0-rc01-sources.jar",
+          "size": 39136,
+          "sha512": "ad699eb4237997efb56443bac2f2c719361238ca35132ac9de98806f67cd2cf065e5cc5944acd680bc513a647da68b2a964ff271747f37576a96249b6267f4aa",
+          "sha256": "39968a67817e76047775aea2302ece04d33e4f3d41a7bcbf58a652fb7f4b59c9",
+          "sha1": "300b879546465d7b4c3208560f844ea7933eaefd",
+          "md5": "0beec1fdf3198b0263418721fa9aba4a"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "extensions-1.2.0-rc01-versionMetadata.json",
+          "url": "extensions-1.2.0-rc01-versionMetadata.json",
+          "size": 16163,
+          "sha512": "3836631aa1deb7666c4d83ef4d087bfc67f9023c181fb19c80a7baf7a420815857cfd6b46b1ede8de55891ca872defa6e17672e032c606798852577e386dc9f2",
+          "sha256": "10be81f3ca1fa44e1a4227e6289841a9627821d7e23e2e43a893201dbdf88240",
+          "sha1": "a53ad5852c7180051b5e81337ed9c4f87af73f0a",
+          "md5": "410a79f6f053b26850c70753291759ff"
+        }
+      ]
+    }
+  ]
+}

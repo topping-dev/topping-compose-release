@@ -1,0 +1,157 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../material-ripple/1.6.0-alpha06-topping01/material-ripple-1.6.0-alpha06-topping01.module",
+    "group": "androidx.compose.material",
+    "module": "material-ripple",
+    "version": "1.6.0-alpha06-topping01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-ripple.klib",
+          "url": "material-ripple-iosx64-1.6.0-alpha06-topping01.klib",
+          "size": 42335,
+          "sha512": "b45c43e1b7cfa349a5e7f0bd896a5256bd2be2d95dd22810f5e5df8c1627bcb411980f64c86b3fcc73a8c37daa03da0308796fe36810d89f93ee0d1c3e61e1c6",
+          "sha256": "bd1b9b27457501fff661cb9cc4206e4f39c4c987c36842d8d3857cca25607d4e",
+          "sha1": "6ac77513657d624c2a43b9b160123a4282923a8f",
+          "md5": "a9c2b47072a26c154284227cc989f4f9"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "material-ripple-iosx64-1.6.0-alpha06-topping01-sources.jar",
+          "url": "material-ripple-iosx64-1.6.0-alpha06-topping01-sources.jar",
+          "size": 12374,
+          "sha512": "3bfc833078586218ebd54d6422c35b579d28df07e66b52bc0ce154d023ab7a16be8159160a119951c5574341e483ee723c360ae0265770a449cf002714af781c",
+          "sha256": "37c61ee00e6e0fa74c5fd7b50ae2abccfa65fe6571eb41132c5d5b416eb107fc",
+          "sha1": "3d9e912c89f9fe8a07979dfdaedc2935673def9b",
+          "md5": "b2ff47b69a3c93878af7b64ffe16c4ae"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-ripple-iosx64-1.6.0-alpha06-topping01-metadata.jar",
+          "url": "material-ripple-iosx64-1.6.0-alpha06-topping01-metadata.jar",
+          "size": 4102,
+          "sha512": "a71ac1e6598c60ecb8b95438efe1ee24ac1c6cf5b5c573e4ae5d25e9e9ee36d00fc9efe0fe8598e39c4a1253f0863bd48c5b4728de824b559af2806318c05fbc",
+          "sha256": "664c4e5459d7bacd12edbc5533a04124e7e0a61d19c44a4f5ee375f8a5ffef10",
+          "sha1": "4123963ce2fc84d54b8d9e28c84723b718ec3496",
+          "md5": "7ff95bee9bf88675f5039b462c4ffe6d"
+        }
+      ]
+    }
+  ]
+}

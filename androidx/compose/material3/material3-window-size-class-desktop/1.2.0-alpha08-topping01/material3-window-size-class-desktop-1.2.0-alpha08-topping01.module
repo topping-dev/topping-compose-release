@@ -1,0 +1,148 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../material3-window-size-class/1.2.0-alpha08-topping01/material3-window-size-class-1.2.0-alpha08-topping01.module",
+    "group": "androidx.compose.material3",
+    "module": "material3-window-size-class",
+    "version": "1.2.0-alpha08-topping01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-window-size-class-desktop-1.2.0-alpha08-topping01.jar",
+          "url": "material3-window-size-class-desktop-1.2.0-alpha08-topping01.jar",
+          "size": 16841,
+          "sha512": "04eab9eaf8e45762879dab0c39e1eba685c22d999de607096205d052f3977350768d1acb0581d7dc12ee8c280d5573b8d8eec7a00691b6c51998596562138ad1",
+          "sha256": "d2c1048e38d8f7846a5a4d6d1197c88bf1af87c501d80680c0477a8b90d44a4b",
+          "sha1": "c81f4da66e58989c4f27d47ae99436b9694b6f71",
+          "md5": "f375fdc138feab72987148390c2dd08e"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-window-size-class-desktop-1.2.0-alpha08-topping01.jar",
+          "url": "material3-window-size-class-desktop-1.2.0-alpha08-topping01.jar",
+          "size": 16841,
+          "sha512": "04eab9eaf8e45762879dab0c39e1eba685c22d999de607096205d052f3977350768d1acb0581d7dc12ee8c280d5573b8d8eec7a00691b6c51998596562138ad1",
+          "sha256": "d2c1048e38d8f7846a5a4d6d1197c88bf1af87c501d80680c0477a8b90d44a4b",
+          "sha1": "c81f4da66e58989c4f27d47ae99436b9694b6f71",
+          "md5": "f375fdc138feab72987148390c2dd08e"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "material3-window-size-class-desktop-1.2.0-alpha08-topping01-sources.jar",
+          "url": "material3-window-size-class-desktop-1.2.0-alpha08-topping01-sources.jar",
+          "size": 6737,
+          "sha512": "b6d3c6f44fdc8f26220ef680e806c6a62026b1ed5a75550d2169fcbc354a063c890b7fee7ae3dc0eb1a26afbdeaafdc656e92361ccc320072d940d65b65a9999",
+          "sha256": "694a932aae28d951beef7509d911102f55066d1386ff4307d376fae424b3e1a0",
+          "sha1": "d6f2e4a5655f52f2eb3a149a5991f06a129c4470",
+          "md5": "d6a45f7cf12dda51ff47acf6566169a6"
+        }
+      ]
+    }
+  ]
+}

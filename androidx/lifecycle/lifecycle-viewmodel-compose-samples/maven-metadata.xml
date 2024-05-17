@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>androidx.lifecycle</groupId>
+  <artifactId>lifecycle-viewmodel-compose-samples</artifactId>
+  <versioning>
+    <latest>2.7.0-alpha02</latest>
+    <release>2.7.0-alpha02</release>
+    <versions>
+      <version>2.7.0-alpha02</version>
+    </versions>
+    <lastUpdated>20240517114028</lastUpdated>
+  </versioning>
+</metadata>

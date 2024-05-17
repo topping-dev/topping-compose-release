@@ -1,0 +1,415 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx",
+    "module": "internal-testutils-datastore",
+    "version": "unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-core",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-core-okio",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "internal-testutils-datastore-metadata.jar",
+          "url": "internal-testutils-datastore-unspecified.jar",
+          "size": 4859,
+          "sha512": "b978fde0427e5c522ad86f195cf014590de72edc4b90e16a0ea875a20e0e197156786d9c42d630da18c2dc483358cd1079041c31ff794b9c4773c85449bdabb5",
+          "sha256": "4759fcfe39d45830e522d5026bc6e96d05b1631e008668286f88afb54094094a",
+          "sha1": "0e6d79784099f36a9e67841bfc13f1795a7c4cc0",
+          "md5": "3d0cbebe818ad4a43a4c4e165caec2c8"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "internal-testutils-datastore-kotlin-sources.jar",
+          "url": "internal-testutils-datastore-unspecified-sources.jar",
+          "size": 6866,
+          "sha512": "b3cad660d3164515513fc0bedc311e583f973c2c2ed2df8dc9be0cc1dffe26dbe9c29c1a1b73e301ea5eab4cc71f2a0596cfa053b2c4962bd2099d3e24d98438",
+          "sha256": "55ba076eadb39bf91dc2ed0334ad69c048f0b005b2b9344cc59b26a8a4c200aa",
+          "sha1": "fcc00145b5210bf7a6bd52f4f5a1d89bb0ff6a01",
+          "md5": "b8b12a2bc74eb86f8536e097ff7c0f1e"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../internal-testutils-datastore-iosarm64/unspecified/internal-testutils-datastore-iosarm64-unspecified.module",
+        "group": "androidx",
+        "module": "internal-testutils-datastore-iosarm64",
+        "version": "unspecified"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../internal-testutils-datastore-iosarm64/unspecified/internal-testutils-datastore-iosarm64-unspecified.module",
+        "group": "androidx",
+        "module": "internal-testutils-datastore-iosarm64",
+        "version": "unspecified"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../internal-testutils-datastore-iosarm64/unspecified/internal-testutils-datastore-iosarm64-unspecified.module",
+        "group": "androidx",
+        "module": "internal-testutils-datastore-iosarm64",
+        "version": "unspecified"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../internal-testutils-datastore-iossimulatorarm64/unspecified/internal-testutils-datastore-iossimulatorarm64-unspecified.module",
+        "group": "androidx",
+        "module": "internal-testutils-datastore-iossimulatorarm64",
+        "version": "unspecified"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../internal-testutils-datastore-iossimulatorarm64/unspecified/internal-testutils-datastore-iossimulatorarm64-unspecified.module",
+        "group": "androidx",
+        "module": "internal-testutils-datastore-iossimulatorarm64",
+        "version": "unspecified"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../internal-testutils-datastore-iossimulatorarm64/unspecified/internal-testutils-datastore-iossimulatorarm64-unspecified.module",
+        "group": "androidx",
+        "module": "internal-testutils-datastore-iossimulatorarm64",
+        "version": "unspecified"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../internal-testutils-datastore-iosx64/unspecified/internal-testutils-datastore-iosx64-unspecified.module",
+        "group": "androidx",
+        "module": "internal-testutils-datastore-iosx64",
+        "version": "unspecified"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../internal-testutils-datastore-iosx64/unspecified/internal-testutils-datastore-iosx64-unspecified.module",
+        "group": "androidx",
+        "module": "internal-testutils-datastore-iosx64",
+        "version": "unspecified"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../internal-testutils-datastore-iosx64/unspecified/internal-testutils-datastore-iosx64-unspecified.module",
+        "group": "androidx",
+        "module": "internal-testutils-datastore-iosx64",
+        "version": "unspecified"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../internal-testutils-datastore-jvm/unspecified/internal-testutils-datastore-jvm-unspecified.module",
+        "group": "androidx",
+        "module": "internal-testutils-datastore-jvm",
+        "version": "unspecified"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../internal-testutils-datastore-jvm/unspecified/internal-testutils-datastore-jvm-unspecified.module",
+        "group": "androidx",
+        "module": "internal-testutils-datastore-jvm",
+        "version": "unspecified"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../internal-testutils-datastore-jvm/unspecified/internal-testutils-datastore-jvm-unspecified.module",
+        "group": "androidx",
+        "module": "internal-testutils-datastore-jvm",
+        "version": "unspecified"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../internal-testutils-datastore-macosarm64/unspecified/internal-testutils-datastore-macosarm64-unspecified.module",
+        "group": "androidx",
+        "module": "internal-testutils-datastore-macosarm64",
+        "version": "unspecified"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../internal-testutils-datastore-macosarm64/unspecified/internal-testutils-datastore-macosarm64-unspecified.module",
+        "group": "androidx",
+        "module": "internal-testutils-datastore-macosarm64",
+        "version": "unspecified"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../internal-testutils-datastore-macosarm64/unspecified/internal-testutils-datastore-macosarm64-unspecified.module",
+        "group": "androidx",
+        "module": "internal-testutils-datastore-macosarm64",
+        "version": "unspecified"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../internal-testutils-datastore-macosx64/unspecified/internal-testutils-datastore-macosx64-unspecified.module",
+        "group": "androidx",
+        "module": "internal-testutils-datastore-macosx64",
+        "version": "unspecified"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../internal-testutils-datastore-macosx64/unspecified/internal-testutils-datastore-macosx64-unspecified.module",
+        "group": "androidx",
+        "module": "internal-testutils-datastore-macosx64",
+        "version": "unspecified"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../internal-testutils-datastore-macosx64/unspecified/internal-testutils-datastore-macosx64-unspecified.module",
+        "group": "androidx",
+        "module": "internal-testutils-datastore-macosx64",
+        "version": "unspecified"
+      }
+    }
+  ]
+}

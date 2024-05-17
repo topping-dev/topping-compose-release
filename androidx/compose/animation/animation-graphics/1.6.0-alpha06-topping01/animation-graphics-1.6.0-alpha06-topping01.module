@@ -1,0 +1,394 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.animation",
+    "module": "animation-graphics",
+    "version": "1.6.0-alpha06-topping01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidxSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "androidx-multiplatform-docs"
+      },
+      "files": [
+        {
+          "name": "animation-graphics-1.6.0-alpha06-topping01-multiplatform-sources.jar",
+          "url": "animation-graphics-1.6.0-alpha06-topping01-multiplatform-sources.jar",
+          "size": 23520,
+          "sha512": "cdee6bf221ff0efc8dcc15ce423369e53d51606c7eaac01a5ab2f80134cf06dd281bd20dd2695fc4c025d7cf6974060456fef3fd604f345923b921528781ba4e",
+          "sha256": "6216daf878bc35e70098cb22d7e78ae81c9a5fe0207d900c399af0d06dd5ee81",
+          "sha1": "cd5cd479bcac4ed43ed02212fde2688d46b5c579",
+          "md5": "5558a891c444fc65bfacf5ead90576aa"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "apiLevels.json",
+          "url": "animation-graphics-1.6.0-alpha06-topping01-versionMetadata.json",
+          "size": 1796,
+          "sha512": "afc01ec5c8c5b83a09a9cc6ac88ea3491c49d6d332063969cb3f4c8a660fedaf8d119c7802498796862c40d66e706ced9830224a114313394948d8f4bc01ba37",
+          "sha256": "bbd769940097da78227232a31f6e7d81a57155220201267c64767f90645bee0b",
+          "sha1": "a6f2a60fa047f39ce6f9beb3f2b8a14571cffc60",
+          "md5": "ccdc51c8f64fa68d9f541138ec4c2e17"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-geometry",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "animation-graphics-metadata-1.6.0-alpha06-topping01.jar",
+          "url": "animation-graphics-1.6.0-alpha06-topping01.jar",
+          "size": 8442,
+          "sha512": "ba46e1e910d83116ce555cc544eb01a2313e7949087baa6dd1bad67b52c4d13d2e7a5d4427c19c393f6d63f99970e8107ebcb356a212acb3b74ab611385a08ff",
+          "sha256": "fcdf00a65add9e606eb3990050abfe639ce9d94cd3997bdb3582397ef940f434",
+          "sha1": "7f3ebaa1cfb4e34499dccf7b7c278e7dae2d2d4d",
+          "md5": "d7d9cd78d3ff23e074ef0befd2765351"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "animation-graphics-kotlin-1.6.0-alpha06-topping01-sources.jar",
+          "url": "animation-graphics-1.6.0-alpha06-topping01-sources.jar",
+          "size": 9732,
+          "sha512": "bd328e229119895064294437871b229ca1a9600c010c6681567db24fbaa9a30766de126b31a03f8b4a7b684e8d897e1d6a846048d3bf03bacec198517a2ea705",
+          "sha256": "4b5199c1daeac34210b5129c35b0053e2f749b5925953566c7db3847238e4697",
+          "sha1": "c40b1403d7e7531da6cede16d594869aec78384d",
+          "md5": "b950d4108d2dee3e861b4a916e5be96b"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../animation-graphics-android/1.6.0-alpha06-topping01/animation-graphics-android-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.animation",
+        "module": "animation-graphics-android",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../animation-graphics-android/1.6.0-alpha06-topping01/animation-graphics-android-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.animation",
+        "module": "animation-graphics-android",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "fake-sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../animation-graphics-android/1.6.0-alpha06-topping01/animation-graphics-android-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.animation",
+        "module": "animation-graphics-android",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../animation-graphics-desktop/1.6.0-alpha06-topping01/animation-graphics-desktop-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.animation",
+        "module": "animation-graphics-desktop",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../animation-graphics-desktop/1.6.0-alpha06-topping01/animation-graphics-desktop-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.animation",
+        "module": "animation-graphics-desktop",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../animation-graphics-desktop/1.6.0-alpha06-topping01/animation-graphics-desktop-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.animation",
+        "module": "animation-graphics-desktop",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../animation-graphics-iosarm64/1.6.0-alpha06-topping01/animation-graphics-iosarm64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.animation",
+        "module": "animation-graphics-iosarm64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../animation-graphics-iosarm64/1.6.0-alpha06-topping01/animation-graphics-iosarm64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.animation",
+        "module": "animation-graphics-iosarm64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../animation-graphics-iosarm64/1.6.0-alpha06-topping01/animation-graphics-iosarm64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.animation",
+        "module": "animation-graphics-iosarm64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../animation-graphics-iossimulatorarm64/1.6.0-alpha06-topping01/animation-graphics-iossimulatorarm64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.animation",
+        "module": "animation-graphics-iossimulatorarm64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../animation-graphics-iossimulatorarm64/1.6.0-alpha06-topping01/animation-graphics-iossimulatorarm64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.animation",
+        "module": "animation-graphics-iossimulatorarm64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../animation-graphics-iossimulatorarm64/1.6.0-alpha06-topping01/animation-graphics-iossimulatorarm64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.animation",
+        "module": "animation-graphics-iossimulatorarm64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../animation-graphics-iosx64/1.6.0-alpha06-topping01/animation-graphics-iosx64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.animation",
+        "module": "animation-graphics-iosx64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../animation-graphics-iosx64/1.6.0-alpha06-topping01/animation-graphics-iosx64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.animation",
+        "module": "animation-graphics-iosx64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../animation-graphics-iosx64/1.6.0-alpha06-topping01/animation-graphics-iosx64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.animation",
+        "module": "animation-graphics-iosx64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    }
+  ]
+}

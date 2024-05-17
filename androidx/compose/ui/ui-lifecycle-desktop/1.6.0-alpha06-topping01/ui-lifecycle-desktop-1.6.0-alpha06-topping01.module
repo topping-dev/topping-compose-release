@@ -1,0 +1,134 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-lifecycle/1.6.0-alpha06-topping01/ui-lifecycle-1.6.0-alpha06-topping01.module",
+    "group": "androidx.compose.ui",
+    "module": "ui-lifecycle",
+    "version": "1.6.0-alpha06-topping01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-lifecycle-desktop-1.6.0-alpha06-topping01.jar",
+          "url": "ui-lifecycle-desktop-1.6.0-alpha06-topping01.jar",
+          "size": 32555,
+          "sha512": "b87a4ef12688dee1d38bdf5f4f308ae6c45524db80111087aca020a467ca4d411e8741307ffc890cf4935e074583b47dcbaa8cf5f309be4350116d7f57158e91",
+          "sha256": "09b26a8acde81ff8b5c83d6d3ad098cd4f37e90c154fec856349b1cfc609dae8",
+          "sha1": "b04d13596b4301bd133ea2034d36bfa308692a51",
+          "md5": "7fe7a4e09de0e7288eb4cd9b5fec3a94"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-lifecycle-desktop-1.6.0-alpha06-topping01.jar",
+          "url": "ui-lifecycle-desktop-1.6.0-alpha06-topping01.jar",
+          "size": 32555,
+          "sha512": "b87a4ef12688dee1d38bdf5f4f308ae6c45524db80111087aca020a467ca4d411e8741307ffc890cf4935e074583b47dcbaa8cf5f309be4350116d7f57158e91",
+          "sha256": "09b26a8acde81ff8b5c83d6d3ad098cd4f37e90c154fec856349b1cfc609dae8",
+          "sha1": "b04d13596b4301bd133ea2034d36bfa308692a51",
+          "md5": "7fe7a4e09de0e7288eb4cd9b5fec3a94"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ui-lifecycle-desktop-1.6.0-alpha06-topping01-sources.jar",
+          "url": "ui-lifecycle-desktop-1.6.0-alpha06-topping01-sources.jar",
+          "size": 12655,
+          "sha512": "3fd84753226e9bf1452c0689029ebbeab5513358713489ed26143ee96040f038150ef6b82bcb98bc2aff9234e010b0d90a6060b1909d30b754a86c0c4f39467e",
+          "sha256": "a49a3cfcbb76b5d9bf61d592316e80f9729afc60c899f6a5bf23e75f2246671f",
+          "sha1": "5cb8b8d0e6f4080b7345b25e8b1d23bd1e9120be",
+          "md5": "da93ed2025e8452cfb23735cd5204979"
+        }
+      ]
+    }
+  ]
+}

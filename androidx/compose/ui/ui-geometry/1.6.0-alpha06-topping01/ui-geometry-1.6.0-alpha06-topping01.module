@@ -1,0 +1,359 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.ui",
+    "module": "ui-geometry",
+    "version": "1.6.0-alpha06-topping01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidxSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "androidx-multiplatform-docs"
+      },
+      "files": [
+        {
+          "name": "ui-geometry-1.6.0-alpha06-topping01-multiplatform-sources.jar",
+          "url": "ui-geometry-1.6.0-alpha06-topping01-multiplatform-sources.jar",
+          "size": 18646,
+          "sha512": "680eb19efbe997ee79e6dcf3f53a9a02cb426961af302a1cd6a45fc106ba4773ddcbb93c03c2ac77fddffa8e6d006421d60ea1a8d3761bb08b5c2fde80c6d422",
+          "sha256": "0301fc0f2f8e2fcdd8704f3a0530f000697dfc821e428bc9f924bcabeecc1968",
+          "sha1": "ff6a6d7f127d435ebb4a15f146370dd7c8390286",
+          "md5": "3268d10bec25a1257f9ad3d25b30fc54"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "apiLevels.json",
+          "url": "ui-geometry-1.6.0-alpha06-topping01-versionMetadata.json",
+          "size": 10932,
+          "sha512": "246337b43e64fc1b9147ee9b32b45d1618b41895fb259d0dd003c2dc2a5343b92b4aca034ad64fb4c6229bdecd15d923ca8e04e4d556c1537c93f3ac09594347",
+          "sha256": "c9fd98c2d7a4d8c413dd7b546e3002b195511ca796a8107d7e97e41872a51953",
+          "sha1": "a6788449e120d6853157eb27006cb09cd06ee77b",
+          "md5": "c54b9bca3e0f1f4eb482d66927b1fa21"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-geometry-metadata-1.6.0-alpha06-topping01.jar",
+          "url": "ui-geometry-1.6.0-alpha06-topping01.jar",
+          "size": 6704,
+          "sha512": "e83a927ea19259a619781dcf42c190d9b9388d127e2ea1d9edec3efe8be901c13285abba482c54577a591f401647ddc7014a4f26bd5eb06150abad20cb36e9bf",
+          "sha256": "f0890c657561b5f315a3ee5193ab33cf3fd5bf2ef4a511b78ed696ce3a51ffcf",
+          "sha1": "f3b77afef0af152f842e09abab0fb7432bbce280",
+          "md5": "acc6eb21dcf9b206bf575350e9fc4b92"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "ui-geometry-kotlin-1.6.0-alpha06-topping01-sources.jar",
+          "url": "ui-geometry-1.6.0-alpha06-topping01-sources.jar",
+          "size": 18278,
+          "sha512": "9ea87e8be182c050396a1db751a23fd5e1aebede9e8ecfbc812801a831aa9f5106ce9a2a751eb2714b03e60fceffd2b55d5cbea57d83c58e1f0530d36b04c8d6",
+          "sha256": "1cdb444bb73105531a91ef3b12098ada9392653e9ffc3d8d79ded19caa19253e",
+          "sha1": "52669a9505a8bbcfa60523b6c52000050e3000d9",
+          "md5": "13d5ab5d38f1f14f28c5ac635ebdccb5"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ui-geometry-android/1.6.0-alpha06-topping01/ui-geometry-android-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-geometry-android",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ui-geometry-android/1.6.0-alpha06-topping01/ui-geometry-android-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-geometry-android",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "fake-sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ui-geometry-android/1.6.0-alpha06-topping01/ui-geometry-android-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-geometry-android",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ui-geometry-desktop/1.6.0-alpha06-topping01/ui-geometry-desktop-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-geometry-desktop",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ui-geometry-desktop/1.6.0-alpha06-topping01/ui-geometry-desktop-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-geometry-desktop",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ui-geometry-desktop/1.6.0-alpha06-topping01/ui-geometry-desktop-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-geometry-desktop",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-geometry-iosarm64/1.6.0-alpha06-topping01/ui-geometry-iosarm64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-geometry-iosarm64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-geometry-iosarm64/1.6.0-alpha06-topping01/ui-geometry-iosarm64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-geometry-iosarm64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-geometry-iosarm64/1.6.0-alpha06-topping01/ui-geometry-iosarm64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-geometry-iosarm64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-geometry-iossimulatorarm64/1.6.0-alpha06-topping01/ui-geometry-iossimulatorarm64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-geometry-iossimulatorarm64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-geometry-iossimulatorarm64/1.6.0-alpha06-topping01/ui-geometry-iossimulatorarm64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-geometry-iossimulatorarm64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-geometry-iossimulatorarm64/1.6.0-alpha06-topping01/ui-geometry-iossimulatorarm64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-geometry-iossimulatorarm64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-geometry-iosx64/1.6.0-alpha06-topping01/ui-geometry-iosx64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-geometry-iosx64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-geometry-iosx64/1.6.0-alpha06-topping01/ui-geometry-iosx64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-geometry-iosx64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-geometry-iosx64/1.6.0-alpha06-topping01/ui-geometry-iosx64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-geometry-iosx64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    }
+  ]
+}

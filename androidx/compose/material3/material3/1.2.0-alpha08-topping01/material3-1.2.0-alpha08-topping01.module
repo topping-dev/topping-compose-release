@@ -1,0 +1,429 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.material3",
+    "module": "material3",
+    "version": "1.2.0-alpha08-topping01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidxSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "androidx-multiplatform-docs"
+      },
+      "files": [
+        {
+          "name": "material3-1.2.0-alpha08-topping01-multiplatform-sources.jar",
+          "url": "material3-1.2.0-alpha08-topping01-multiplatform-sources.jar",
+          "size": 484711,
+          "sha512": "8e45e0f554a371e36fa905614788871587d4b9cd9ad5e317d16a7deae01e4be6b38884e403559babbd2801ad34e0cb2b229f9c7d1db839b7fad52ce384e244b8",
+          "sha256": "f32edca15668b0478b7db03cc172aaa21c4c28867c96b62635d73e83d88d8a28",
+          "sha1": "03322e6b518239193879bd9b64ced7411653db55",
+          "md5": "93f238c077bce9bf2094464d385b9555"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "apiLevels.json",
+          "url": "material3-1.2.0-alpha08-topping01-versionMetadata.json",
+          "size": 165832,
+          "sha512": "c5783db099e7279ba73886970e875c19d4228fe39291c8e280e1183d836136d7250bf7c32ceadf827fab52d70643fb36a217b9c8564e6c099a8b5b270c5d8453",
+          "sha256": "068f9751c7485ca8564a1a5650fe2439502b99f895ecbbb69c5b9addae329aad",
+          "sha1": "f82200040cb3cf5461def023a7d73c4a7f5433e5",
+          "md5": "438efc116c7da07fc84498e82eb765d6"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-core",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-ripple",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-text",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-metadata-1.2.0-alpha08-topping01.jar",
+          "url": "material3-1.2.0-alpha08-topping01.jar",
+          "size": 85150,
+          "sha512": "c74e1719d09d2a8e12a94f7c7a32f7092a537bd008d422174a5d4cb9861aa6551c0513ffeb19afa03dd56ad024edf423de6c197ec87cd43d6453ef866bd99b91",
+          "sha256": "c58105d2bd601c123f68a9330af6365a34e3fa5df3b0bf7963f0b44080f3a0ce",
+          "sha1": "e4cdd47cd31df96dcd0250423805f23579e7d828",
+          "md5": "dac3225d043cc12815c4ca46fb2f836b"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "material3-kotlin-1.2.0-alpha08-topping01-sources.jar",
+          "url": "material3-1.2.0-alpha08-topping01-sources.jar",
+          "size": 426648,
+          "sha512": "5e3c9b65962b2b5ca46acecca2e134e961ac6c1a5d30be050153ce9cf045e3e2f48c35b6b700324095764fc42394c61c9ac28d936207e1dd099178781eb4c57b",
+          "sha256": "2a067b365eb392a137bd7ab8f39bcf0149af84813d84db24af3cd453a3341180",
+          "sha1": "f2e4da7549eed7e66110b65a9bc40b3d52cae9cf",
+          "md5": "f98fe8ce0c127421a9a87b3414cd4045"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../material3-android/1.2.0-alpha08-topping01/material3-android-1.2.0-alpha08-topping01.module",
+        "group": "androidx.compose.material3",
+        "module": "material3-android",
+        "version": "1.2.0-alpha08-topping01"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../material3-android/1.2.0-alpha08-topping01/material3-android-1.2.0-alpha08-topping01.module",
+        "group": "androidx.compose.material3",
+        "module": "material3-android",
+        "version": "1.2.0-alpha08-topping01"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "fake-sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../material3-android/1.2.0-alpha08-topping01/material3-android-1.2.0-alpha08-topping01.module",
+        "group": "androidx.compose.material3",
+        "module": "material3-android",
+        "version": "1.2.0-alpha08-topping01"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../material3-desktop/1.2.0-alpha08-topping01/material3-desktop-1.2.0-alpha08-topping01.module",
+        "group": "androidx.compose.material3",
+        "module": "material3-desktop",
+        "version": "1.2.0-alpha08-topping01"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../material3-desktop/1.2.0-alpha08-topping01/material3-desktop-1.2.0-alpha08-topping01.module",
+        "group": "androidx.compose.material3",
+        "module": "material3-desktop",
+        "version": "1.2.0-alpha08-topping01"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../material3-desktop/1.2.0-alpha08-topping01/material3-desktop-1.2.0-alpha08-topping01.module",
+        "group": "androidx.compose.material3",
+        "module": "material3-desktop",
+        "version": "1.2.0-alpha08-topping01"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material3-iosarm64/1.2.0-alpha08-topping01/material3-iosarm64-1.2.0-alpha08-topping01.module",
+        "group": "androidx.compose.material3",
+        "module": "material3-iosarm64",
+        "version": "1.2.0-alpha08-topping01"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material3-iosarm64/1.2.0-alpha08-topping01/material3-iosarm64-1.2.0-alpha08-topping01.module",
+        "group": "androidx.compose.material3",
+        "module": "material3-iosarm64",
+        "version": "1.2.0-alpha08-topping01"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material3-iosarm64/1.2.0-alpha08-topping01/material3-iosarm64-1.2.0-alpha08-topping01.module",
+        "group": "androidx.compose.material3",
+        "module": "material3-iosarm64",
+        "version": "1.2.0-alpha08-topping01"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material3-iossimulatorarm64/1.2.0-alpha08-topping01/material3-iossimulatorarm64-1.2.0-alpha08-topping01.module",
+        "group": "androidx.compose.material3",
+        "module": "material3-iossimulatorarm64",
+        "version": "1.2.0-alpha08-topping01"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material3-iossimulatorarm64/1.2.0-alpha08-topping01/material3-iossimulatorarm64-1.2.0-alpha08-topping01.module",
+        "group": "androidx.compose.material3",
+        "module": "material3-iossimulatorarm64",
+        "version": "1.2.0-alpha08-topping01"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material3-iossimulatorarm64/1.2.0-alpha08-topping01/material3-iossimulatorarm64-1.2.0-alpha08-topping01.module",
+        "group": "androidx.compose.material3",
+        "module": "material3-iossimulatorarm64",
+        "version": "1.2.0-alpha08-topping01"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material3-iosx64/1.2.0-alpha08-topping01/material3-iosx64-1.2.0-alpha08-topping01.module",
+        "group": "androidx.compose.material3",
+        "module": "material3-iosx64",
+        "version": "1.2.0-alpha08-topping01"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material3-iosx64/1.2.0-alpha08-topping01/material3-iosx64-1.2.0-alpha08-topping01.module",
+        "group": "androidx.compose.material3",
+        "module": "material3-iosx64",
+        "version": "1.2.0-alpha08-topping01"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material3-iosx64/1.2.0-alpha08-topping01/material3-iosx64-1.2.0-alpha08-topping01.module",
+        "group": "androidx.compose.material3",
+        "module": "material3-iosx64",
+        "version": "1.2.0-alpha08-topping01"
+      }
+    }
+  ]
+}

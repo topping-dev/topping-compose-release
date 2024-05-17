@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.foundation",
+    "module": "foundation-layout-samples",
+    "version": "1.6.0-alpha06-topping01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "foundation-layout-samples-1.6.0-alpha06-topping01.aar",
+          "url": "foundation-layout-samples-1.6.0-alpha06-topping01.aar",
+          "size": 257391,
+          "sha512": "426980c58e239fc5980efa19bf90c95b1f6c001cb031c06172f80fa92c5b8d21d5ebb63f71bbe04685a25596b27953b40b277f19038940f05cca76a2794e7c5a",
+          "sha256": "3babad0ea0e8bef3abe5ca50bfc902a81fb56219e9e0dd1f7b177ee338a74d68",
+          "sha1": "e1534bb672856026315bddcdc2679e1bd25810c8",
+          "md5": "a4f593e29f9211b3920e5657ea902212"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-text",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation-layout-samples-1.6.0-alpha06-topping01.aar",
+          "url": "foundation-layout-samples-1.6.0-alpha06-topping01.aar",
+          "size": 257391,
+          "sha512": "426980c58e239fc5980efa19bf90c95b1f6c001cb031c06172f80fa92c5b8d21d5ebb63f71bbe04685a25596b27953b40b277f19038940f05cca76a2794e7c5a",
+          "sha256": "3babad0ea0e8bef3abe5ca50bfc902a81fb56219e9e0dd1f7b177ee338a74d68",
+          "sha1": "e1534bb672856026315bddcdc2679e1bd25810c8",
+          "md5": "a4f593e29f9211b3920e5657ea902212"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "foundation-layout-samples-1.6.0-alpha06-topping01-sources.jar",
+          "url": "foundation-layout-samples-1.6.0-alpha06-topping01-sources.jar",
+          "size": 20582,
+          "sha512": "6b054d6d895522c8a7733b13cfc778779b25c212e86f183633f88faa7f6b10626c98794a13efbaf142e1feb8e0cff2fb9ecfa15b66da6d23f16d838053adf7e7",
+          "sha256": "ccfcd98ecc12bf9e2029170817af13ec3ebd83272a1d663e25fd7887b77773aa",
+          "sha1": "3cc027732a2dd20211d0965d321a3288e0a02eab",
+          "md5": "2fc34ea21b9d8c892a1ac21203ac8bb3"
+        }
+      ]
+    }
+  ]
+}

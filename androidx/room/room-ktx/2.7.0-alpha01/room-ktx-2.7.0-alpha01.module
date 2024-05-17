@@ -1,0 +1,157 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.room",
+    "module": "room-ktx",
+    "version": "2.7.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.room",
+          "module": "room-common",
+          "version": {
+            "requires": "2.7.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.7.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "room-ktx-2.7.0-alpha01.aar",
+          "url": "room-ktx-2.7.0-alpha01.aar",
+          "size": 39240,
+          "sha512": "823f6bb8baab7605bc57916e8aee23eb34cd32b8f99f0e4f9c8c628de990c5c4e07393ce97ea0c6a97fa3907c236b335daf935a3a1afa9124f2de85b06fa8f22",
+          "sha256": "9e96260426f79651e228ab4b383137d2762929cf9b9b1e94d7c2fff75fcbd10d",
+          "sha1": "8309ab98ce8cefe730ea48fe4770c3d4e2de710a",
+          "md5": "173898c9e4be4d568dda7768828ce39f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.room",
+          "module": "room-common",
+          "version": {
+            "requires": "2.7.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.7.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "room-ktx-2.7.0-alpha01.aar",
+          "url": "room-ktx-2.7.0-alpha01.aar",
+          "size": 39240,
+          "sha512": "823f6bb8baab7605bc57916e8aee23eb34cd32b8f99f0e4f9c8c628de990c5c4e07393ce97ea0c6a97fa3907c236b335daf935a3a1afa9124f2de85b06fa8f22",
+          "sha256": "9e96260426f79651e228ab4b383137d2762929cf9b9b1e94d7c2fff75fcbd10d",
+          "sha1": "8309ab98ce8cefe730ea48fe4770c3d4e2de710a",
+          "md5": "173898c9e4be4d568dda7768828ce39f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "room-ktx-2.7.0-alpha01-sources.jar",
+          "url": "room-ktx-2.7.0-alpha01-sources.jar",
+          "size": 6915,
+          "sha512": "5ce0dcb0ec34788e42eb34c2328cee6db3f366ade5a1d011fe0c21c59fb70acffe41dffc712e12f3e5bd2b306e62c9be47f7765284ecad84438a155c869c4046",
+          "sha256": "e30c2d6ca6affc28e8b7888e120ecc4652b6a2d0a9909b9e4b1d001b2f0f1c69",
+          "sha1": "1bb5c5499ac16940fbb235e27556a6fa4bc3695c",
+          "md5": "1c89c3d6a3b15d81c2cd4f0df0172274"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "room-ktx-2.7.0-alpha01-versionMetadata.json",
+          "url": "room-ktx-2.7.0-alpha01-versionMetadata.json",
+          "size": 814,
+          "sha512": "1c94a33cd9b1fbf050412e6cb6ea9da9a8502b88a79f92a5c3e34a48abab58b8b2cb7629609339e4f6507d21f82adcc68e78db6069c605f931f9d289b2e38405",
+          "sha256": "354f00f9f639395f1b3b7b67f1b347930877a53d5478ee774a0fe2d0bff0e4a5",
+          "sha1": "f30bf3b8e6bbd1c7e2f14f55088451a93592b71b",
+          "md5": "6c27c68f0c9e5a610e3f76c99bb34c56"
+        }
+      ]
+    }
+  ]
+}

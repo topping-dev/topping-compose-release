@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../internal-testutils-ktx/unspecified/internal-testutils-ktx-unspecified.module",
+    "group": "androidx",
+    "module": "internal-testutils-ktx",
+    "version": "unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "internal-testutils-ktx.klib",
+          "url": "internal-testutils-ktx-iosarm64-unspecified.klib",
+          "size": 6705,
+          "sha512": "c7572bbe6b2994dc6ddbed3b8da206abba33a019f86db87b060137f370d59a7e7d6a4addc36a9ed037a21932a399f000da213af4a1762f654946ee135306a06d",
+          "sha256": "0ad2910f7ee457f3297efd3350b8f9bc4b08e805f38e59c8680082043a88c982",
+          "sha1": "fd5a44702940e284d9b69c94908ba1444920494d",
+          "md5": "1026a59722648d2683b6d23e09ddedc3"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "internal-testutils-ktx-iosarm64-sources.jar",
+          "url": "internal-testutils-ktx-iosarm64-unspecified-sources.jar",
+          "size": 2096,
+          "sha512": "5fd5b9009959e4262d7125dbfcba76fe738b25e37dcbd361ec3fa2fdd2499c3460867c8df30366f284c8bc606fb0aa89deb304288935e13bbb2f2ae31fc486bf",
+          "sha256": "7479163cf5c4bc262c217ac66ae6c5c4bef70efe26abdaf73e467ce293cdeadd",
+          "sha1": "1ab3b492f97a595f4664a1c364bb29dcbff3a657",
+          "md5": "772d4a777c46e94a9f6eb22fdf12789d"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "internal-testutils-ktx-iosarm64-metadata.jar",
+          "url": "internal-testutils-ktx-iosarm64-unspecified-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,464 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.datastore",
+    "module": "datastore-core",
+    "version": "1.1.0-alpha05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidxSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "androidx-multiplatform-docs"
+      },
+      "files": [
+        {
+          "name": "datastore-core-1.1.0-alpha05-multiplatform-sources.jar",
+          "url": "datastore-core-1.1.0-alpha05-multiplatform-sources.jar",
+          "size": 52806,
+          "sha512": "e55edeba7b6ba9edddb7d2618f3d48806611aa121231fc8d1b62c41c001ce1232cbbf0ae1d2a4d4b0fd9076b45450ab48cb08dc055653802e6c87bb4cb013414",
+          "sha256": "4ac78504f928b34e546b9a7b2dca59d7fefd739177e7ba0a3c90dc61b81da09b",
+          "sha1": "8f10ab3c87604a1d4a1013e2007ba65c463a4ad3",
+          "md5": "2da7f70d94a998ee10d7836871b37138"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "apiLevels.json",
+          "url": "datastore-core-1.1.0-alpha05-versionMetadata.json",
+          "size": 8427,
+          "sha512": "9cd7b6690db9eb09bc258500b36981cb105deab2ea419cabc888a5a3503fe1d8fa651260971ae40079ca46e7270f100477cd083611390fb6e1ed91d478133248",
+          "sha256": "5bf166a4c465323b8b53315eff681b6928d464bf2993d67c96be5150763e87d3",
+          "sha1": "41776e9bc6d01256c38e76370c8bbc3572f05256",
+          "md5": "a9d038497ed228358e689dc5c7013c1a"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "datastore-core-metadata-1.1.0-alpha05.jar",
+          "url": "datastore-core-1.1.0-alpha05.jar",
+          "size": 8092,
+          "sha512": "77419dcc0cd320e31d1a804168ff9c634cbbfde8949fc1b9d61f4a9a5eace00ff7983726b836ad22044551d7fde99fe2a39956666281bcf025a3789b02042f60",
+          "sha256": "6ff8dba288b346f154fcb8934a7d5eb05b205334a698f278e801417bec399ce9",
+          "sha1": "e19bc92f7896f02ec2311c68d9360c5cfe90becf",
+          "md5": "a728d875179c9233b6ef5ec875253d4d"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "datastore-core-kotlin-1.1.0-alpha05-sources.jar",
+          "url": "datastore-core-1.1.0-alpha05-sources.jar",
+          "size": 43203,
+          "sha512": "7ea066dc9829a0afb7e23f8b06971f718a689076e4b57bc8e3cbd33bb41f39fad0a5a76b17b8f437c005e08f353e3d90b4028fb8168640d18b02758c3d5c63b7",
+          "sha256": "321d371a332912e043f2ef5fc5ffaab00ce28b05fc862084a4ecd7ee7366bbc6",
+          "sha1": "f09092758bc29b0ce657a99af5b64f316419d31f",
+          "md5": "4ef295593ff7cf5454f39124abca4e12"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../datastore-core-android/1.1.0-alpha05/datastore-core-android-1.1.0-alpha05.module",
+        "group": "androidx.datastore",
+        "module": "datastore-core-android",
+        "version": "1.1.0-alpha05"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../datastore-core-android/1.1.0-alpha05/datastore-core-android-1.1.0-alpha05.module",
+        "group": "androidx.datastore",
+        "module": "datastore-core-android",
+        "version": "1.1.0-alpha05"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "fake-sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../datastore-core-android/1.1.0-alpha05/datastore-core-android-1.1.0-alpha05.module",
+        "group": "androidx.datastore",
+        "module": "datastore-core-android",
+        "version": "1.1.0-alpha05"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../datastore-core-iosarm64/1.1.0-alpha05/datastore-core-iosarm64-1.1.0-alpha05.module",
+        "group": "androidx.datastore",
+        "module": "datastore-core-iosarm64",
+        "version": "1.1.0-alpha05"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../datastore-core-iosarm64/1.1.0-alpha05/datastore-core-iosarm64-1.1.0-alpha05.module",
+        "group": "androidx.datastore",
+        "module": "datastore-core-iosarm64",
+        "version": "1.1.0-alpha05"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../datastore-core-iosarm64/1.1.0-alpha05/datastore-core-iosarm64-1.1.0-alpha05.module",
+        "group": "androidx.datastore",
+        "module": "datastore-core-iosarm64",
+        "version": "1.1.0-alpha05"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../datastore-core-iossimulatorarm64/1.1.0-alpha05/datastore-core-iossimulatorarm64-1.1.0-alpha05.module",
+        "group": "androidx.datastore",
+        "module": "datastore-core-iossimulatorarm64",
+        "version": "1.1.0-alpha05"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../datastore-core-iossimulatorarm64/1.1.0-alpha05/datastore-core-iossimulatorarm64-1.1.0-alpha05.module",
+        "group": "androidx.datastore",
+        "module": "datastore-core-iossimulatorarm64",
+        "version": "1.1.0-alpha05"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../datastore-core-iossimulatorarm64/1.1.0-alpha05/datastore-core-iossimulatorarm64-1.1.0-alpha05.module",
+        "group": "androidx.datastore",
+        "module": "datastore-core-iossimulatorarm64",
+        "version": "1.1.0-alpha05"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../datastore-core-iosx64/1.1.0-alpha05/datastore-core-iosx64-1.1.0-alpha05.module",
+        "group": "androidx.datastore",
+        "module": "datastore-core-iosx64",
+        "version": "1.1.0-alpha05"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../datastore-core-iosx64/1.1.0-alpha05/datastore-core-iosx64-1.1.0-alpha05.module",
+        "group": "androidx.datastore",
+        "module": "datastore-core-iosx64",
+        "version": "1.1.0-alpha05"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../datastore-core-iosx64/1.1.0-alpha05/datastore-core-iosx64-1.1.0-alpha05.module",
+        "group": "androidx.datastore",
+        "module": "datastore-core-iosx64",
+        "version": "1.1.0-alpha05"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../datastore-core-jvm/1.1.0-alpha05/datastore-core-jvm-1.1.0-alpha05.module",
+        "group": "androidx.datastore",
+        "module": "datastore-core-jvm",
+        "version": "1.1.0-alpha05"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../datastore-core-jvm/1.1.0-alpha05/datastore-core-jvm-1.1.0-alpha05.module",
+        "group": "androidx.datastore",
+        "module": "datastore-core-jvm",
+        "version": "1.1.0-alpha05"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../datastore-core-jvm/1.1.0-alpha05/datastore-core-jvm-1.1.0-alpha05.module",
+        "group": "androidx.datastore",
+        "module": "datastore-core-jvm",
+        "version": "1.1.0-alpha05"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../datastore-core-macosarm64/1.1.0-alpha05/datastore-core-macosarm64-1.1.0-alpha05.module",
+        "group": "androidx.datastore",
+        "module": "datastore-core-macosarm64",
+        "version": "1.1.0-alpha05"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../datastore-core-macosarm64/1.1.0-alpha05/datastore-core-macosarm64-1.1.0-alpha05.module",
+        "group": "androidx.datastore",
+        "module": "datastore-core-macosarm64",
+        "version": "1.1.0-alpha05"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../datastore-core-macosarm64/1.1.0-alpha05/datastore-core-macosarm64-1.1.0-alpha05.module",
+        "group": "androidx.datastore",
+        "module": "datastore-core-macosarm64",
+        "version": "1.1.0-alpha05"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../datastore-core-macosx64/1.1.0-alpha05/datastore-core-macosx64-1.1.0-alpha05.module",
+        "group": "androidx.datastore",
+        "module": "datastore-core-macosx64",
+        "version": "1.1.0-alpha05"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../datastore-core-macosx64/1.1.0-alpha05/datastore-core-macosx64-1.1.0-alpha05.module",
+        "group": "androidx.datastore",
+        "module": "datastore-core-macosx64",
+        "version": "1.1.0-alpha05"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../datastore-core-macosx64/1.1.0-alpha05/datastore-core-macosx64-1.1.0-alpha05.module",
+        "group": "androidx.datastore",
+        "module": "datastore-core-macosx64",
+        "version": "1.1.0-alpha05"
+      }
+    }
+  ]
+}

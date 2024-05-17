@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.annotation",
+    "module": "annotation-experimental",
+    "version": "1.4.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotation-experimental-1.4.0-alpha01.aar",
+          "url": "annotation-experimental-1.4.0-alpha01.aar",
+          "size": 39396,
+          "sha512": "c3eafddc4ab42587556a91f87b7b18790cea7bd8f91293d74c2265f92de5e467516a1c9e2c210087834d745cfd488e1bd741910d75eb61722203d5dc5b7b71af",
+          "sha256": "8ca1fec3595f2dd254c814072cc318a061fa867b28531519527971aa370853ec",
+          "sha1": "4b702323765c48e48d55227149bdbfc0919e2b07",
+          "md5": "9a2680f1530e041588d11703eab5461e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotation-experimental-1.4.0-alpha01.aar",
+          "url": "annotation-experimental-1.4.0-alpha01.aar",
+          "size": 39396,
+          "sha512": "c3eafddc4ab42587556a91f87b7b18790cea7bd8f91293d74c2265f92de5e467516a1c9e2c210087834d745cfd488e1bd741910d75eb61722203d5dc5b7b71af",
+          "sha256": "8ca1fec3595f2dd254c814072cc318a061fa867b28531519527971aa370853ec",
+          "sha1": "4b702323765c48e48d55227149bdbfc0919e2b07",
+          "md5": "9a2680f1530e041588d11703eab5461e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "annotation-experimental-1.4.0-alpha01-sources.jar",
+          "url": "annotation-experimental-1.4.0-alpha01-sources.jar",
+          "size": 5257,
+          "sha512": "3d1a8e934533ed4d4bcf1e0d656d75916cf285c6d815f3ed5a76c91f42dd2802b078da2a1af6fe79462dc81f2ef581ea6d4701eb56a7e01d8cd1bfabb641dad3",
+          "sha256": "7f19054726abe44fb434cdce5190edf49f3ccfbb617dd01c8f9fcc351a1c8f18",
+          "sha1": "f1a9019c84567a772009cba1234dc5cd142c3834",
+          "md5": "0287c1b73f4f0c3d2e1ff80e527b1ef7"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "annotation-experimental-1.4.0-alpha01-versionMetadata.json",
+          "url": "annotation-experimental-1.4.0-alpha01-versionMetadata.json",
+          "size": 1287,
+          "sha512": "3608a782fa88d6602da4470a8c7e386cf9f5591d731e78e66c1ade1b35b13f4f3973f8ab1f67b1d4663b8c0a9272a1d5ded2ed5d6ed26abe0be8263b3d46f0e3",
+          "sha256": "0da5ae0db71a6cd50d34a3b6aa9509cf3589ca492bcb405d11695695a0a394af",
+          "sha1": "b7b6e4f0996db83b61a1282b815e12220685c06f",
+          "md5": "c915c7f080442a1854b48e0cc3efad35"
+        }
+      ]
+    }
+  ]
+}

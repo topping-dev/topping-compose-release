@@ -1,0 +1,114 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.runtime.runtime",
+    "module": "integration-tests",
+    "version": "unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "integration-tests-metadata.jar",
+          "url": "integration-tests-unspecified.jar",
+          "size": 724,
+          "sha512": "2699c1c7b4b2c81e1484fc392fcf2ab384510c77b56577505fdc03b4831f2d40027235e865be8500855304ad89cfe5ca3c7140602fbe44d49a58a53bc5115ef2",
+          "sha256": "c65beae63984dbac214a6e4af3f2a6d78d49248e62cdc1ccb42e3d3b56a30367",
+          "sha1": "4e6478ce8339afe0385f9cbc4a89e899050aea30",
+          "md5": "8f6fa7267c9f4b8c5122e7f41f30b024"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "integration-tests-kotlin-sources.jar",
+          "url": "integration-tests-unspecified-sources.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../integration-tests-desktop/unspecified/integration-tests-desktop-unspecified.module",
+        "group": "androidx.compose.runtime.runtime",
+        "module": "integration-tests-desktop",
+        "version": "unspecified"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../integration-tests-desktop/unspecified/integration-tests-desktop-unspecified.module",
+        "group": "androidx.compose.runtime.runtime",
+        "module": "integration-tests-desktop",
+        "version": "unspecified"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../integration-tests-desktop/unspecified/integration-tests-desktop-unspecified.module",
+        "group": "androidx.compose.runtime.runtime",
+        "module": "integration-tests-desktop",
+        "version": "unspecified"
+      }
+    }
+  ]
+}

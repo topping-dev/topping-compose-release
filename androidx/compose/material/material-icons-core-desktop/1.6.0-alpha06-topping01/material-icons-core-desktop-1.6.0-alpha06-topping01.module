@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../material-icons-core/1.6.0-alpha06-topping01/material-icons-core-1.6.0-alpha06-topping01.module",
+    "group": "androidx.compose.material",
+    "module": "material-icons-core",
+    "version": "1.6.0-alpha06-topping01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-icons-core-desktop-1.6.0-alpha06-topping01.jar",
+          "url": "material-icons-core-desktop-1.6.0-alpha06-topping01.jar",
+          "size": 876103,
+          "sha512": "6093ebdea70b949f7529f38e1d86f3197423fd0ba7af04441442c6265886a90f8801bb5eb6b671ecd4a667da823ae150bddcc138de9f28c157f4de5de6ff3358",
+          "sha256": "41a30abf912692a631ec63e113e193fc528198f2b14962f45ebda3c92128e7f0",
+          "sha1": "a6090fe9179b4706bb4cc0b7d4838964e13f5775",
+          "md5": "9c774ddebe49edf594cde82ce7b4c119"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-icons-core-desktop-1.6.0-alpha06-topping01.jar",
+          "url": "material-icons-core-desktop-1.6.0-alpha06-topping01.jar",
+          "size": 876103,
+          "sha512": "6093ebdea70b949f7529f38e1d86f3197423fd0ba7af04441442c6265886a90f8801bb5eb6b671ecd4a667da823ae150bddcc138de9f28c157f4de5de6ff3358",
+          "sha256": "41a30abf912692a631ec63e113e193fc528198f2b14962f45ebda3c92128e7f0",
+          "sha1": "a6090fe9179b4706bb4cc0b7d4838964e13f5775",
+          "md5": "9c774ddebe49edf594cde82ce7b4c119"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "material-icons-core-desktop-1.6.0-alpha06-topping01-sources.jar",
+          "url": "material-icons-core-desktop-1.6.0-alpha06-topping01-sources.jar",
+          "size": 283974,
+          "sha512": "02d465292fe52dead7601c1ee5f5823f267fb2aeff6e6252c86e42f68a4810fd00cede92c047182a475041f1ef077358bbdfa9ed13a1fe3cce5d7713a485c704",
+          "sha256": "38663dc3908f433c7704b02fe77e26179319d9a36a632df238fa5bbdfbe07710",
+          "sha1": "f6d8ca49ccaa1ac695f9156ffc6a4e43b8b221b2",
+          "md5": "f034303c181015a75e68965be14aca8e"
+        }
+      ]
+    }
+  ]
+}

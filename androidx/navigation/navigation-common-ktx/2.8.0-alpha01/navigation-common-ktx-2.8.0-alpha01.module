@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.navigation",
+    "module": "navigation-common-ktx",
+    "version": "2.8.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-common",
+          "version": {
+            "requires": "2.8.0-alpha01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation-common-ktx-2.8.0-alpha01.aar",
+          "url": "navigation-common-ktx-2.8.0-alpha01.aar",
+          "size": 2150,
+          "sha512": "1b3b08711382f707480edc991ddefe317a1e14b7d886974353d3b6c6d994fec16303bf32908588371f6aae9a4d9281d3bd4c902c26bd15be621f8c287ff5e2b9",
+          "sha256": "e22968791913a49569d13f114291900a50b16a9965374acde739b95edd6bc174",
+          "sha1": "2de2dc34340c8d8d3422f06d461386e34ee4fd30",
+          "md5": "ce7a3c5bb0c38508be7ae92d24005d5a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-common",
+          "version": {
+            "requires": "2.8.0-alpha01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation-common-ktx-2.8.0-alpha01.aar",
+          "url": "navigation-common-ktx-2.8.0-alpha01.aar",
+          "size": 2150,
+          "sha512": "1b3b08711382f707480edc991ddefe317a1e14b7d886974353d3b6c6d994fec16303bf32908588371f6aae9a4d9281d3bd4c902c26bd15be621f8c287ff5e2b9",
+          "sha256": "e22968791913a49569d13f114291900a50b16a9965374acde739b95edd6bc174",
+          "sha1": "2de2dc34340c8d8d3422f06d461386e34ee4fd30",
+          "md5": "ce7a3c5bb0c38508be7ae92d24005d5a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "navigation-common-ktx-2.8.0-alpha01-sources.jar",
+          "url": "navigation-common-ktx-2.8.0-alpha01-sources.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "navigation-common-ktx-2.8.0-alpha01-versionMetadata.json",
+          "url": "navigation-common-ktx-2.8.0-alpha01-versionMetadata.json",
+          "size": 7299,
+          "sha512": "0b14ddd94a9ecd51771f7260038d2f42b119c8f323493778ece2c0588187bba95b579c113c2221af74c61d5ac19dc0441126343526370b61659ad99b07fd93d8",
+          "sha256": "aa7062c83cba708ab70e9c23522bf4627f435c6193af7699b4f07bd64b427109",
+          "sha1": "793dcda8f3418446c939f7d04b1860dcb3ef2f74",
+          "md5": "e929fe06c1b3502eaf88c5e8da543fd9"
+        }
+      ]
+    }
+  ]
+}

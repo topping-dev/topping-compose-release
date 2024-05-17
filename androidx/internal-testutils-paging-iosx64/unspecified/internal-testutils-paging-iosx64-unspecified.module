@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../internal-testutils-paging/unspecified/internal-testutils-paging-unspecified.module",
+    "group": "androidx",
+    "module": "internal-testutils-paging",
+    "version": "unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "androidx.paging",
+          "module": "paging-common",
+          "version": {
+            "requires": "3.3.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "internal-testutils-paging.klib",
+          "url": "internal-testutils-paging-iosx64-unspecified.klib",
+          "size": 27523,
+          "sha512": "71e69a0728ced2393ed87c1b58e8c92a08942762ddc63501fb7dfd0d9710c551162ea8ff7a5b288d163d0b2603ccca2b53ae5013bd277f1aa680af7eb2c87a3e",
+          "sha256": "0aee31c199adc17833ecc775918ab74dad70dd3c69dbdc3d70fe7b2f979e7f9f",
+          "sha1": "8b1fac104cd64cc790ec62a229a98e2a5ba6cbe7",
+          "md5": "37da370a5d10606d4be02f39a7ba53ec"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "internal-testutils-paging-iosx64-sources.jar",
+          "url": "internal-testutils-paging-iosx64-unspecified-sources.jar",
+          "size": 6810,
+          "sha512": "c778af08f46297219fd9a9adbeba17984c64f100ba0f16277a5c4448d7e12480af7e96cc9618474ebb48a1281b348151d67d3f34df405ece5e399ad79a4ea8c4",
+          "sha256": "108189f5e8ee0f633d32745178dad93771a746f9c5163dbc1bffbab20c18d574",
+          "sha1": "af245c416605d47f65c83286705ff2b7d0a8232d",
+          "md5": "937437a8da6ca80b1c890f9aefce8b32"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "androidx.paging",
+          "module": "paging-common",
+          "version": {
+            "requires": "3.3.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "internal-testutils-paging-iosx64-metadata.jar",
+          "url": "internal-testutils-paging-iosx64-unspecified-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

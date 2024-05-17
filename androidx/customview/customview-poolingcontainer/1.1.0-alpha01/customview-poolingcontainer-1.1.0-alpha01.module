@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.customview",
+    "module": "customview-poolingcontainer",
+    "version": "1.1.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "customview-poolingcontainer-1.1.0-alpha01.aar",
+          "url": "customview-poolingcontainer-1.1.0-alpha01.aar",
+          "size": 6739,
+          "sha512": "f712f2694e49afda3eaf5caa897ed7e267e121809f7891d9ef3fb037d26dd3ba349608146fd83d2ed2816763dc543eac2c628b70a661cb25c734bc0ba5437bdc",
+          "sha256": "eb5877cadf73186fb3dedcbedb2488496d8ad51a8b426b5881e85b4e38b19816",
+          "sha1": "83be702386cf1812f2f8728b2385a2226e8688a8",
+          "md5": "c9c0c3f1c9c68f6a04da0ab4fabf5264"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "customview-poolingcontainer-1.1.0-alpha01.aar",
+          "url": "customview-poolingcontainer-1.1.0-alpha01.aar",
+          "size": 6739,
+          "sha512": "f712f2694e49afda3eaf5caa897ed7e267e121809f7891d9ef3fb037d26dd3ba349608146fd83d2ed2816763dc543eac2c628b70a661cb25c734bc0ba5437bdc",
+          "sha256": "eb5877cadf73186fb3dedcbedb2488496d8ad51a8b426b5881e85b4e38b19816",
+          "sha1": "83be702386cf1812f2f8728b2385a2226e8688a8",
+          "md5": "c9c0c3f1c9c68f6a04da0ab4fabf5264"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "customview-poolingcontainer-1.1.0-alpha01-sources.jar",
+          "url": "customview-poolingcontainer-1.1.0-alpha01-sources.jar",
+          "size": 2651,
+          "sha512": "947fd27e17507c22c96763799b0a09f680b707be0fe4dc8b0e8a2ca26c75e4e0e80f5196f23f0131256c2b5f2e1d5e82d32e02deeee2cdaffbcf7c373903e2f6",
+          "sha256": "92639b4c164e39395c0c3dbbe0023824015d9f055b9549c3b02fb5afcf9c4830",
+          "sha1": "78fd78e239839540ac678bcd949a240be6dc494c",
+          "md5": "9b3d7444c18d1a955e154af1aa65b03b"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "customview-poolingcontainer-1.1.0-alpha01-versionMetadata.json",
+          "url": "customview-poolingcontainer-1.1.0-alpha01-versionMetadata.json",
+          "size": 949,
+          "sha512": "a34b4d072bb16cedd52ade70efa494db2a072d45f77e474de079b52e4d8be933d5ec02960b59fcc8dd8993febf0b30b2fab3603932fdffb4104eb43b2b6b38b7",
+          "sha256": "f41be985147ff4f956a547bb84130c0038c9b85befa2ad11b97c27a85d5cc689",
+          "sha1": "133641b28b60c3c26018184769be22093ab2b06b",
+          "md5": "e0d4b96c40847a8cd1452b5dbf597f9c"
+        }
+      ]
+    }
+  ]
+}

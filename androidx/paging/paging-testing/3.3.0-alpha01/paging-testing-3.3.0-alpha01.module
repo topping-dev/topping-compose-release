@@ -1,0 +1,457 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.paging",
+    "module": "paging-testing",
+    "version": "3.3.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidxSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "androidx-multiplatform-docs"
+      },
+      "files": [
+        {
+          "name": "paging-testing-3.3.0-alpha01-multiplatform-sources.jar",
+          "url": "paging-testing-3.3.0-alpha01-multiplatform-sources.jar",
+          "size": 22606,
+          "sha512": "a2b5e7fd4933869bbb7f7f826bc6210a0e0a9ad1456aaf07e4f8d628ab07d38d1034341ac67fd2a925135b90a7c0ae129fc819c56a3037834150dd241c2b7096",
+          "sha256": "1360cfa2f89c9d99e557d80ecf9b90610f2714f4ce1586aed7acd4d30c1f2f7e",
+          "sha1": "8dea85c1c4b5341739b41923369c9386af65126d",
+          "md5": "8fa986ba7a2ea2909b9e45a3ff3bc762"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "apiLevels.json",
+          "url": "paging-testing-3.3.0-alpha01-versionMetadata.json",
+          "size": 3087,
+          "sha512": "b92c4eeb1612e76d7289a893c46094a1bd384e2d2c5306375f0e1339d0da82c1099ddfa5ef72d5a38f4a721d2870ffdea75a5442353aa9e52a17c1ba4223c7a2",
+          "sha256": "3b93f91601a479a3c8b9111e46958fa7c5587535c47c5fd9be0ed8471bc2fd79",
+          "sha1": "bab74bf1001bdebfb8327ab890ab53515cb8cb87",
+          "md5": "27cd1a8e1d38cc5d0424515f4350e83b"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.paging",
+          "module": "paging-common",
+          "version": {
+            "requires": "3.3.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "paging-testing-metadata-3.3.0-alpha01.jar",
+          "url": "paging-testing-3.3.0-alpha01.jar",
+          "size": 7542,
+          "sha512": "75219c82ea61c2818709c744e6eed9d4756ef9a7264c4fe478efdf3627a529665c8d18ea3f41d770d3643e1b03ad610af7fa09a0c4b61fafab7e263cba2e2f5a",
+          "sha256": "cb22f2b297f8e4127ad61a98e13169b05e114f25d8482093bae5ccaf98af1db0",
+          "sha1": "d4b7aaae13b51b9c0c877022557d194ad6f542c7",
+          "md5": "6d0533ff03a4d1ea220d5db3f0b4763f"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "paging-testing-kotlin-3.3.0-alpha01-sources.jar",
+          "url": "paging-testing-3.3.0-alpha01-sources.jar",
+          "size": 22223,
+          "sha512": "23cb00b1e06c1bac57a8d61b8a03d15d8f235dbbf47c3fc68f842ac96f2bad631ef381a8bd5ca141d417a5e4f3f39092d7c9372c1d769dbb58d9cc3ca03f4582",
+          "sha256": "f1b2d1ea29ad420d0fa42e8b8e617b4649e2ae7dbbd5e392385cf001ffa50385",
+          "sha1": "34a01919676961eedb2dae884f78430b7dbd87c2",
+          "md5": "5536860a3710b12f2a915164254f9601"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../paging-testing-android/3.3.0-alpha01/paging-testing-android-3.3.0-alpha01.module",
+        "group": "androidx.paging",
+        "module": "paging-testing-android",
+        "version": "3.3.0-alpha01"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../paging-testing-android/3.3.0-alpha01/paging-testing-android-3.3.0-alpha01.module",
+        "group": "androidx.paging",
+        "module": "paging-testing-android",
+        "version": "3.3.0-alpha01"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "fake-sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../paging-testing-android/3.3.0-alpha01/paging-testing-android-3.3.0-alpha01.module",
+        "group": "androidx.paging",
+        "module": "paging-testing-android",
+        "version": "3.3.0-alpha01"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../paging-testing-iosarm64/3.3.0-alpha01/paging-testing-iosarm64-3.3.0-alpha01.module",
+        "group": "androidx.paging",
+        "module": "paging-testing-iosarm64",
+        "version": "3.3.0-alpha01"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../paging-testing-iosarm64/3.3.0-alpha01/paging-testing-iosarm64-3.3.0-alpha01.module",
+        "group": "androidx.paging",
+        "module": "paging-testing-iosarm64",
+        "version": "3.3.0-alpha01"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../paging-testing-iosarm64/3.3.0-alpha01/paging-testing-iosarm64-3.3.0-alpha01.module",
+        "group": "androidx.paging",
+        "module": "paging-testing-iosarm64",
+        "version": "3.3.0-alpha01"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../paging-testing-iossimulatorarm64/3.3.0-alpha01/paging-testing-iossimulatorarm64-3.3.0-alpha01.module",
+        "group": "androidx.paging",
+        "module": "paging-testing-iossimulatorarm64",
+        "version": "3.3.0-alpha01"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../paging-testing-iossimulatorarm64/3.3.0-alpha01/paging-testing-iossimulatorarm64-3.3.0-alpha01.module",
+        "group": "androidx.paging",
+        "module": "paging-testing-iossimulatorarm64",
+        "version": "3.3.0-alpha01"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../paging-testing-iossimulatorarm64/3.3.0-alpha01/paging-testing-iossimulatorarm64-3.3.0-alpha01.module",
+        "group": "androidx.paging",
+        "module": "paging-testing-iossimulatorarm64",
+        "version": "3.3.0-alpha01"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../paging-testing-iosx64/3.3.0-alpha01/paging-testing-iosx64-3.3.0-alpha01.module",
+        "group": "androidx.paging",
+        "module": "paging-testing-iosx64",
+        "version": "3.3.0-alpha01"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../paging-testing-iosx64/3.3.0-alpha01/paging-testing-iosx64-3.3.0-alpha01.module",
+        "group": "androidx.paging",
+        "module": "paging-testing-iosx64",
+        "version": "3.3.0-alpha01"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../paging-testing-iosx64/3.3.0-alpha01/paging-testing-iosx64-3.3.0-alpha01.module",
+        "group": "androidx.paging",
+        "module": "paging-testing-iosx64",
+        "version": "3.3.0-alpha01"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../paging-testing-jvm/3.3.0-alpha01/paging-testing-jvm-3.3.0-alpha01.module",
+        "group": "androidx.paging",
+        "module": "paging-testing-jvm",
+        "version": "3.3.0-alpha01"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../paging-testing-jvm/3.3.0-alpha01/paging-testing-jvm-3.3.0-alpha01.module",
+        "group": "androidx.paging",
+        "module": "paging-testing-jvm",
+        "version": "3.3.0-alpha01"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../paging-testing-jvm/3.3.0-alpha01/paging-testing-jvm-3.3.0-alpha01.module",
+        "group": "androidx.paging",
+        "module": "paging-testing-jvm",
+        "version": "3.3.0-alpha01"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../paging-testing-macosarm64/3.3.0-alpha01/paging-testing-macosarm64-3.3.0-alpha01.module",
+        "group": "androidx.paging",
+        "module": "paging-testing-macosarm64",
+        "version": "3.3.0-alpha01"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../paging-testing-macosarm64/3.3.0-alpha01/paging-testing-macosarm64-3.3.0-alpha01.module",
+        "group": "androidx.paging",
+        "module": "paging-testing-macosarm64",
+        "version": "3.3.0-alpha01"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../paging-testing-macosarm64/3.3.0-alpha01/paging-testing-macosarm64-3.3.0-alpha01.module",
+        "group": "androidx.paging",
+        "module": "paging-testing-macosarm64",
+        "version": "3.3.0-alpha01"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../paging-testing-macosx64/3.3.0-alpha01/paging-testing-macosx64-3.3.0-alpha01.module",
+        "group": "androidx.paging",
+        "module": "paging-testing-macosx64",
+        "version": "3.3.0-alpha01"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../paging-testing-macosx64/3.3.0-alpha01/paging-testing-macosx64-3.3.0-alpha01.module",
+        "group": "androidx.paging",
+        "module": "paging-testing-macosx64",
+        "version": "3.3.0-alpha01"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../paging-testing-macosx64/3.3.0-alpha01/paging-testing-macosx64-3.3.0-alpha01.module",
+        "group": "androidx.paging",
+        "module": "paging-testing-macosx64",
+        "version": "3.3.0-alpha01"
+      }
+    }
+  ]
+}

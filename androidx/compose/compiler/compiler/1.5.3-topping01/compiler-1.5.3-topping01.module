@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.compiler",
+    "module": "compiler",
+    "version": "1.5.3-topping01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "compiler-1.5.3-topping01.jar",
+          "url": "compiler-1.5.3-topping01.jar",
+          "size": 1057308,
+          "sha512": "b191552728b56396d00ebd99fca4f26965f6ca1372a1c7ed8410442d15bcd82817508a4166b8ea5c75fd9e551b997b6a246405524e91f9cc5c7e27377dbacb27",
+          "sha256": "aa8d3ba8410e48744f4ed470f2d6d6551a9be586740e70f1618b0c54516ad12d",
+          "sha1": "c82a7f4d09e50c871aa776b39b413ca1444559de",
+          "md5": "575c4036c3897fba7344a1b989842777"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "compiler-1.5.3-topping01.jar",
+          "url": "compiler-1.5.3-topping01.jar",
+          "size": 1057308,
+          "sha512": "b191552728b56396d00ebd99fca4f26965f6ca1372a1c7ed8410442d15bcd82817508a4166b8ea5c75fd9e551b997b6a246405524e91f9cc5c7e27377dbacb27",
+          "sha256": "aa8d3ba8410e48744f4ed470f2d6d6551a9be586740e70f1618b0c54516ad12d",
+          "sha1": "c82a7f4d09e50c871aa776b39b413ca1444559de",
+          "md5": "575c4036c3897fba7344a1b989842777"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "compiler-1.5.3-topping01-sources.jar",
+          "url": "compiler-1.5.3-topping01-sources.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

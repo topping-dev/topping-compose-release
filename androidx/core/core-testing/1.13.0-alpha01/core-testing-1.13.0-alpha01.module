@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.core",
+    "module": "core-testing",
+    "version": "1.13.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.13.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-testing-1.13.0-alpha01.aar",
+          "url": "core-testing-1.13.0-alpha01.aar",
+          "size": 3829,
+          "sha512": "acc50233813f91a8555414b488f86e89870e4f33fea1b4f6fe25e9168af7d63426e887661b097667357d74fcff65f58d557096fb6de0a654f4d40e0f14f0e763",
+          "sha256": "62e5b5dd6ea4ff40c33bf6391f824c270092072b4508f5c002e5907d866b9baa",
+          "sha1": "5cb656eaf9dbbee1daf61090ddc597ee29fe9af4",
+          "md5": "bc1316a3b1996492b7c7f0bbefac8c3d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.13.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.13.0-alpha01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-testing-1.13.0-alpha01.aar",
+          "url": "core-testing-1.13.0-alpha01.aar",
+          "size": 3829,
+          "sha512": "acc50233813f91a8555414b488f86e89870e4f33fea1b4f6fe25e9168af7d63426e887661b097667357d74fcff65f58d557096fb6de0a654f4d40e0f14f0e763",
+          "sha256": "62e5b5dd6ea4ff40c33bf6391f824c270092072b4508f5c002e5907d866b9baa",
+          "sha1": "5cb656eaf9dbbee1daf61090ddc597ee29fe9af4",
+          "md5": "bc1316a3b1996492b7c7f0bbefac8c3d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-testing-1.13.0-alpha01-sources.jar",
+          "url": "core-testing-1.13.0-alpha01-sources.jar",
+          "size": 1761,
+          "sha512": "814e40fbad74f60155914e7c44b3951b9957e65a965376bdccfa205abf11e6b1fd224a39de85881f3d6b410a6585f42a945d6b3c7c610f262486ff0ce590b3a5",
+          "sha256": "dfe6d095342b2370a413a21d033a5667621a3c67704be87b275805f5eb1599c7",
+          "sha1": "2a172a878dd0f3fb92c67ae8e8f75bbda04fa694",
+          "md5": "8f9c0138625885510fdbcdcba3cdcf12"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "core-testing-1.13.0-alpha01-versionMetadata.json",
+          "url": "core-testing-1.13.0-alpha01-versionMetadata.json",
+          "size": 259,
+          "sha512": "772ac310a85a3a2ea497bedba01209997e7462a8186f9189c715115d4747381bbe21def613f3d7db1e26277ff17b01b26a1271ab4f975661479d71e608172af2",
+          "sha256": "3ec0967f9b4ca4bf319450ee16c9b0ac4782c9e9c40c6a019714c4d9e9e3c280",
+          "sha1": "e40073082cdff30ec1c846bdb5133e8828e66705",
+          "md5": "d378661ee88517b578aa919c986c8625"
+        }
+      ]
+    }
+  ]
+}

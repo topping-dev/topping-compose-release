@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.sqlite",
+    "module": "sqlite",
+    "version": "2.5.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sqlite-2.5.0-alpha01.aar",
+          "url": "sqlite-2.5.0-alpha01.aar",
+          "size": 30240,
+          "sha512": "281340772b4a49ff993e2fc3b11fa158672563336280eb46f4d01efd36193cc8ca60d2739907ce1c2fd8e568ee83cbd5d8b769eba53ade6d9b661687d3d6d338",
+          "sha256": "cf6aa1b0c52133f6e8dca1eb7271470749e0ad7ad359122d16768e5ea855d939",
+          "sha1": "8bcc0f60c59950bd391413e27b94516d57afd203",
+          "md5": "7d4ad108bb1e46c02c17fa5f082708c8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sqlite-2.5.0-alpha01.aar",
+          "url": "sqlite-2.5.0-alpha01.aar",
+          "size": 30240,
+          "sha512": "281340772b4a49ff993e2fc3b11fa158672563336280eb46f4d01efd36193cc8ca60d2739907ce1c2fd8e568ee83cbd5d8b769eba53ade6d9b661687d3d6d338",
+          "sha256": "cf6aa1b0c52133f6e8dca1eb7271470749e0ad7ad359122d16768e5ea855d939",
+          "sha1": "8bcc0f60c59950bd391413e27b94516d57afd203",
+          "md5": "7d4ad108bb1e46c02c17fa5f082708c8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sqlite-2.5.0-alpha01-sources.jar",
+          "url": "sqlite-2.5.0-alpha01-sources.jar",
+          "size": 20824,
+          "sha512": "9fa2af02814bbe742a1f0678cb24bc2e74dd32d3bf353d23b6412fb4e0b2226a79d3c5d279d045f923d7642b171b0be1b8fb1103131f52e9247830988d872887",
+          "sha256": "d516698daf17cea175968cbbb24d9ecaad02eb91aeb1cb5aee7e651c9aa8f7bf",
+          "sha1": "f8912bd8429602e94f589ba6afe9b32d0aa51970",
+          "md5": "04d778677022c86c390ea3829912dcf0"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "sqlite-2.5.0-alpha01-versionMetadata.json",
+          "url": "sqlite-2.5.0-alpha01-versionMetadata.json",
+          "size": 7701,
+          "sha512": "379e516a96d7b37cde50519330bce4bcef8aec49582b46cc0ca0794150fd91f0dd40bd6ff0f00b3f07d93a950bf42871c03a7733ad5cab24f79d0e1aea743688",
+          "sha256": "6442f977ce597f0908b9820c256e0e2280afbefe689fbdbc0b4867fac1e9e9c2",
+          "sha1": "b040eb2b3f3781903c92347c0f77a79adf9cfebb",
+          "md5": "fa2aa04c7cc56344efdda69b9615a3f6"
+        }
+      ]
+    }
+  ]
+}

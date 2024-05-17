@@ -1,0 +1,192 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.lifecycle",
+    "module": "lifecycle-viewmodel-compose",
+    "version": "2.7.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common-java8",
+          "version": {
+            "requires": "2.7.0-alpha02"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.7.0-alpha02"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-savedstate",
+          "version": {
+            "requires": "2.7.0-alpha02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lifecycle-viewmodel-compose-2.7.0-alpha02.aar",
+          "url": "lifecycle-viewmodel-compose-2.7.0-alpha02.aar",
+          "size": 17740,
+          "sha512": "fbd9be3890f013f5dca64e9751042df46a6d93d82c286143157954649bbff77de281040a65a1ea2d4aa048b776a09a3887c7a9fcb4f63f3a066d5ed043a935fc",
+          "sha256": "1531fa88142c73d379dc89ee8a817af9f4941c6d82a2ca6162bfda7bd40b4e7d",
+          "sha1": "7f706ecbab7ee277f8a250f2b597e0ceba926736",
+          "md5": "ec12aec8dccd28083155426bd228abf1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common-java8",
+          "version": {
+            "requires": "2.7.0-alpha02"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.7.0-alpha02"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-savedstate",
+          "version": {
+            "requires": "2.7.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lifecycle-viewmodel-compose-2.7.0-alpha02.aar",
+          "url": "lifecycle-viewmodel-compose-2.7.0-alpha02.aar",
+          "size": 17740,
+          "sha512": "fbd9be3890f013f5dca64e9751042df46a6d93d82c286143157954649bbff77de281040a65a1ea2d4aa048b776a09a3887c7a9fcb4f63f3a066d5ed043a935fc",
+          "sha256": "1531fa88142c73d379dc89ee8a817af9f4941c6d82a2ca6162bfda7bd40b4e7d",
+          "sha1": "7f706ecbab7ee277f8a250f2b597e0ceba926736",
+          "md5": "ec12aec8dccd28083155426bd228abf1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lifecycle-viewmodel-compose-2.7.0-alpha02-sources.jar",
+          "url": "lifecycle-viewmodel-compose-2.7.0-alpha02-sources.jar",
+          "size": 6410,
+          "sha512": "cbcd9be1a71f38dffde768edc30265f4b84d3fa37f0f1711aa78796b1fb92ad53fb735c4872c09c3dd1eeda09883cfadbb6bb90aa589903632124f87ac39ad01",
+          "sha256": "6afeac3e78d736ae0d4795d6cb1ef6059d76a1933cf9995b42d57fb7553eaa04",
+          "sha1": "6cb08736ec40ccf5f9b458885d0bd27ee42c1898",
+          "md5": "78eb30affe9a90aee54678d2847dd92f"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "lifecycle-viewmodel-compose-2.7.0-alpha02-versionMetadata.json",
+          "url": "lifecycle-viewmodel-compose-2.7.0-alpha02-versionMetadata.json",
+          "size": 2600,
+          "sha512": "53d6d00ed761e7f7a91d1ed1dfe8141989af3581f8fb965f31323016a84ec6add7178ddd9937ed77657c88070c377b9bc4e1c47448d388cf80d6c268c590b853",
+          "sha256": "0460f59d9023e4e27bdae02c4c9a03a346e29f51062e431255e3dc7a7cd63be9",
+          "sha1": "9590a5f8d97b12579629ff4ea43f1f894e725a82",
+          "md5": "8f85bc3a9a22382d0694efc5cf6e02a5"
+        }
+      ]
+    }
+  ]
+}

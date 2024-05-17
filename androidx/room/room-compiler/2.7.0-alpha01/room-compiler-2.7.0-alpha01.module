@@ -1,0 +1,197 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.room",
+    "module": "room-compiler",
+    "version": "2.7.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "room-compiler-2.7.0-alpha01.jar",
+          "url": "room-compiler-2.7.0-alpha01.jar",
+          "size": 5316185,
+          "sha512": "b9eb8e99179ef331a15a44b4b9d8b7114b51b2d26836d37224e034710928b1a89023fd783f6be5a57e2d74b093d2ea49ffe5f4c24b6876347d6aeedeefd1d711",
+          "sha256": "800bc1bd8c8f1320aa19dc6aff426735f14c67ba7ea06b04ce7f1a3a70d68894",
+          "sha1": "1e4dbf1069b5e1235fc1e511697a70d1893e8f56",
+          "md5": "8054c256f29e89a8a56555467f01b0a0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.room",
+          "module": "room-common",
+          "version": {
+            "requires": "2.7.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-compiler-processing",
+          "version": {
+            "requires": "2.7.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-migration",
+          "version": {
+            "requires": "2.7.0-alpha01"
+          }
+        },
+        {
+          "group": "com.google.auto",
+          "module": "auto-common",
+          "version": {
+            "requires": "0.11"
+          }
+        },
+        {
+          "group": "com.google.auto.value",
+          "module": "auto-value-annotations",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.9.22-1.0.17"
+          }
+        },
+        {
+          "group": "com.intellij",
+          "module": "annotations",
+          "version": {
+            "requires": "12.0"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.14.2"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-javapoet",
+          "version": {
+            "requires": "1.14.2"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.15"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.xerial",
+          "module": "sqlite-jdbc",
+          "version": {
+            "requires": "3.41.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "room-compiler-2.7.0-alpha01.jar",
+          "url": "room-compiler-2.7.0-alpha01.jar",
+          "size": 5316185,
+          "sha512": "b9eb8e99179ef331a15a44b4b9d8b7114b51b2d26836d37224e034710928b1a89023fd783f6be5a57e2d74b093d2ea49ffe5f4c24b6876347d6aeedeefd1d711",
+          "sha256": "800bc1bd8c8f1320aa19dc6aff426735f14c67ba7ea06b04ce7f1a3a70d68894",
+          "sha1": "1e4dbf1069b5e1235fc1e511697a70d1893e8f56",
+          "md5": "8054c256f29e89a8a56555467f01b0a0"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "room-compiler-2.7.0-alpha01.jar",
+          "url": "room-compiler-2.7.0-alpha01.jar",
+          "size": 5316185,
+          "sha512": "b9eb8e99179ef331a15a44b4b9d8b7114b51b2d26836d37224e034710928b1a89023fd783f6be5a57e2d74b093d2ea49ffe5f4c24b6876347d6aeedeefd1d711",
+          "sha256": "800bc1bd8c8f1320aa19dc6aff426735f14c67ba7ea06b04ce7f1a3a70d68894",
+          "sha1": "1e4dbf1069b5e1235fc1e511697a70d1893e8f56",
+          "md5": "8054c256f29e89a8a56555467f01b0a0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "room-compiler-2.7.0-alpha01-sources.jar",
+          "url": "room-compiler-2.7.0-alpha01-sources.jar",
+          "size": 494324,
+          "sha512": "ca53ed769452933be4dbcb29d8cab9998886abf46365eb2b15125e70940ea0df52e28d334411f5c554119c698193df7596f44cbb39366b03d694cf8e0e324e8a",
+          "sha256": "3e989da673fb31602cf0dc8aa794640761cba3067892ef2c86c312ab66e7346b",
+          "sha1": "10873e6a749ef194f7b5309992f8ae9baed6940d",
+          "md5": "3e5117c985b1b8afc6d42e36567153a7"
+        }
+      ]
+    }
+  ]
+}

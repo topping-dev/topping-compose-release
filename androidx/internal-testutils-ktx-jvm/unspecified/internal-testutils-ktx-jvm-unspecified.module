@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../internal-testutils-ktx/unspecified/internal-testutils-ktx-unspecified.module",
+    "group": "androidx",
+    "module": "internal-testutils-ktx",
+    "version": "unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "internal-testutils-ktx-jvm.jar",
+          "url": "internal-testutils-ktx-jvm-unspecified.jar",
+          "size": 5719,
+          "sha512": "6259be1b4334ae854dea271a2362f04ac891b176fee6ed2a79d289bbcfeee1b8a1c5c383e49fa4c3fae6aa6f41c6f90946c52803b10aaeabc7f12731a7ffb5a9",
+          "sha256": "7ecf1735b934bc15862751caf3e5d3e617f8cb706e77d7ceb84c59d267afde74",
+          "sha1": "76b95edbf799d591a4bb455faa3c805219f5fd0c",
+          "md5": "e7ab325d07404662d4e3eacfa3d89565"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "internal-testutils-ktx-jvm.jar",
+          "url": "internal-testutils-ktx-jvm-unspecified.jar",
+          "size": 5719,
+          "sha512": "6259be1b4334ae854dea271a2362f04ac891b176fee6ed2a79d289bbcfeee1b8a1c5c383e49fa4c3fae6aa6f41c6f90946c52803b10aaeabc7f12731a7ffb5a9",
+          "sha256": "7ecf1735b934bc15862751caf3e5d3e617f8cb706e77d7ceb84c59d267afde74",
+          "sha1": "76b95edbf799d591a4bb455faa3c805219f5fd0c",
+          "md5": "e7ab325d07404662d4e3eacfa3d89565"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "internal-testutils-ktx-jvm-sources.jar",
+          "url": "internal-testutils-ktx-jvm-unspecified-sources.jar",
+          "size": 4039,
+          "sha512": "375bf5b3bbabd80f895f17e506758cc1a64950439232a69a42649102f28834007a6903b22050b988c529fd6ca7a6b69be252db91239f2dc54df58cd1f990a94e",
+          "sha256": "672d08268843e84ff8bcdd46fec360955bfe6ef3ce378bafc1bcf5e85c580a95",
+          "sha1": "91c024ee4c17ecd46b37f185471c6722c16a82d6",
+          "md5": "2b0e6dbc0f2f8d169ea3e5c919b51719"
+        }
+      ]
+    }
+  ]
+}

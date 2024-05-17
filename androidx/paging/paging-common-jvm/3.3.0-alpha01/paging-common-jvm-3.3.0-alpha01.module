@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../paging-common/3.3.0-alpha01/paging-common-3.3.0-alpha01.module",
+    "group": "androidx.paging",
+    "module": "paging-common",
+    "version": "3.3.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.arch.core",
+          "module": "core-common",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "paging-common-jvm-3.3.0-alpha01.jar",
+          "url": "paging-common-jvm-3.3.0-alpha01.jar",
+          "size": 719452,
+          "sha512": "deb55d5c56ceb8acbd732811416f1f878160bbefdde1642065014253364ab3c236eb478d3d00c6e9a963723b38fe91a90295a04ca731b82172b2b5300c34c572",
+          "sha256": "04d108b702890b24e5417ff4bcf6b88b0d7fea3fc143eae046b070a68cf67150",
+          "sha1": "19b458ebf02075ca83e48ac4145a68443eb78347",
+          "md5": "9e48bb5395f23ea8b3b4d87f169689f5"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.arch.core",
+          "module": "core-common",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "paging-common-jvm-3.3.0-alpha01.jar",
+          "url": "paging-common-jvm-3.3.0-alpha01.jar",
+          "size": 719452,
+          "sha512": "deb55d5c56ceb8acbd732811416f1f878160bbefdde1642065014253364ab3c236eb478d3d00c6e9a963723b38fe91a90295a04ca731b82172b2b5300c34c572",
+          "sha256": "04d108b702890b24e5417ff4bcf6b88b0d7fea3fc143eae046b070a68cf67150",
+          "sha1": "19b458ebf02075ca83e48ac4145a68443eb78347",
+          "md5": "9e48bb5395f23ea8b3b4d87f169689f5"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "paging-common-jvm-3.3.0-alpha01-sources.jar",
+          "url": "paging-common-jvm-3.3.0-alpha01-sources.jar",
+          "size": 156795,
+          "sha512": "c09ba1e91984911c09fc75d5153bc9e3780cbffc01841d91182a00b54f1aacb7a33360fd8a25dd02db2507fe1e000a9761719d97257d5f334569600f016725a7",
+          "sha256": "fd0e971b0ca4c5b7c74f6315e53a5c7be70b34889e207e82a82c4219788bed9b",
+          "sha1": "162fdabbbc638036554d072a7d72cffd0d2ee309",
+          "md5": "66ed6961380dc0ff66aa8b6ce4564178"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../internal-testutils-datastore/unspecified/internal-testutils-datastore-unspecified.module",
+    "group": "androidx",
+    "module": "internal-testutils-datastore",
+    "version": "unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-core",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-core-okio",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "internal-testutils-datastore-jvm.jar",
+          "url": "internal-testutils-datastore-jvm-unspecified.jar",
+          "size": 31542,
+          "sha512": "c2a862ff40b88aec0f418fdffdf64b5964e306b59f46323df328046cac8e52f3b1d45c2ed9a8246cede3174e5724a4aa753147f82f7adc6749143b8fb66c6712",
+          "sha256": "549966b35a870f5c6b5da549b81ec74dfef89697d00a2735caee30ecb0f4b625",
+          "sha1": "bcee6ac9bb08322a01ce390808eba9cbb05e686a",
+          "md5": "a0c522295214cc46050d0e0c8a38091b"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-core",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-core-okio",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "internal-testutils-datastore-jvm.jar",
+          "url": "internal-testutils-datastore-jvm-unspecified.jar",
+          "size": 31542,
+          "sha512": "c2a862ff40b88aec0f418fdffdf64b5964e306b59f46323df328046cac8e52f3b1d45c2ed9a8246cede3174e5724a4aa753147f82f7adc6749143b8fb66c6712",
+          "sha256": "549966b35a870f5c6b5da549b81ec74dfef89697d00a2735caee30ecb0f4b625",
+          "sha1": "bcee6ac9bb08322a01ce390808eba9cbb05e686a",
+          "md5": "a0c522295214cc46050d0e0c8a38091b"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "internal-testutils-datastore-jvm-sources.jar",
+          "url": "internal-testutils-datastore-jvm-unspecified-sources.jar",
+          "size": 9046,
+          "sha512": "dbf93dd7db6141584d433deb83c1e47d330fac84f574556911f5055c20cd103b92957826a7b87a4e7c524b3ba49f8d3818f0e615c9e26ce76c3710a81ee37a8f",
+          "sha256": "0178f3637cbef81eb883302585f22259160ff96f9f953b626f463b96998fcb30",
+          "sha1": "4f05e80f62a6bad70868d872fecf8a94dac0d3e0",
+          "md5": "73e65017dbfb4e21df898aecd0c7c350"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.animation",
+    "module": "animation-samples",
+    "version": "1.6.0-alpha06-topping01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "animation-samples-1.6.0-alpha06-topping01.aar",
+          "url": "animation-samples-1.6.0-alpha06-topping01.aar",
+          "size": 251713,
+          "sha512": "d129fd5571dad7de15c9f8478e571968dceebefbe8e21669325e0f511cf6e26d71a8e1490a7ba56c491f9b4ef0e194a37a458207cf9081f95fcf103ef0db4a89",
+          "sha256": "8aead0e13a334d4e2b293765c986d4376f81b649ddc32f72eff8cd1899121443",
+          "sha1": "aaf3ca2a53843b6561f8b998fc853556c6950399",
+          "md5": "12a9b1b4452d31927a272d3457d88054"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-text",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "animation-samples-1.6.0-alpha06-topping01.aar",
+          "url": "animation-samples-1.6.0-alpha06-topping01.aar",
+          "size": 251713,
+          "sha512": "d129fd5571dad7de15c9f8478e571968dceebefbe8e21669325e0f511cf6e26d71a8e1490a7ba56c491f9b4ef0e194a37a458207cf9081f95fcf103ef0db4a89",
+          "sha256": "8aead0e13a334d4e2b293765c986d4376f81b649ddc32f72eff8cd1899121443",
+          "sha1": "aaf3ca2a53843b6561f8b998fc853556c6950399",
+          "md5": "12a9b1b4452d31927a272d3457d88054"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "animation-samples-1.6.0-alpha06-topping01-sources.jar",
+          "url": "animation-samples-1.6.0-alpha06-topping01-sources.jar",
+          "size": 17390,
+          "sha512": "823556116bbaa539c0aa6e0807b7668f4e2c3c8244d993254632d53c38af27068aa95c4a9eea29bfa725fd13ce77e7c12325b1e8aa63e8c0ae98280fb4c13e26",
+          "sha256": "e4c0394204cfb41408d045d11592fc6c3bee3058683a2daa968266f0400cc95e",
+          "sha1": "c99baa1b5485a7ba737ebd8b74f998c3a9ca787c",
+          "md5": "b32764fb3b5524a7ceb2e8fd07f9ff1d"
+        }
+      ]
+    }
+  ]
+}

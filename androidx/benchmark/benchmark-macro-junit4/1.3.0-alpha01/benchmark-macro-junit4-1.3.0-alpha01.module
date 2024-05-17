@@ -1,0 +1,192 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.benchmark",
+    "module": "benchmark-macro-junit4",
+    "version": "1.3.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-macro",
+          "version": {
+            "requires": "1.3.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.test.uiautomator",
+          "module": "uiautomator",
+          "version": {
+            "requires": "2.3.0-alpha04"
+          }
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "benchmark-macro-junit4-1.3.0-alpha01.aar",
+          "url": "benchmark-macro-junit4-1.3.0-alpha01.aar",
+          "size": 13200,
+          "sha512": "0425b3dc4102baefed1e09cbeee42d984648ea8045e02da886f8d364266b7522b131e791ebb2933f2c639fcb0618e2daa7356df4a91c3e8ff0d9010378165b58",
+          "sha256": "d7acdf75c8ab632cfb6c068ed8ae86677098f0e6f2f2c52363794e56bbd06dcd",
+          "sha1": "4f77138a821c2fa4ffbc8e96d97973fb8b1a63f1",
+          "md5": "6111cf96ef2c7ffef333aee64f4cf9da"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-common",
+          "version": {
+            "requires": "1.3.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.benchmark",
+          "module": "benchmark-macro",
+          "version": {
+            "requires": "1.3.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "rules",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "runner",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "androidx.test.uiautomator",
+          "module": "uiautomator",
+          "version": {
+            "requires": "2.3.0-alpha04"
+          }
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "benchmark-macro-junit4-1.3.0-alpha01.aar",
+          "url": "benchmark-macro-junit4-1.3.0-alpha01.aar",
+          "size": 13200,
+          "sha512": "0425b3dc4102baefed1e09cbeee42d984648ea8045e02da886f8d364266b7522b131e791ebb2933f2c639fcb0618e2daa7356df4a91c3e8ff0d9010378165b58",
+          "sha256": "d7acdf75c8ab632cfb6c068ed8ae86677098f0e6f2f2c52363794e56bbd06dcd",
+          "sha1": "4f77138a821c2fa4ffbc8e96d97973fb8b1a63f1",
+          "md5": "6111cf96ef2c7ffef333aee64f4cf9da"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "benchmark-macro-junit4-1.3.0-alpha01-sources.jar",
+          "url": "benchmark-macro-junit4-1.3.0-alpha01-sources.jar",
+          "size": 6527,
+          "sha512": "a04854da0df7a19deeb1f49c8cba13c0d032d89e19800a68487c7c16a6d311fd95c0b82e0ea7b9793da28847382a16e4252c83caf0938f1f136186bafef9be53",
+          "sha256": "307e43ab6b295067309777f2c952749b83d7369650e4f75696a1cc24a863c026",
+          "sha1": "d2201829673051cf633016f475611fdf4e26a1d6",
+          "md5": "f3fcdd484e1ee3d3208d889f815519de"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "benchmark-macro-junit4-1.3.0-alpha01-versionMetadata.json",
+          "url": "benchmark-macro-junit4-1.3.0-alpha01-versionMetadata.json",
+          "size": 3183,
+          "sha512": "bc60570bf0974ca8d9d3515c7c7c0cbf47eebb5d5e85f0af13a9d370834608ad90988ddfc81831b5476d432be76be4b2845996b596628c3a110844241fbdfe5b",
+          "sha256": "2eea77f822d6c82c2fd7d37f0dcebb05159083e2492a45a83cf9a4a901d9e810",
+          "sha1": "d77a191cf7b74decc2e64f302e69f5811b4c1cfe",
+          "md5": "a8b7c9e043ba05a9a08a2fbb980f0e4a"
+        }
+      ]
+    }
+  ]
+}

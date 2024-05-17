@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../datastore/1.1.0-alpha05/datastore-1.1.0-alpha05.module",
+    "group": "androidx.datastore",
+    "module": "datastore",
+    "version": "1.1.0-alpha05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-core",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-core-okio",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "datastore-jvm-1.1.0-alpha05.jar",
+          "url": "datastore-jvm-1.1.0-alpha05.jar",
+          "size": 1168,
+          "sha512": "9f33f9f6b17dfe2d8aceeea3d8dfae1751a43f6fa0946a14a0adbfb430029e052a2b877083a9fca0b185dc85cbe4e1e4685131583b1c6cb89b3ce03a81623930",
+          "sha256": "bbd2d9f6c8bcf5a7ae97b999bc6641ef304224b7392b4cea26b9cf87d7cb0281",
+          "sha1": "209b37fb6bd024a9b4e5ec40a81e6d3055cad456",
+          "md5": "fe76679f7e88db7af641483a5f94aa08"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-core",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-core-okio",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "datastore-jvm-1.1.0-alpha05.jar",
+          "url": "datastore-jvm-1.1.0-alpha05.jar",
+          "size": 1168,
+          "sha512": "9f33f9f6b17dfe2d8aceeea3d8dfae1751a43f6fa0946a14a0adbfb430029e052a2b877083a9fca0b185dc85cbe4e1e4685131583b1c6cb89b3ce03a81623930",
+          "sha256": "bbd2d9f6c8bcf5a7ae97b999bc6641ef304224b7392b4cea26b9cf87d7cb0281",
+          "sha1": "209b37fb6bd024a9b4e5ec40a81e6d3055cad456",
+          "md5": "fe76679f7e88db7af641483a5f94aa08"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "datastore-jvm-1.1.0-alpha05-sources.jar",
+          "url": "datastore-jvm-1.1.0-alpha05-sources.jar",
+          "size": 1341,
+          "sha512": "eab270f4091bd2aec5e4d32f1086186713c77bc914165c1045ac75e2f16f3470cee287e8286d7025dda724fc71158294c72abcaacdb89578713648c09841c76e",
+          "sha256": "a72f12ea4109692cb5a60d961b2cbf25ffc611c3995dc645c9010f249a5db291",
+          "sha1": "697a77e86cf0f0f4597fdf283224f63791cb29c3",
+          "md5": "3cc4d627507697ca341bd6c1dd3ee8b4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.constraintlayout",
+    "module": "constraintlayout-core",
+    "version": "1.1.0-alpha13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "constraintlayout-core-1.1.0-alpha13.jar",
+          "url": "constraintlayout-core-1.1.0-alpha13.jar",
+          "size": 585179,
+          "sha512": "9eabcde6235acd886f46bf0f1df74194076452dc052bb84d47e90f43a95a1302b7695d664cac04e8dd0a6d50d0d80fa52d4de4f5558d6210817b63099e9c17db",
+          "sha256": "81bfa3f8c2684321fa1527707b16c1b3655376e9b1d22cb34e4476fbdcff7c5c",
+          "sha1": "69e74f4aed5981e17ee667d3a0531617a2b15f93",
+          "md5": "9083f485468dd660e1f2d94b8051b20f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "constraintlayout-core-1.1.0-alpha13.jar",
+          "url": "constraintlayout-core-1.1.0-alpha13.jar",
+          "size": 585179,
+          "sha512": "9eabcde6235acd886f46bf0f1df74194076452dc052bb84d47e90f43a95a1302b7695d664cac04e8dd0a6d50d0d80fa52d4de4f5558d6210817b63099e9c17db",
+          "sha256": "81bfa3f8c2684321fa1527707b16c1b3655376e9b1d22cb34e4476fbdcff7c5c",
+          "sha1": "69e74f4aed5981e17ee667d3a0531617a2b15f93",
+          "md5": "9083f485468dd660e1f2d94b8051b20f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "constraintlayout-core-1.1.0-alpha13-sources.jar",
+          "url": "constraintlayout-core-1.1.0-alpha13-sources.jar",
+          "size": 356480,
+          "sha512": "926e5cd1d0bfad4fa2706a55253e8cb8c7d254c02f41236c2d4cb9d916fac2bdc2c3adc41097782853606842cba5c96ad2fd785bfe12e61d86ed89306b1b39c0",
+          "sha256": "10be877bb8e2430782909d2e1f756ccdac0659f9d407223f4bd95603f8124528",
+          "sha1": "8151c7512af19880a4af9783a5dd8fb7169bc554",
+          "md5": "e9bb357b53bd1a133a58d629b813563f"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "constraintlayout-core-1.1.0-alpha13-versionMetadata.json",
+          "url": "constraintlayout-core-1.1.0-alpha13-versionMetadata.json",
+          "size": 219586,
+          "sha512": "ebb52a49b60a2fece24f1626d1ac922e8d52fd9dc779420553093d53c9c4baa65ebf207339e663eb262e9ce7332a7dd03b20a03631e9528e4d3b53ec29574b1a",
+          "sha256": "fe899a6448aaf95b1dedf5ca3fd40708490f80baf2b5a24a94b1e74151bbd21e",
+          "sha1": "c5c0417721ff94fc94c4a77c9889cbe8bcfa1e56",
+          "md5": "19de92ebc68f1a934e2e5a36d91f8ffa"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.wear.compose",
+    "module": "compose-foundation",
+    "version": "1.3.0-alpha06",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-text",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-foundation-1.3.0-alpha06.aar",
+          "url": "compose-foundation-1.3.0-alpha06.aar",
+          "size": 508728,
+          "sha512": "411eaa0dd0101b85295337f6b8c27699ba5b7e569c209e0ca9b4e571584f9c45f592241601fbfd1343fb103a39d3262053b1cdff8f7115c06a7c5a80bfaa70af",
+          "sha256": "d2708638fd8c62d4b23387d731baf0361a2c22b549065804bec3bfd016f0d8ee",
+          "sha1": "f19bb0f2e9abdcb67d6948af923cd283c8f3c3f5",
+          "md5": "2ea6d6d031b063d10ca44bd9ae5c03aa"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-text",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.11.0-beta02"
+          }
+        },
+        {
+          "group": "androidx.profileinstaller",
+          "module": "profileinstaller",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-foundation-1.3.0-alpha06.aar",
+          "url": "compose-foundation-1.3.0-alpha06.aar",
+          "size": 508728,
+          "sha512": "411eaa0dd0101b85295337f6b8c27699ba5b7e569c209e0ca9b4e571584f9c45f592241601fbfd1343fb103a39d3262053b1cdff8f7115c06a7c5a80bfaa70af",
+          "sha256": "d2708638fd8c62d4b23387d731baf0361a2c22b549065804bec3bfd016f0d8ee",
+          "sha1": "f19bb0f2e9abdcb67d6948af923cd283c8f3c3f5",
+          "md5": "2ea6d6d031b063d10ca44bd9ae5c03aa"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "compose-foundation-1.3.0-alpha06-sources.jar",
+          "url": "compose-foundation-1.3.0-alpha06-sources.jar",
+          "size": 94925,
+          "sha512": "bf209d0aec4a41b7b7dee925e18da1a355bcbb6c6e646bc61df54597e2932a238c512304d0114d4289d5a8aa9e83f3e39723fbaf1a01b52af9cf7ed8b50ef7c6",
+          "sha256": "8054e3ec11ceb8629107dbe998a105d927b1fcf6384182e2c480da2c1a196448",
+          "sha1": "369ba89b99f4a741283ec4de6bbbc8a76919ecef",
+          "md5": "e395dd27c46e9736615f7a276937a817"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "compose-foundation-1.3.0-alpha06-versionMetadata.json",
+          "url": "compose-foundation-1.3.0-alpha06-versionMetadata.json",
+          "size": 26511,
+          "sha512": "ce807a62f4e8661f0d02ff9a0b0e286e087a727e3e24ba02df7fcd51ef6b8d86e866c08a0ba460a34be7a58d531e9d50be2a6f9ad7ba354324f39de0822adc7c",
+          "sha256": "4d1772c4427ac4b3bf4adfbeb5d8d830fa025c014bf36bde79f74445cda11556",
+          "sha1": "144f028f2d4f9c0dfb2bb0939eae4cf9ca292bab",
+          "md5": "168b0b345be8d31760687007b6527071"
+        }
+      ]
+    }
+  ]
+}

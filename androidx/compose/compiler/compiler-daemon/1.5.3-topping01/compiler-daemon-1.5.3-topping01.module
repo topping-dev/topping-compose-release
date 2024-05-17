@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.compiler",
+    "module": "compiler-daemon",
+    "version": "1.5.3-topping01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "compiler-daemon-1.5.3-topping01.jar",
+          "url": "compiler-daemon-1.5.3-topping01.jar",
+          "size": 18777,
+          "sha512": "7142f052ed37f299f78773a421945f43430cef6822f4575c7189f52e151a6393dbbd1485b0e68b928d659908ab9701b80fe9a9b7d68e166387f7ffb3a28f7c7f",
+          "sha256": "a8d8fc1a7c16bfc0baed7a1e83ad7bd9d4f4ae0d8c62960e788b4ea45af27bb8",
+          "sha1": "9fe6072694ac99eb9b7419ab830f92778b4d6ef2",
+          "md5": "c54a063021e8f28e0b66c8c6db538093"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.compiler",
+          "module": "compiler-hosted",
+          "version": {
+            "requires": "1.5.3-topping01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-compiler",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compiler-daemon-1.5.3-topping01.jar",
+          "url": "compiler-daemon-1.5.3-topping01.jar",
+          "size": 18777,
+          "sha512": "7142f052ed37f299f78773a421945f43430cef6822f4575c7189f52e151a6393dbbd1485b0e68b928d659908ab9701b80fe9a9b7d68e166387f7ffb3a28f7c7f",
+          "sha256": "a8d8fc1a7c16bfc0baed7a1e83ad7bd9d4f4ae0d8c62960e788b4ea45af27bb8",
+          "sha1": "9fe6072694ac99eb9b7419ab830f92778b4d6ef2",
+          "md5": "c54a063021e8f28e0b66c8c6db538093"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "compiler-daemon-1.5.3-topping01-all.jar",
+          "url": "compiler-daemon-1.5.3-topping01-all.jar",
+          "size": 69730008,
+          "sha512": "b3d153d5e3c72dd2bcef45bae067341b6c4d21f687b869bb8c156045a1ef3edfbd68b098760772b64f62955069e6b510cd172299757373c2a0620c4889050b71",
+          "sha256": "ea596cda15ea7d6fcb54288123d3c2e0c181004e0b392d17e42ab99167f7375e",
+          "sha1": "f7430e6bd1b1bb9b6439091170b5f4f4ea507f02",
+          "md5": "3b83baba33ccd60784e4729ded97c99f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "compiler-daemon-1.5.3-topping01-sources.jar",
+          "url": "compiler-daemon-1.5.3-topping01-sources.jar",
+          "size": 4925,
+          "sha512": "7965ed55cf21b6479b60c89104d970f4a3d87f4b947c01b8c5ca953ee890f0a9ec86290ea5bb4448c080af5f63dc039c75aa17ba5722487cb42e64c0fc49053b",
+          "sha256": "eabf52e548d52c31bd884dd91628ad3466e093e3d060c7009c93ce67aa3dffab",
+          "sha1": "8277a88be73fd2db99d71f070d11bf4591d02e11",
+          "md5": "2b5ee5e6456b137fc28f8c1d4016fe11"
+        }
+      ]
+    }
+  ]
+}

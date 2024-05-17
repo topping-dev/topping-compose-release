@@ -1,0 +1,134 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../material-ripple/1.6.0-alpha06-topping01/material-ripple-1.6.0-alpha06-topping01.module",
+    "group": "androidx.compose.material",
+    "module": "material-ripple",
+    "version": "1.6.0-alpha06-topping01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-ripple-desktop-1.6.0-alpha06-topping01.jar",
+          "url": "material-ripple-desktop-1.6.0-alpha06-topping01.jar",
+          "size": 54474,
+          "sha512": "39640eeb0c2b48f3d7e487119004cf77648fbc5ecdf7e0ace74b21c8884b30708eb7272493b08017ecc0517d0a46b1f83eb722426ba256d6827b2b90d0f5f3e9",
+          "sha256": "a4ea63a532418bbaa56bc8412f601e44c352369f350e006ba8ddc4589dc0fe98",
+          "sha1": "128dbcedc8acdf04849e2b5c9150d9a7971b60b8",
+          "md5": "a8f38b5c2fbc664ed11a3d1cbf2080da"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-ripple-desktop-1.6.0-alpha06-topping01.jar",
+          "url": "material-ripple-desktop-1.6.0-alpha06-topping01.jar",
+          "size": 54474,
+          "sha512": "39640eeb0c2b48f3d7e487119004cf77648fbc5ecdf7e0ace74b21c8884b30708eb7272493b08017ecc0517d0a46b1f83eb722426ba256d6827b2b90d0f5f3e9",
+          "sha256": "a4ea63a532418bbaa56bc8412f601e44c352369f350e006ba8ddc4589dc0fe98",
+          "sha1": "128dbcedc8acdf04849e2b5c9150d9a7971b60b8",
+          "md5": "a8f38b5c2fbc664ed11a3d1cbf2080da"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "material-ripple-desktop-1.6.0-alpha06-topping01-sources.jar",
+          "url": "material-ripple-desktop-1.6.0-alpha06-topping01-sources.jar",
+          "size": 12487,
+          "sha512": "95dc1b959609e95a1cfcf64e4013bcac30162d3b25e572875f99fd81ef3809bce03d0393ee6737e463d5d80c77845d42b7b6ab309cf32c3a94ccadcb8a0d31b8",
+          "sha256": "f6b47f286cd46f5cea1f026512b823600597ce4ac12c55079142a7bfd9cd2458",
+          "sha1": "cac93aa797ec97a914c250b3951524e2b35364e5",
+          "md5": "32891c28c418b70e4fa2901affca23dc"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../datastore-core-okio/1.1.0-alpha05/datastore-core-okio-1.1.0-alpha05.module",
+    "group": "androidx.datastore",
+    "module": "datastore-core-okio",
+    "version": "1.1.0-alpha05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-core",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "datastore-core-okio-jvm-1.1.0-alpha05.jar",
+          "url": "datastore-core-okio-jvm-1.1.0-alpha05.jar",
+          "size": 28919,
+          "sha512": "13ff67177084bf7f52218fc6959c00817aede96974787537d66d649b0538e06fdb2ec4c053c65d49310adb9eb3aad72e96bb8e3c8d8d307a5dbb1264b0e81124",
+          "sha256": "45e0e45b83b5ae9a5ca97782ac4c972c7e6dce8e073db08192f697877cda7fec",
+          "sha1": "d707b87c4e43bc0fbb222dd377d1e1cd12249bb4",
+          "md5": "3a0b5194654ebf45215bada88ae27dc8"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-core",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "datastore-core-okio-jvm-1.1.0-alpha05.jar",
+          "url": "datastore-core-okio-jvm-1.1.0-alpha05.jar",
+          "size": 28919,
+          "sha512": "13ff67177084bf7f52218fc6959c00817aede96974787537d66d649b0538e06fdb2ec4c053c65d49310adb9eb3aad72e96bb8e3c8d8d307a5dbb1264b0e81124",
+          "sha256": "45e0e45b83b5ae9a5ca97782ac4c972c7e6dce8e073db08192f697877cda7fec",
+          "sha1": "d707b87c4e43bc0fbb222dd377d1e1cd12249bb4",
+          "md5": "3a0b5194654ebf45215bada88ae27dc8"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "datastore-core-okio-jvm-1.1.0-alpha05-sources.jar",
+          "url": "datastore-core-okio-jvm-1.1.0-alpha05-sources.jar",
+          "size": 6637,
+          "sha512": "710f52866618a6cf1b9277190021d3267971bc18ce9fbfb3460cb6c1a71b126d3ee5b4f53f1ca791e8f0a31896603899d609ef1ef760bd309f6590b55e1306e6",
+          "sha256": "c0e8300bbdf3dc295938b517e3ec73769a43784e7a13dfb76d2dbf2bd957d15a",
+          "sha1": "8d6093a542d5566f2f6a958cff3758c0b288d8c1",
+          "md5": "fb17a1f17c89e8d8f3defbae5fad5ae9"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.lifecycle",
+    "module": "lifecycle-livedata-core-ktx",
+    "version": "2.7.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core",
+          "version": {
+            "requires": "2.7.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lifecycle-livedata-core-ktx-2.7.0-alpha02.aar",
+          "url": "lifecycle-livedata-core-ktx-2.7.0-alpha02.aar",
+          "size": 20198,
+          "sha512": "f1bef6143f2b40c04f6eaf20557d2ab6cd8c229f6db82878a828e8b8dbedf806156207e25873b005be7839449cc15c1ba0953332675dcc11fe85d66724d84654",
+          "sha256": "b2320025742081321c8b46f953e4cc5fbf40e7db8e3035639f2fadbd7ca59002",
+          "sha1": "fd0b94e694d102f41bd1f2a81c5a34687e820dfd",
+          "md5": "d19999f20c9d7c0acddb1d35c494cd67"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core",
+          "version": {
+            "requires": "2.7.0-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lifecycle-livedata-core-ktx-2.7.0-alpha02.aar",
+          "url": "lifecycle-livedata-core-ktx-2.7.0-alpha02.aar",
+          "size": 20198,
+          "sha512": "f1bef6143f2b40c04f6eaf20557d2ab6cd8c229f6db82878a828e8b8dbedf806156207e25873b005be7839449cc15c1ba0953332675dcc11fe85d66724d84654",
+          "sha256": "b2320025742081321c8b46f953e4cc5fbf40e7db8e3035639f2fadbd7ca59002",
+          "sha1": "fd0b94e694d102f41bd1f2a81c5a34687e820dfd",
+          "md5": "d19999f20c9d7c0acddb1d35c494cd67"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lifecycle-livedata-core-ktx-2.7.0-alpha02-sources.jar",
+          "url": "lifecycle-livedata-core-ktx-2.7.0-alpha02-sources.jar",
+          "size": 1631,
+          "sha512": "065761cf6ce2afa53f74ac215d860febc29fc5b0b8971ccbd58b0e1a521ea287ecdbf0c794317cc3eddc351384f75b26a1618b5b77022d740f7c33e8ffe9537d",
+          "sha256": "ff6485a72ac99a36600f8ee624de896fb554d35f8c055f4defecc501b67afa02",
+          "sha1": "21e24c7538da2b92833194adb3768530d7a38efc",
+          "md5": "8d32a73a5b4f5cd69eeb779a7f00e984"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "lifecycle-livedata-core-ktx-2.7.0-alpha02-versionMetadata.json",
+          "url": "lifecycle-livedata-core-ktx-2.7.0-alpha02-versionMetadata.json",
+          "size": 314,
+          "sha512": "767c172f32e1e900ede3bb7c6da10a1ee7e3d1b83c1647b9bea1eded09cd3f8f0a26d5f55cbe7785cdba57688885affa0989bd798a5958753d7d4c7f2f27cac4",
+          "sha256": "01471f87c4a806a01def9157867d65b08d58cb71a40a9ce6d9432cb31980a6bf",
+          "sha1": "e65a57da9e00d6daef729371bd74c876b545ff98",
+          "md5": "41cae2822d0c02213ee00156a5ffc1b4"
+        }
+      ]
+    }
+  ]
+}

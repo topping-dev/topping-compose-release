@@ -1,0 +1,366 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.kruth",
+    "module": "kruth",
+    "version": "1.1.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kruth-metadata-1.1.0-alpha01.jar",
+          "url": "kruth-1.1.0-alpha01.jar",
+          "size": 8176,
+          "sha512": "907acfd6d9b7f8d35e07942b258dc5a7df636e3346fd6cce0192b40d6340613beeb4401a4d9254a8fd5ccb1051372b6a2e8d3c8cd79c7fabdadab4d1801fc460",
+          "sha256": "f9d22b703f71cf99687d06a4a2746de047e51e34c322e13f638ea4330f4062b4",
+          "sha1": "b3420bc609fb5fa3b62f96ba29acb898b7c116a2",
+          "md5": "af87c3932002fff36a3fb42850391f4c"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "kruth-kotlin-1.1.0-alpha01-sources.jar",
+          "url": "kruth-1.1.0-alpha01-sources.jar",
+          "size": 33159,
+          "sha512": "5c2fc091f98c2c9dbb7a0d7dae8bc76b66ba2cf7989888632852ca149f55da14f562b899024afb3dc038510f580edd93eb903b81154957068195672197718d26",
+          "sha256": "0b9d6eef9ca0280d0996faba25e86e3933e58ed1e9a7d0046f7366a0a92216fa",
+          "sha1": "fc3ba1dc474d0db46cfb991196a688af078fd114",
+          "md5": "ee832023af7fc44d2688188b06d275d4"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kruth-iosarm64/1.1.0-alpha01/kruth-iosarm64-1.1.0-alpha01.module",
+        "group": "androidx.kruth",
+        "module": "kruth-iosarm64",
+        "version": "1.1.0-alpha01"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kruth-iosarm64/1.1.0-alpha01/kruth-iosarm64-1.1.0-alpha01.module",
+        "group": "androidx.kruth",
+        "module": "kruth-iosarm64",
+        "version": "1.1.0-alpha01"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kruth-iosarm64/1.1.0-alpha01/kruth-iosarm64-1.1.0-alpha01.module",
+        "group": "androidx.kruth",
+        "module": "kruth-iosarm64",
+        "version": "1.1.0-alpha01"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kruth-iossimulatorarm64/1.1.0-alpha01/kruth-iossimulatorarm64-1.1.0-alpha01.module",
+        "group": "androidx.kruth",
+        "module": "kruth-iossimulatorarm64",
+        "version": "1.1.0-alpha01"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kruth-iossimulatorarm64/1.1.0-alpha01/kruth-iossimulatorarm64-1.1.0-alpha01.module",
+        "group": "androidx.kruth",
+        "module": "kruth-iossimulatorarm64",
+        "version": "1.1.0-alpha01"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kruth-iossimulatorarm64/1.1.0-alpha01/kruth-iossimulatorarm64-1.1.0-alpha01.module",
+        "group": "androidx.kruth",
+        "module": "kruth-iossimulatorarm64",
+        "version": "1.1.0-alpha01"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kruth-iosx64/1.1.0-alpha01/kruth-iosx64-1.1.0-alpha01.module",
+        "group": "androidx.kruth",
+        "module": "kruth-iosx64",
+        "version": "1.1.0-alpha01"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kruth-iosx64/1.1.0-alpha01/kruth-iosx64-1.1.0-alpha01.module",
+        "group": "androidx.kruth",
+        "module": "kruth-iosx64",
+        "version": "1.1.0-alpha01"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kruth-iosx64/1.1.0-alpha01/kruth-iosx64-1.1.0-alpha01.module",
+        "group": "androidx.kruth",
+        "module": "kruth-iosx64",
+        "version": "1.1.0-alpha01"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kruth-jvm/1.1.0-alpha01/kruth-jvm-1.1.0-alpha01.module",
+        "group": "androidx.kruth",
+        "module": "kruth-jvm",
+        "version": "1.1.0-alpha01"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kruth-jvm/1.1.0-alpha01/kruth-jvm-1.1.0-alpha01.module",
+        "group": "androidx.kruth",
+        "module": "kruth-jvm",
+        "version": "1.1.0-alpha01"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kruth-jvm/1.1.0-alpha01/kruth-jvm-1.1.0-alpha01.module",
+        "group": "androidx.kruth",
+        "module": "kruth-jvm",
+        "version": "1.1.0-alpha01"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kruth-macosarm64/1.1.0-alpha01/kruth-macosarm64-1.1.0-alpha01.module",
+        "group": "androidx.kruth",
+        "module": "kruth-macosarm64",
+        "version": "1.1.0-alpha01"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kruth-macosarm64/1.1.0-alpha01/kruth-macosarm64-1.1.0-alpha01.module",
+        "group": "androidx.kruth",
+        "module": "kruth-macosarm64",
+        "version": "1.1.0-alpha01"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kruth-macosarm64/1.1.0-alpha01/kruth-macosarm64-1.1.0-alpha01.module",
+        "group": "androidx.kruth",
+        "module": "kruth-macosarm64",
+        "version": "1.1.0-alpha01"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kruth-macosx64/1.1.0-alpha01/kruth-macosx64-1.1.0-alpha01.module",
+        "group": "androidx.kruth",
+        "module": "kruth-macosx64",
+        "version": "1.1.0-alpha01"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kruth-macosx64/1.1.0-alpha01/kruth-macosx64-1.1.0-alpha01.module",
+        "group": "androidx.kruth",
+        "module": "kruth-macosx64",
+        "version": "1.1.0-alpha01"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kruth-macosx64/1.1.0-alpha01/kruth-macosx64-1.1.0-alpha01.module",
+        "group": "androidx.kruth",
+        "module": "kruth-macosx64",
+        "version": "1.1.0-alpha01"
+      }
+    }
+  ]
+}

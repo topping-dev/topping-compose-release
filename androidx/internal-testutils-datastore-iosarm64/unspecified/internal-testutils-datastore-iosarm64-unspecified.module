@@ -1,0 +1,213 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../internal-testutils-datastore/unspecified/internal-testutils-datastore-unspecified.module",
+    "group": "androidx",
+    "module": "internal-testutils-datastore",
+    "version": "unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-core",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-core-okio",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "internal-testutils-datastore.klib",
+          "url": "internal-testutils-datastore-iosarm64-unspecified.klib",
+          "size": 24123,
+          "sha512": "01f107d8c0de9c6e607993481a3f80685af1bf544cfebd98f65601a75ce350f3866f45b1756c2ae78d948e99d4bc058209e13ac214eb91c991a226c031302a98",
+          "sha256": "938e8cbc0c0398c4ccdd638e3b1b692b1a4688e2a52f1d8f7e3e2d641553d9da",
+          "sha1": "8fc2570a8bf2d61c40915395d97cd89c37aa68a9",
+          "md5": "8aef51a856ab428bb4212dc13bd89110"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "internal-testutils-datastore-iosarm64-sources.jar",
+          "url": "internal-testutils-datastore-iosarm64-unspecified-sources.jar",
+          "size": 6866,
+          "sha512": "268814e738d38f8d9b1631688a11b9e302d6fdbb63d9e3d50e85097b69bd8cdb8b817cd899a9d8e783973c5b41779a66eba1c684806ff5c7bc768afaa793207b",
+          "sha256": "7a50718c95d4613f2ad166eb9dc4873f81d85c55542ded2d94fd87ae629a5e26",
+          "sha1": "3758b981a03b9a0bac58955078ce1a5d384391c1",
+          "md5": "25983d3e1a7df6dc0a1f71e29fbaed88"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-core",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-core-okio",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "internal-testutils-datastore-iosarm64-metadata.jar",
+          "url": "internal-testutils-datastore-iosarm64-unspecified-metadata.jar",
+          "size": 3178,
+          "sha512": "e2413cb1ed6e66056f0d5c74c3b6969673131874129166f5e5ba431352e355a1ad153d22614bf32c0fe21488e51292e695b2d36969ea24704e07b8db031228bb",
+          "sha256": "f8d1e88e7462434c5ce76a65d4c8d5eb1d799679fdc01b37b15330b190d4d355",
+          "sha1": "b30f5ac4a75fc190f42afa3e7b0b1f828dac48ef",
+          "md5": "70195d8118d24656fb544ba6285339f2"
+        }
+      ]
+    }
+  ]
+}

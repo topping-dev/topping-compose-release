@@ -1,0 +1,178 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.activity",
+    "module": "activity-compose",
+    "version": "1.8.0-rc01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.8.0-rc01"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "activity-compose-1.8.0-rc01.aar",
+          "url": "activity-compose-1.8.0-rc01.aar",
+          "size": 1135155,
+          "sha512": "b511623c88e8249f9eb24b8db24f5cff56f373074726a279168e4cd18ec16d5a6d868f4512336c1d7100579571a6299ed0912412759ba07a294bfba90e3d9f44",
+          "sha256": "bce44122fdcfbf6b23cd19ecb8f2a353f136904798015784a657d5f8ff6735e2",
+          "sha1": "65ccb396793a629065d80b50f7bcf5d5662a1b3a",
+          "md5": "0a588f1be2a49f9d214fe51aa4ffd6f2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.8.0-rc01"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "activity-compose-1.8.0-rc01.aar",
+          "url": "activity-compose-1.8.0-rc01.aar",
+          "size": 1135155,
+          "sha512": "b511623c88e8249f9eb24b8db24f5cff56f373074726a279168e4cd18ec16d5a6d868f4512336c1d7100579571a6299ed0912412759ba07a294bfba90e3d9f44",
+          "sha256": "bce44122fdcfbf6b23cd19ecb8f2a353f136904798015784a657d5f8ff6735e2",
+          "sha1": "65ccb396793a629065d80b50f7bcf5d5662a1b3a",
+          "md5": "0a588f1be2a49f9d214fe51aa4ffd6f2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "activity-compose-1.8.0-rc01-sources.jar",
+          "url": "activity-compose-1.8.0-rc01-sources.jar",
+          "size": 10803,
+          "sha512": "ade4768895b89629fcc05ec2f768f28706fdfe3ff023b9a0a6731093b60a9eca97e97fc6674c7deb9791aad086ab3e8ea1e9a9c6eed7d5494dd5df4e7caabe1c",
+          "sha256": "4cd8452b52a9a2cfff27f4aee5dfe536aae7947b7dd61d89950ef24dbf1695ab",
+          "sha1": "f18d9bfe38ea91d17c221a1fe4d61daa22c6aa53",
+          "md5": "a4b15385f3b77abff498c3cb630c457b"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "activity-compose-1.8.0-rc01-versionMetadata.json",
+          "url": "activity-compose-1.8.0-rc01-versionMetadata.json",
+          "size": 2711,
+          "sha512": "c2b5361d9a24dc45e8aa9dedec9ae64105fc9be0439f1b20dc532a988be07cc0d38a0fcd2a539791613084ecea64fc2d91f7f9a51cd6b897b62b041d6aa394dc",
+          "sha256": "f715dfa929450e5dedf2f2ab7fb3853d64086ab3e8b3b1ebdb297ec389f470b8",
+          "sha1": "6de5aebc3f278612aea300792db38b2da436eeb0",
+          "md5": "1cb717fa657e0392681e71381efc8394"
+        }
+      ]
+    }
+  ]
+}

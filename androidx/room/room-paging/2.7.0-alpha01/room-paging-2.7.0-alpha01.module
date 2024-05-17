@@ -1,0 +1,150 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.room",
+    "module": "room-paging",
+    "version": "2.7.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.paging",
+          "module": "paging-common",
+          "version": {
+            "requires": "3.1.1"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.7.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "room-paging-2.7.0-alpha01.aar",
+          "url": "room-paging-2.7.0-alpha01.aar",
+          "size": 17421,
+          "sha512": "4cd71c18fb2df893e7e90965beb8b4123fc5f4cfd3acded1c1bfd506b5ceaaac8a9bda185f6ec2f15007d5967fd49465e4846e3f5f960a7c923f9d8a1570ca0f",
+          "sha256": "29335c0fae73c49a9bf6c7a8f3e967399ca3bf600b0c64dbafe9070af7aec2b1",
+          "sha1": "06fe1079dbc788c9a2539876d735bc9c380bc823",
+          "md5": "f609f3583adc47784897a1c36f29d5bd"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.paging",
+          "module": "paging-common",
+          "version": {
+            "requires": "3.1.1"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-ktx",
+          "version": {
+            "requires": "2.7.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.7.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "room-paging-2.7.0-alpha01.aar",
+          "url": "room-paging-2.7.0-alpha01.aar",
+          "size": 17421,
+          "sha512": "4cd71c18fb2df893e7e90965beb8b4123fc5f4cfd3acded1c1bfd506b5ceaaac8a9bda185f6ec2f15007d5967fd49465e4846e3f5f960a7c923f9d8a1570ca0f",
+          "sha256": "29335c0fae73c49a9bf6c7a8f3e967399ca3bf600b0c64dbafe9070af7aec2b1",
+          "sha1": "06fe1079dbc788c9a2539876d735bc9c380bc823",
+          "md5": "f609f3583adc47784897a1c36f29d5bd"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "room-paging-2.7.0-alpha01-sources.jar",
+          "url": "room-paging-2.7.0-alpha01-sources.jar",
+          "size": 6425,
+          "sha512": "f4890cc005016c20e96f7284c9a79c31d29e14076ffc4700e970799c05bd89700198085e84314f80f0628e82da088cb777894954e8c701965bc6f5fb9a94ba9f",
+          "sha256": "5026f4dcc8cde0c333e19b15ea48af557e4a37f0f2e346348583d7628d6137a2",
+          "sha1": "0cbed3a1e74397bae2295c39ae7c78e7a3c498de",
+          "md5": "09dde4c13880cf4222257f7507b3ec14"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "room-paging-2.7.0-alpha01-versionMetadata.json",
+          "url": "room-paging-2.7.0-alpha01-versionMetadata.json",
+          "size": 2,
+          "sha512": "b25b294cb4deb69ea00a4c3cf3113904801b6015e5956bd019a8570b1fe1d6040e944ef3cdee16d0a46503ca6e659a25f21cf9ceddc13f352a3c98138c15d6af",
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sha1": "97d170e1550eee4afc0af065b78cda302a97674c",
+          "md5": "d751713988987e9331980363e24189ce"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.paging",
+    "module": "paging-rxjava2",
+    "version": "3.3.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.arch.core",
+          "module": "core-runtime",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "androidx.paging",
+          "module": "paging-common",
+          "version": {
+            "requires": "3.3.0-alpha01"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "paging-rxjava2-3.3.0-alpha01.aar",
+          "url": "paging-rxjava2-3.3.0-alpha01.aar",
+          "size": 37101,
+          "sha512": "9b10f8fc82261f90a576d0ad456b630c11525d08dabcb2ba09fc639b8aee2e39eca82812d2a4040b3a5a76c282adf632a880e8ca1579a154ce905692fa2f37cd",
+          "sha256": "935a9d2d1dbbb225fc8ca4388544b95932712c1f3562b4ac541fc603beb10456",
+          "sha1": "216c66288e983df3ad51c55df02e2a9823d19e0c",
+          "md5": "56434080147e54b2f1bf7fd98fe301e4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.arch.core",
+          "module": "core-runtime",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "androidx.paging",
+          "module": "paging-common",
+          "version": {
+            "requires": "3.3.0-alpha01"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-rx2",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "paging-rxjava2-3.3.0-alpha01.aar",
+          "url": "paging-rxjava2-3.3.0-alpha01.aar",
+          "size": 37101,
+          "sha512": "9b10f8fc82261f90a576d0ad456b630c11525d08dabcb2ba09fc639b8aee2e39eca82812d2a4040b3a5a76c282adf632a880e8ca1579a154ce905692fa2f37cd",
+          "sha256": "935a9d2d1dbbb225fc8ca4388544b95932712c1f3562b4ac541fc603beb10456",
+          "sha1": "216c66288e983df3ad51c55df02e2a9823d19e0c",
+          "md5": "56434080147e54b2f1bf7fd98fe301e4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "paging-rxjava2-3.3.0-alpha01-sources.jar",
+          "url": "paging-rxjava2-3.3.0-alpha01-sources.jar",
+          "size": 12959,
+          "sha512": "036e7146a09c61c82e94a510dc011af76eb3dae6d8d9d41ad151ebe82b80bac5371b49ed9586ec05616dbe689713d37d78453b6c67706c11f5d7b1784f56abc7",
+          "sha256": "79fa21508d5cdfa933047bb6f17c28603a34d653066ea5bfb33ccd9da49ba550",
+          "sha1": "b60f23278eda8051799ca166ac64154fadab223c",
+          "md5": "abba2fb65dac03a0fc722b71e246e695"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "paging-rxjava2-3.3.0-alpha01-versionMetadata.json",
+          "url": "paging-rxjava2-3.3.0-alpha01-versionMetadata.json",
+          "size": 5834,
+          "sha512": "25053f301f47c1d95df1401c13214b692adb747333d6c8349d100ebcfc8b4a8ae9beb9506e51c00658d2fcd2b776c27d70cc6924ddecdc4d78ec381d3465a9fe",
+          "sha256": "8884bb82c8b05529941e23798e543fb7ba0a6c687c5c42d78eb2443bcf812313",
+          "sha1": "ea9a68c75b7c1ad5c99e297134f2ab48d08a790b",
+          "md5": "9f9ecb75edb6cf3e7edd63d537e72235"
+        }
+      ]
+    }
+  ]
+}

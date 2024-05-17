@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kruth/1.1.0-alpha01/kruth-1.1.0-alpha01.module",
+    "group": "androidx.kruth",
+    "module": "kruth",
+    "version": "1.1.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kruth-jvm-1.1.0-alpha01.jar",
+          "url": "kruth-jvm-1.1.0-alpha01.jar",
+          "size": 86839,
+          "sha512": "ae9b3b2990e4e668b5d4beb58d4a8cf274d4898d2e7bb5d0b07cf045634d384b9f957a40a35125cbf146daad7f8da02ae5e5ac4c87bb77047b6e9ff62b506950",
+          "sha256": "92ec36c8e40df0dadf9d5418721ade1ed1b07e4a264450ab899c20c3a1ceae30",
+          "sha1": "019edb1f5ea0e44a3fb3bae04b9208189192ea9e",
+          "md5": "94c56615914a023af156cd6011e2fc52"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kruth-jvm-1.1.0-alpha01.jar",
+          "url": "kruth-jvm-1.1.0-alpha01.jar",
+          "size": 86839,
+          "sha512": "ae9b3b2990e4e668b5d4beb58d4a8cf274d4898d2e7bb5d0b07cf045634d384b9f957a40a35125cbf146daad7f8da02ae5e5ac4c87bb77047b6e9ff62b506950",
+          "sha256": "92ec36c8e40df0dadf9d5418721ade1ed1b07e4a264450ab899c20c3a1ceae30",
+          "sha1": "019edb1f5ea0e44a3fb3bae04b9208189192ea9e",
+          "md5": "94c56615914a023af156cd6011e2fc52"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kruth-jvm-1.1.0-alpha01-sources.jar",
+          "url": "kruth-jvm-1.1.0-alpha01-sources.jar",
+          "size": 33159,
+          "sha512": "5c2fc091f98c2c9dbb7a0d7dae8bc76b66ba2cf7989888632852ca149f55da14f562b899024afb3dc038510f580edd93eb903b81154957068195672197718d26",
+          "sha256": "0b9d6eef9ca0280d0996faba25e86e3933e58ed1e9a7d0046f7366a0a92216fa",
+          "sha1": "fc3ba1dc474d0db46cfb991196a688af078fd114",
+          "md5": "ee832023af7fc44d2688188b06d275d4"
+        }
+      ]
+    }
+  ]
+}

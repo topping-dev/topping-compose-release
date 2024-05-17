@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.savedstate",
+    "module": "savedstate",
+    "version": "1.3.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "savedstate-1.3.0-alpha01.aar",
+          "url": "savedstate-1.3.0-alpha01.aar",
+          "size": 20261,
+          "sha512": "2051c406d921003f9f1c10a9fdb63cbfb2816b4eb05e027bb6ca3345f972886c1bfd135d5bfaffe43348175eb23b87a8cdb5aa322ab66253d913f5679de6bc5d",
+          "sha256": "ac35397106dfe4c3290e774ecfba620378d6b494c3fd3e7916a523db023a1a6a",
+          "sha1": "cb0be73b0c6dd3b023c9fe3b9cb1425ca21bd2e6",
+          "md5": "5d75fd6882384b4a9b919b01917eb81a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.arch.core",
+          "module": "core-common",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "savedstate-1.3.0-alpha01.aar",
+          "url": "savedstate-1.3.0-alpha01.aar",
+          "size": 20261,
+          "sha512": "2051c406d921003f9f1c10a9fdb63cbfb2816b4eb05e027bb6ca3345f972886c1bfd135d5bfaffe43348175eb23b87a8cdb5aa322ab66253d913f5679de6bc5d",
+          "sha256": "ac35397106dfe4c3290e774ecfba620378d6b494c3fd3e7916a523db023a1a6a",
+          "sha1": "cb0be73b0c6dd3b023c9fe3b9cb1425ca21bd2e6",
+          "md5": "5d75fd6882384b4a9b919b01917eb81a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "savedstate-1.3.0-alpha01-sources.jar",
+          "url": "savedstate-1.3.0-alpha01-sources.jar",
+          "size": 8789,
+          "sha512": "8616d715c99a6b261a70578a2ebb3649800371dee0bb6e3b005083626d09e1b79bd9307151e96142ce83e054a7c1e9a3a8e9037e7d366272f1de821bb59892a5",
+          "sha256": "ba21d220314cc2b2d5fe6015fd9d81ce83f9a9e330cc80ab8390cd77892138fc",
+          "sha1": "e3a60fe56b8df1a074f09ee92dfe6f7cf0065cb5",
+          "md5": "239831d492fcde3bf48c33dacf4275eb"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "savedstate-1.3.0-alpha01-versionMetadata.json",
+          "url": "savedstate-1.3.0-alpha01-versionMetadata.json",
+          "size": 2040,
+          "sha512": "4bfe5cabc6c590b4bbc1e1599d91cad223bd331450d20d28cf5380025eab3383d3248a3ded629555a5f88790bbd954f83a9563910be8878faa1ca6e018efeeee",
+          "sha256": "a71a71c3fc445cebcdb1feacbe8e2d06fffe7ffd04be69507d5cae9bced4075c",
+          "sha1": "436f9ef26bc30356cd5e1a30eec8637bf5323b38",
+          "md5": "543045a12d06d165f98fcb9bf5c4bb3e"
+        }
+      ]
+    }
+  ]
+}

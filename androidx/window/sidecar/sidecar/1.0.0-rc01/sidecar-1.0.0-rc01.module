@@ -1,0 +1,106 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.window.sidecar",
+    "module": "sidecar",
+    "version": "1.0.0-rc01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "sidecar-1.0.0-rc01.aar",
+          "url": "sidecar-1.0.0-rc01.aar",
+          "size": 5722,
+          "sha512": "bd4fa34bab49f5305715e7a15379697e1be1017e10b1485e6dadac2eb1633bc40e20408c332f27be227056a412fd055b7b3287c44cadff5df62851dd7daf767e",
+          "sha256": "3f780f2426335cdd7ba506d998bbf805589bace6da46459fdd32f5a06d8fa432",
+          "sha1": "cae2128e0c684dbdbed0f46ab058beab1d0314f2",
+          "md5": "9774db6a3a0d655441677d7e11d14339"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sidecar-1.0.0-rc01.aar",
+          "url": "sidecar-1.0.0-rc01.aar",
+          "size": 5722,
+          "sha512": "bd4fa34bab49f5305715e7a15379697e1be1017e10b1485e6dadac2eb1633bc40e20408c332f27be227056a412fd055b7b3287c44cadff5df62851dd7daf767e",
+          "sha256": "3f780f2426335cdd7ba506d998bbf805589bace6da46459fdd32f5a06d8fa432",
+          "sha1": "cae2128e0c684dbdbed0f46ab058beab1d0314f2",
+          "md5": "9774db6a3a0d655441677d7e11d14339"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sidecar-1.0.0-rc01-sources.jar",
+          "url": "sidecar-1.0.0-rc01-sources.jar",
+          "size": 6109,
+          "sha512": "bac7629fc9e35cedfb9d72442c5229835feb2fa97bff0b3ee3fceda1064e24cbabcdacae19c477472e89d75e85ff895e39873cc80132e63c3709ca80c90cbf34",
+          "sha256": "2431b899ef58b890295f17ddccd8a6b201ef741589ea387c1e6bda3c25ad92bb",
+          "sha1": "5d89cfc7884856945a89fa184f2feb9309ea5849",
+          "md5": "7c5e5a06f4cc003e41b4fa8902ae6a7f"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "sidecar-1.0.0-rc01-versionMetadata.json",
+          "url": "sidecar-1.0.0-rc01-versionMetadata.json",
+          "size": 3206,
+          "sha512": "b31dff7ed390f9876a97d54c67a87d257a65f32d5762bef04cb6adee0015b5c14651906ab979a93475ee7ad4304dcbfb385b3259467f3410ae31fb51370f3892",
+          "sha256": "fc195ae2849cc71bafac9d4445906707e69749b359317f62b02928554fde0c68",
+          "sha1": "ffdc6b43dc6711c79e1e6542cef85425284f669e",
+          "md5": "771116b25f199cdc6e37603bf96ef60a"
+        }
+      ]
+    }
+  ]
+}

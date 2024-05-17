@@ -1,0 +1,220 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.navigation",
+    "module": "navigation-common",
+    "version": "2.8.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-savedstate",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-ktx",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation-common-2.8.0-alpha01.aar",
+          "url": "navigation-common-2.8.0-alpha01.aar",
+          "size": 182404,
+          "sha512": "d42ef397ab1c221b01b915b4e39e0b7257f01a25e09e5dfb8083c49e19af6fbb6c8387e9767ec6ee7a5f5d97179784084f3ce3c3b716c4657d2a8983299a6985",
+          "sha256": "8781baf77622e06d7218fa057e0038324a51c2d33d2a5fed56d1f3c2093ecede",
+          "sha1": "ccd7c2c99140223ed90761231e1a5cb07cbce92f",
+          "md5": "9a820393b6e0d43aa0f203c722d58aa1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection-ktx",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-savedstate",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "androidx.profileinstaller",
+          "module": "profileinstaller",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-ktx",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation-common-2.8.0-alpha01.aar",
+          "url": "navigation-common-2.8.0-alpha01.aar",
+          "size": 182404,
+          "sha512": "d42ef397ab1c221b01b915b4e39e0b7257f01a25e09e5dfb8083c49e19af6fbb6c8387e9767ec6ee7a5f5d97179784084f3ce3c3b716c4657d2a8983299a6985",
+          "sha256": "8781baf77622e06d7218fa057e0038324a51c2d33d2a5fed56d1f3c2093ecede",
+          "sha1": "ccd7c2c99140223ed90761231e1a5cb07cbce92f",
+          "md5": "9a820393b6e0d43aa0f203c722d58aa1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "navigation-common-2.8.0-alpha01-sources.jar",
+          "url": "navigation-common-2.8.0-alpha01-sources.jar",
+          "size": 58821,
+          "sha512": "eb09b614e648b9cf4a54fcf16c691481fc90dd7f2e66e71e0a942e88f05afca55678433663837d566bc5d88d4ae5c5eb5a3da96aa5917c2f4d14ceb983071860",
+          "sha256": "43821dba2d9ab1664297c832907723f4e8d24a0e611a0951f4c18cca9a135757",
+          "sha1": "62e58c038db05a291143f91dc6add791b226ac32",
+          "md5": "e1f1027d80032c80c144a4d9393dc5a4"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "navigation-common-2.8.0-alpha01-versionMetadata.json",
+          "url": "navigation-common-2.8.0-alpha01-versionMetadata.json",
+          "size": 27195,
+          "sha512": "a4ca76a1a73272a7a7842fea8675b0f3ae20ab81bf54d9053a205c3450e8b8b43376692ce33d09fbc074ddd3d8cd1466975cc0f7579ff928d708d392558d9406",
+          "sha256": "cfad1f4366ad700f372947293c05d4af11ebb3c16fb9de5e3dd53f55862248a6",
+          "sha1": "72381f10965479650abb4af31b6f136a3d2ee032",
+          "md5": "7336e39a229ae304686b0e1324786262"
+        }
+      ]
+    }
+  ]
+}

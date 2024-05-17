@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../desktop-samples/1.6.0-alpha06-topping01/desktop-samples-1.6.0-alpha06-topping01.module",
+    "group": "androidx.compose.desktop",
+    "module": "desktop-samples",
+    "version": "1.6.0-alpha06-topping01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "desktop-samples-jvm-1.6.0-alpha06-topping01.jar",
+          "url": "desktop-samples-jvm-1.6.0-alpha06-topping01.jar",
+          "size": 10185562,
+          "sha512": "9f3461f92a136796350c96ed9b582ce020ada930a60cebb625563b5400c48753d64dc1ab0bdb88043be54c22dd470add7c75630e08ad10829f7977d5412d0e15",
+          "sha256": "37e245ad8d663581e65e67e793cfb47564a5e93019de91b29bb5bb14f5017c94",
+          "sha1": "06ba5d6547a12dd9feba695bc2202ff9ebcd562e",
+          "md5": "a6ed14947fe4153e4fb165b5963232b5"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.skiko",
+          "module": "skiko-awt-runtime-macos-arm64",
+          "version": {
+            "requires": "0.7.81"
+          }
+        },
+        {
+          "group": "androidx.compose.desktop",
+          "module": "desktop",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "desktop-samples-jvm-1.6.0-alpha06-topping01.jar",
+          "url": "desktop-samples-jvm-1.6.0-alpha06-topping01.jar",
+          "size": 10185562,
+          "sha512": "9f3461f92a136796350c96ed9b582ce020ada930a60cebb625563b5400c48753d64dc1ab0bdb88043be54c22dd470add7c75630e08ad10829f7977d5412d0e15",
+          "sha256": "37e245ad8d663581e65e67e793cfb47564a5e93019de91b29bb5bb14f5017c94",
+          "sha1": "06ba5d6547a12dd9feba695bc2202ff9ebcd562e",
+          "md5": "a6ed14947fe4153e4fb165b5963232b5"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "desktop-samples-jvm-1.6.0-alpha06-topping01-sources.jar",
+          "url": "desktop-samples-jvm-1.6.0-alpha06-topping01-sources.jar",
+          "size": 25613,
+          "sha512": "45e95436495705bcee7f3d6475e9119fb8cfe5cd23ca1a7b32829f7f1e465057b5f2c17ac72974a15a893be7f01cb92e4b9c2c621a8edc586e29316e90cd1cb8",
+          "sha256": "6c618631e4af5462a84c645ee1babe5b065399e55461df3496cad7c840b4898c",
+          "sha1": "2500b2afe63734e65dd63af5b58bb79613d1dd18",
+          "md5": "2ac9c25e8da4410017c43e5808493eff"
+        }
+      ]
+    }
+  ]
+}

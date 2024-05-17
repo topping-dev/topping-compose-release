@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.concurrent",
+    "module": "concurrent-futures",
+    "version": "1.2.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "listenablefuture",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "concurrent-futures-1.2.0-alpha02.jar",
+          "url": "concurrent-futures-1.2.0-alpha02.jar",
+          "size": 26255,
+          "sha512": "214ebf7c6e605d80d6fe3dcd0026a3830ae3b5a1299a1dd6e5de4e0cb83bce070eaf71236a792d06e6998c53d65b0473bbdecb979eab437a5937917b0b1e87ae",
+          "sha256": "a518436aca3582b296928df53d8756e7f815c57bff55beaf1a16d397af413b3f",
+          "sha1": "719a071a5b713cddbb81f3b2c94cb8246bd064ad",
+          "md5": "a7a5997e46ed5caee8df166d515cd040"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "listenablefuture",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "concurrent-futures-1.2.0-alpha02.jar",
+          "url": "concurrent-futures-1.2.0-alpha02.jar",
+          "size": 26255,
+          "sha512": "214ebf7c6e605d80d6fe3dcd0026a3830ae3b5a1299a1dd6e5de4e0cb83bce070eaf71236a792d06e6998c53d65b0473bbdecb979eab437a5937917b0b1e87ae",
+          "sha256": "a518436aca3582b296928df53d8756e7f815c57bff55beaf1a16d397af413b3f",
+          "sha1": "719a071a5b713cddbb81f3b2c94cb8246bd064ad",
+          "md5": "a7a5997e46ed5caee8df166d515cd040"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "concurrent-futures-1.2.0-alpha02-sources.jar",
+          "url": "concurrent-futures-1.2.0-alpha02-sources.jar",
+          "size": 19762,
+          "sha512": "9715c8ce56b497f293e9af9138e29dd9d93d6eec146a7deae310ac24d4c13da35ee365e599c4beed19525a12d78f67ea863a57eaf65f459c07725ced865ed8f7",
+          "sha256": "7e609006602080ec632bd61b76c70559464cb5eebe741b76fab9b9a7d9206a70",
+          "sha1": "dfbfad23a3ffe6869f24f1f5200c28966d06bf3b",
+          "md5": "dd4159082f56a59fef3805803c8d2875"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "concurrent-futures-1.2.0-alpha02-versionMetadata.json",
+          "url": "concurrent-futures-1.2.0-alpha02-versionMetadata.json",
+          "size": 856,
+          "sha512": "61db99529ae095c3734aae3a1b0399fa16985815fefe6d3d40d25e601922eec9552202c17da67eb97f3ce48f7838d9326fea5cde507a765f2225b61bdd96092c",
+          "sha256": "c7c531070c8a6088390e06ac8ab149aaf786bf786ad2ecdbb183b5896e91991d",
+          "sha1": "e22fe000d284fd447bc7f04efc1923c416217b65",
+          "md5": "9ab745ae63f8358b33a6f3bcb1c1c4c8"
+        }
+      ]
+    }
+  ]
+}

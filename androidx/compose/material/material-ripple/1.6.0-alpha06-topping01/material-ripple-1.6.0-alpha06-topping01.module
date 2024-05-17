@@ -1,0 +1,373 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.material",
+    "module": "material-ripple",
+    "version": "1.6.0-alpha06-topping01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidxSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "androidx-multiplatform-docs"
+      },
+      "files": [
+        {
+          "name": "material-ripple-1.6.0-alpha06-topping01-multiplatform-sources.jar",
+          "url": "material-ripple-1.6.0-alpha06-topping01-multiplatform-sources.jar",
+          "size": 26227,
+          "sha512": "d8d6e1203bfa778d2d84b91a501395b7fa2a2043f9b3afd4ba1b5366e7da97c0dc3c24f3df9deff0f5544307cc696be44ffec82b525d526b3c9cbee11e18ba5f",
+          "sha256": "f48c563d186cadfa23ca4ff5ad80f07a9b0e9f3352d7273dc712ae2aafcb8a50",
+          "sha1": "a32c00f5d9d1b00131cdcb12da54271b13b71d0c",
+          "md5": "8ebe4930c5346d5980865b66ec701d84"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "apiLevels.json",
+          "url": "material-ripple-1.6.0-alpha06-topping01-versionMetadata.json",
+          "size": 1446,
+          "sha512": "f4332e127b5465b651078d275ff127815ba1b0d073f0f79e832976417a1bb6ee0722bf5ee1c31cabac62bc048dc294872783fea3d76bbafa18a86d3955dcb788",
+          "sha256": "6de1b88a12200fd6407ae2e02882f4b3ca8f1f77f32d2dd400ac584e750df2d8",
+          "sha1": "8258bccdf5e694d81f4489c548299cfd6c79a7c8",
+          "md5": "9ba1dd6e2912b5615b73443dc67d062a"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-ripple-metadata-1.6.0-alpha06-topping01.jar",
+          "url": "material-ripple-1.6.0-alpha06-topping01.jar",
+          "size": 6703,
+          "sha512": "0f2e2192fdbda8430e1765bac970ab6598a7e935ea91b9506ab01b3bf23c9e8cfffce70220ffe52cdf2cb919208e56e2410db39c556b418f5c249a6e0009aec4",
+          "sha256": "55c25fcae07b61813402119d5830b0f818bc4b0cf0b3a84d057f0d7d4dcbf18d",
+          "sha1": "4ff046f617a651277ef8b42bc529676e1e621ef2",
+          "md5": "ec2e4e3a64250db1f6ae2b7a46fda82e"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "material-ripple-kotlin-1.6.0-alpha06-topping01-sources.jar",
+          "url": "material-ripple-1.6.0-alpha06-topping01-sources.jar",
+          "size": 12374,
+          "sha512": "395be6af987272aad8e94b115798f9b72de6c51d01f171a439531eb4dac62a5d8338ca3bcffc0cd3af58ca706244b5d3e4608b6dd663174b822785679434f44b",
+          "sha256": "7f4762841fd4b4cedac39624120bc5c34acefc8157f5f20f90cdb52f8d04c1c4",
+          "sha1": "d7d4e7f331ae9a1940c220b9c205b17c8d9ad939",
+          "md5": "1fe7e41d9d85cadfcc97f8880dcda693"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../material-ripple-android/1.6.0-alpha06-topping01/material-ripple-android-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.material",
+        "module": "material-ripple-android",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../material-ripple-android/1.6.0-alpha06-topping01/material-ripple-android-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.material",
+        "module": "material-ripple-android",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "fake-sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../material-ripple-android/1.6.0-alpha06-topping01/material-ripple-android-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.material",
+        "module": "material-ripple-android",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../material-ripple-desktop/1.6.0-alpha06-topping01/material-ripple-desktop-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.material",
+        "module": "material-ripple-desktop",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../material-ripple-desktop/1.6.0-alpha06-topping01/material-ripple-desktop-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.material",
+        "module": "material-ripple-desktop",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../material-ripple-desktop/1.6.0-alpha06-topping01/material-ripple-desktop-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.material",
+        "module": "material-ripple-desktop",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material-ripple-iosarm64/1.6.0-alpha06-topping01/material-ripple-iosarm64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.material",
+        "module": "material-ripple-iosarm64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material-ripple-iosarm64/1.6.0-alpha06-topping01/material-ripple-iosarm64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.material",
+        "module": "material-ripple-iosarm64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material-ripple-iosarm64/1.6.0-alpha06-topping01/material-ripple-iosarm64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.material",
+        "module": "material-ripple-iosarm64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material-ripple-iossimulatorarm64/1.6.0-alpha06-topping01/material-ripple-iossimulatorarm64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.material",
+        "module": "material-ripple-iossimulatorarm64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material-ripple-iossimulatorarm64/1.6.0-alpha06-topping01/material-ripple-iossimulatorarm64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.material",
+        "module": "material-ripple-iossimulatorarm64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material-ripple-iossimulatorarm64/1.6.0-alpha06-topping01/material-ripple-iossimulatorarm64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.material",
+        "module": "material-ripple-iossimulatorarm64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material-ripple-iosx64/1.6.0-alpha06-topping01/material-ripple-iosx64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.material",
+        "module": "material-ripple-iosx64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material-ripple-iosx64/1.6.0-alpha06-topping01/material-ripple-iosx64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.material",
+        "module": "material-ripple-iosx64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material-ripple-iosx64/1.6.0-alpha06-topping01/material-ripple-iosx64-1.6.0-alpha06-topping01.module",
+        "group": "androidx.compose.material",
+        "module": "material-ripple-iosx64",
+        "version": "1.6.0-alpha06-topping01"
+      }
+    }
+  ]
+}

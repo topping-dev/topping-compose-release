@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../runtime/1.6.0-alpha06-topping01/runtime-1.6.0-alpha06-topping01.module",
+    "group": "androidx.compose.runtime",
+    "module": "runtime",
+    "version": "1.6.0-alpha06-topping01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.4.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "runtime.klib",
+          "url": "runtime-iosarm64-1.6.0-alpha06-topping01.klib",
+          "size": 1325621,
+          "sha512": "c4cc1d67f6e7a7d23f2af5b0cd164cef33ecb00fbc0fe977ca092fb70904ee63825f805b5be01470706f5780922ebc7ebfc282dc19725417e8f9c57df15a0632",
+          "sha256": "bb1738f1450bc936a93f13fd3cdc6111bfc221565d022c9f375da6f39a561dbe",
+          "sha1": "fd50baf4b8579f5f52387db1a4c19286c6f71ecd",
+          "md5": "02fdb7d73100bae9389ab167d1e45b4b"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "runtime-iosarm64-1.6.0-alpha06-topping01-sources.jar",
+          "url": "runtime-iosarm64-1.6.0-alpha06-topping01-sources.jar",
+          "size": 355572,
+          "sha512": "72993cc7c07a8904ee4f620f3e7a6a650fc3e8c9bf0df18b2da8887c55c61d308c0732de2acf3037095dd236db9654a13e10e63d8ec1538305a52fcffd72bd30",
+          "sha256": "923eb68821e055e76642b3c51d92aa28fe94b835b541d5be179689be7d95e137",
+          "sha1": "8ecbe8a178fed3fc56583dee9dce6ea62a365774",
+          "md5": "ef97d19c985ec3f94a11149fccb638ec"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.4.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "runtime-iosarm64-1.6.0-alpha06-topping01-metadata.jar",
+          "url": "runtime-iosarm64-1.6.0-alpha06-topping01-metadata.jar",
+          "size": 9097,
+          "sha512": "e5b211c54e2828469999d462a956e969d7f1d749fb57d8dc4654220356ba3ae74579c4bf64444f5a0efb91a55138eb0327b640f76b1e425c894ffbdb21857d20",
+          "sha256": "f3e42731116ca8847d5c3afd76c0de9e3c8fc72497365aa2ed9a28e81c16f3c6",
+          "sha1": "8bc2ff77ecdcc0bc01894bf22d4644d7ee8427e0",
+          "md5": "4b281753595e53474bbd5e0f136ae3c3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../graphics-shapes/1.0.0-alpha03/graphics-shapes-1.0.0-alpha03.module",
+    "group": "androidx.graphics",
+    "module": "graphics-shapes",
+    "version": "1.0.0-alpha03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "graphics-shapes-release.aar",
+          "url": "graphics-shapes-android-1.0.0-alpha03.aar",
+          "size": 81818,
+          "sha512": "e396277b1000a014f0aa22fdc369cf5f5fd7fbb209d3f5b897768b672e4950f857b56c02b35c569ffd16ee583f1228bf509b5c20b0678c18a7e32c08dc2a6d2f",
+          "sha256": "8fd2421118726d2d9301479bb1fd1091b3ae18d532f783a0ca06cdac16ad689e",
+          "sha1": "8de5ca0ec7d72c299c2967a74d943b626d39a45e",
+          "md5": "7e1e2ecf482029c869eab6cb7ee7897a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0-alpha02"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.10.0-rc01"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "graphics-shapes-release.aar",
+          "url": "graphics-shapes-android-1.0.0-alpha03.aar",
+          "size": 81818,
+          "sha512": "e396277b1000a014f0aa22fdc369cf5f5fd7fbb209d3f5b897768b672e4950f857b56c02b35c569ffd16ee583f1228bf509b5c20b0678c18a7e32c08dc2a6d2f",
+          "sha256": "8fd2421118726d2d9301479bb1fd1091b3ae18d532f783a0ca06cdac16ad689e",
+          "sha1": "8de5ca0ec7d72c299c2967a74d943b626d39a45e",
+          "md5": "7e1e2ecf482029c869eab6cb7ee7897a"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "fake-sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "graphics-shapes-android-1.0.0-alpha03-sources.jar",
+          "url": "graphics-shapes-android-1.0.0-alpha03-sources.jar",
+          "size": 35548,
+          "sha512": "964bf842fbb179622fb85c84899f613bfaa832bac8f290ab0afe02bf13c673dba29e511143fae6a80ef757e797c7fd7cc5b8618c0b34cb48e393cc5a9ca57e9b",
+          "sha256": "a857ffef07531400eeb5540a9999708967ffc1dba6a4a2025c22a4f331b3412b",
+          "sha1": "60394340685149fb6ca3c747452a0bf6b525fb66",
+          "md5": "df2f8809898f731239c227b70d1a9406"
+        }
+      ]
+    }
+  ]
+}

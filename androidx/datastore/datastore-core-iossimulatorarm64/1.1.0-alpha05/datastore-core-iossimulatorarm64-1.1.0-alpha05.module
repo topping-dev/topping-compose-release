@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../datastore-core/1.1.0-alpha05/datastore-core-1.1.0-alpha05.module",
+    "group": "androidx.datastore",
+    "module": "datastore-core",
+    "version": "1.1.0-alpha05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "datastore-core.klib",
+          "url": "datastore-core-iossimulatorarm64-1.1.0-alpha05.klib",
+          "size": 57085,
+          "sha512": "e49499dffdcc1dec141067893aebf0ada5dfabc067ca9349489b8884148c54c3326c183b5bbe5c98e60623cc8af1e71048ee9bab5be04f08c9a2d70d61be4b98",
+          "sha256": "dd62480d919cc4b9367c0e89859ebd848e4629569cb8c7083b554c6971e36f70",
+          "sha1": "a1a647a4753717d3e458ec4269c97e66a13f34ef",
+          "md5": "8b5bb5473a3c9f35e6431115e2f0266e"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "datastore-core-iossimulatorarm64-1.1.0-alpha05-sources.jar",
+          "url": "datastore-core-iossimulatorarm64-1.1.0-alpha05-sources.jar",
+          "size": 33635,
+          "sha512": "89a9fae35aca5677651779bf13ba095716ec7fc4f4cf5b9ad3fe2ba612a34cfb42f04393ebe28d86b19df15549fb5e01f3a5d10856c4a52df3c10c3e6db65ee6",
+          "sha256": "2a206ad8deb0f03246bb1e69dc759aae07f6db3b1fdb174d36a9c7ed6d562660",
+          "sha1": "1b87fb86f075cc68ea5f0cd0211109014fd47bd7",
+          "md5": "3622d18701162367658b62a56d4bb4c8"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "datastore-core-iossimulatorarm64-1.1.0-alpha05-metadata.jar",
+          "url": "datastore-core-iossimulatorarm64-1.1.0-alpha05-metadata.jar",
+          "size": 5429,
+          "sha512": "1c199e1df3a1df5add7128ba16352f371d8b373adb196015e23b0d477a08cd21ee4e48f61e6892e2ee1d6cea8e5206965c25c6f714d0e9a32302beeb6fe433ef",
+          "sha256": "090b10214eec87eb605c41b9dd30cb6887861d9ad22f54673462e0cdf57fff1a",
+          "sha1": "9b14b7025f0fda214c21d3c7252d1ec20782ee89",
+          "md5": "d7545e064d84fc3d2ee0e4633a84e5ed"
+        }
+      ]
+    }
+  ]
+}

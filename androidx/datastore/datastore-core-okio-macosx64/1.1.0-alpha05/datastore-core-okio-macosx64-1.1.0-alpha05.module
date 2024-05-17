@@ -1,0 +1,157 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../datastore-core-okio/1.1.0-alpha05/datastore-core-okio-1.1.0-alpha05.module",
+    "group": "androidx.datastore",
+    "module": "datastore-core-okio",
+    "version": "1.1.0-alpha05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-core",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "datastore-core-okio.klib",
+          "url": "datastore-core-okio-macosx64-1.1.0-alpha05.klib",
+          "size": 22600,
+          "sha512": "bfd57744f58d0086cdb392ef617f4e264e8520738a7394e82fc5090d796b90c4c17164ab682483744dab4931a266a9befbd5e14ea71f273c5c0002980410f484",
+          "sha256": "a31d74185a6e3badb6da90558187704605cb8cae4e7f054fdf6e6f81d6d462ef",
+          "sha1": "55aece3198a815d64c6902351c3b2eae8b687c98",
+          "md5": "01c8b5dea1b702820adcf1fe50584fcf"
+        }
+      ]
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "datastore-core-okio-macosx64-1.1.0-alpha05-sources.jar",
+          "url": "datastore-core-okio-macosx64-1.1.0-alpha05-sources.jar",
+          "size": 6713,
+          "sha512": "bb6715ac20bc0b1f1cc23285c2b6aff110d21ca977ac517d50f147f551ee82678bfa4f2c7ac35f1ae2082863c4f072fe07935c859d7ae0b1c13e9f6b3e534c11",
+          "sha256": "a3ece0a07b062b2807ebdd6e7008a8814f32960309cb72c170228ee57e23090f",
+          "sha1": "2e33b29e05c3f49f2a09e3540a1e83bd0e8acef9",
+          "md5": "801cbb3011ef9caa44b3f50e72a68cf0"
+        }
+      ]
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-core",
+          "version": {
+            "requires": "1.1.0-alpha05"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "datastore-core-okio-macosx64-1.1.0-alpha05-metadata.jar",
+          "url": "datastore-core-okio-macosx64-1.1.0-alpha05-metadata.jar",
+          "size": 4559,
+          "sha512": "30438014eafbdf3945bccf7ea3bedd90330d2dcfe1d0b8eff09de93ac1911f1728fc7eac8ee45754ed5f71ddcfeb347fb66960a1e831e7c351f0d1bf928e43b7",
+          "sha256": "b8def86be262058708cccf246139bae71e81a58312503e334a03f175b12aa076",
+          "sha1": "66eaf1b058ac14df14594be944dda0b7c322c87e",
+          "md5": "c28f882a3a483f1bea921c1c2d8d329f"
+        }
+      ]
+    }
+  ]
+}
