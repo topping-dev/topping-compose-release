@@ -97,7 +97,7 @@
           "group": "androidx.compose.foundation",
           "module": "foundation",
           "version": {
-            "requires": "1.6.0-alpha06-topping01"
+            "requires": "1.6.0-alpha06-topping02"
           },
           "excludes": [
             {
@@ -118,7 +118,7 @@
           "group": "androidx.compose.foundation",
           "module": "foundation-layout",
           "version": {
-            "requires": "1.6.0-alpha06-topping01"
+            "requires": "1.6.0-alpha06-topping02"
           },
           "excludes": [
             {
@@ -139,7 +139,7 @@
           "group": "androidx.compose.ui",
           "module": "ui",
           "version": {
-            "requires": "1.6.0-alpha06-topping01"
+            "requires": "1.6.0-alpha06-topping02"
           },
           "excludes": [
             {
@@ -160,7 +160,7 @@
           "group": "androidx.compose.ui",
           "module": "ui-unit",
           "version": {
-            "requires": "1.6.0-alpha06-topping01"
+            "requires": "1.6.0-alpha06-topping02"
           },
           "excludes": [
             {
@@ -181,7 +181,7 @@
           "group": "androidx.compose.ui",
           "module": "ui-util",
           "version": {
-            "requires": "1.6.0-alpha06-topping01"
+            "requires": "1.6.0-alpha06-topping02"
           },
           "excludes": [
             {

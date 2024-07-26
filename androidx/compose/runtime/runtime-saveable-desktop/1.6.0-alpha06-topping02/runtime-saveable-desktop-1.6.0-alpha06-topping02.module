@@ -1,0 +1,106 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../runtime-saveable/1.6.0-alpha06-topping02/runtime-saveable-1.6.0-alpha06-topping02.module",
+    "group": "androidx.compose.runtime",
+    "module": "runtime-saveable",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "runtime-saveable-desktop-1.6.0-alpha06-topping02.jar",
+          "url": "runtime-saveable-desktop-1.6.0-alpha06-topping02.jar",
+          "size": 53849,
+          "sha512": "7d630563dc2d2f6a0265c8792daad9ddcedc485e705763b8882c312ca221101db033391e54c0c7db6cd2e376fb4d23a8951e9327a6b9bf162e219d1be5a2dd79",
+          "sha256": "cb9ce8337b7284c2c33ec4ef92e0b7ead6d963f8fb90cc4f2217498e9ffb1e6e",
+          "sha1": "ccd31115ebfc8f6308bc69fcb4df7a646a9ce3b3",
+          "md5": "e82ca9a5f5849308d42e97aa5802c497"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "runtime-saveable-desktop-1.6.0-alpha06-topping02.jar",
+          "url": "runtime-saveable-desktop-1.6.0-alpha06-topping02.jar",
+          "size": 53849,
+          "sha512": "7d630563dc2d2f6a0265c8792daad9ddcedc485e705763b8882c312ca221101db033391e54c0c7db6cd2e376fb4d23a8951e9327a6b9bf162e219d1be5a2dd79",
+          "sha256": "cb9ce8337b7284c2c33ec4ef92e0b7ead6d963f8fb90cc4f2217498e9ffb1e6e",
+          "sha1": "ccd31115ebfc8f6308bc69fcb4df7a646a9ce3b3",
+          "md5": "e82ca9a5f5849308d42e97aa5802c497"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "runtime-saveable-desktop-1.6.0-alpha06-topping02-sources.jar",
+          "url": "runtime-saveable-desktop-1.6.0-alpha06-topping02-sources.jar",
+          "size": 11533,
+          "sha512": "f83659f1298dd8837cf5a0d7345e9704aaa6998191efb1602e9cd3ddd746f9f33dc34b86dfe1c2663ab7ee79e94b3536279ee5624c60bcd8d8b4368f78e7c595",
+          "sha256": "d957fd3d4f67875cc990daa62c15ac1beebf0220c090c93db8ae04fad64bdafa",
+          "sha1": "abf68b835dfdf24a970b8444c5067ffda33a37ca",
+          "md5": "32c68128cbc35f49d91a14546b3d744c"
+        }
+      ]
+    }
+  ]
+}

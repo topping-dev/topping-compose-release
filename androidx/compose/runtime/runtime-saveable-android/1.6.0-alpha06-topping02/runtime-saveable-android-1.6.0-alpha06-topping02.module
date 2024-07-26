@@ -1,0 +1,181 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../runtime-saveable/1.6.0-alpha06-topping02/runtime-saveable-1.6.0-alpha06-topping02.module",
+    "group": "androidx.compose.runtime",
+    "module": "runtime-saveable",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "runtime-saveable-release.aar",
+          "url": "runtime-saveable-android-1.6.0-alpha06-topping02.aar",
+          "size": 1113076,
+          "sha512": "aa0697953c58542dbf608e59805a4299cf0a8119e7e4a52709a8f32a862d4844898685961996a123a37882a0996f1e58c7a95ab211e989470c5c6ecd7b7ffe69",
+          "sha256": "86f98d94fd347fa95d45a45931da066a16e02d8f7f0eef51228d9e62d6a6fd74",
+          "sha1": "d8d96d6ed30cf61e6fd5e5f8131adb6a0b4d42db",
+          "md5": "ff92e7448d77eb302b3d59df72c805a3"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "runtime-saveable-release.aar",
+          "url": "runtime-saveable-android-1.6.0-alpha06-topping02.aar",
+          "size": 1113076,
+          "sha512": "aa0697953c58542dbf608e59805a4299cf0a8119e7e4a52709a8f32a862d4844898685961996a123a37882a0996f1e58c7a95ab211e989470c5c6ecd7b7ffe69",
+          "sha256": "86f98d94fd347fa95d45a45931da066a16e02d8f7f0eef51228d9e62d6a6fd74",
+          "sha1": "d8d96d6ed30cf61e6fd5e5f8131adb6a0b4d42db",
+          "md5": "ff92e7448d77eb302b3d59df72c805a3"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "fake-sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "runtime-saveable-android-1.6.0-alpha06-topping02-sources.jar",
+          "url": "runtime-saveable-android-1.6.0-alpha06-topping02-sources.jar",
+          "size": 11533,
+          "sha512": "f83659f1298dd8837cf5a0d7345e9704aaa6998191efb1602e9cd3ddd746f9f33dc34b86dfe1c2663ab7ee79e94b3536279ee5624c60bcd8d8b4368f78e7c595",
+          "sha256": "d957fd3d4f67875cc990daa62c15ac1beebf0220c090c93db8ae04fad64bdafa",
+          "sha1": "abf68b835dfdf24a970b8444c5067ffda33a37ca",
+          "md5": "32c68128cbc35f49d91a14546b3d744c"
+        }
+      ]
+    }
+  ]
+}

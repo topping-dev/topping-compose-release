@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../material-icons-extended/1.6.0-alpha06-topping02/material-icons-extended-1.6.0-alpha06-topping02.module",
+    "group": "androidx.compose.material",
+    "module": "material-icons-extended",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-icons-extended-desktop-1.6.0-alpha06-topping02.jar",
+          "url": "material-icons-extended-desktop-1.6.0-alpha06-topping02.jar",
+          "size": 37706663,
+          "sha512": "bb3df31eeb03006f267454bcd788f98bb19e608180b0d7bc88e5605037eb30d585e322a7a90dd190ec0f1ebdb7c4785aa93d52e82ddfb1c94258f5c919305d8e",
+          "sha256": "b60f1796e91761685c078c3e9fbad93b9c44f69d1dd56bac4e9f4708af087881",
+          "sha1": "ec7ac487d02bf0f4e95846f45303e87e4a3321aa",
+          "md5": "de7099db0f3c4a73a7f71c056b504b0d"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-icons-extended-desktop-1.6.0-alpha06-topping02.jar",
+          "url": "material-icons-extended-desktop-1.6.0-alpha06-topping02.jar",
+          "size": 37706663,
+          "sha512": "bb3df31eeb03006f267454bcd788f98bb19e608180b0d7bc88e5605037eb30d585e322a7a90dd190ec0f1ebdb7c4785aa93d52e82ddfb1c94258f5c919305d8e",
+          "sha256": "b60f1796e91761685c078c3e9fbad93b9c44f69d1dd56bac4e9f4708af087881",
+          "sha1": "ec7ac487d02bf0f4e95846f45303e87e4a3321aa",
+          "md5": "de7099db0f3c4a73a7f71c056b504b0d"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "material-icons-extended-desktop-1.6.0-alpha06-topping02-sources.jar",
+          "url": "material-icons-extended-desktop-1.6.0-alpha06-topping02-sources.jar",
+          "size": 12080783,
+          "sha512": "5d0b09db16bf09809f582f749d1b93543b3c47b55bc2a65b67a36120e8758b0ab24f322a6f307441e0cefba3d12f14573575afebafae480466f1ec04a4534d22",
+          "sha256": "35289e3d5752507a4acb790db571f23c0d58c1490522bf7c656df06cf7e25981",
+          "sha1": "6f4948306bce90951b9a3f2158e2d158b0a997e6",
+          "md5": "e5e9865cbb276c8d128a772e52b830cc"
+        }
+      ]
+    }
+  ]
+}

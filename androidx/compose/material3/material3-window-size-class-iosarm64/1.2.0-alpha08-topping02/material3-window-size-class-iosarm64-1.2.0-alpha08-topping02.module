@@ -1,0 +1,157 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../material3-window-size-class/1.2.0-alpha08-topping02/material3-window-size-class-1.2.0-alpha08-topping02.module",
+    "group": "androidx.compose.material3",
+    "module": "material3-window-size-class",
+    "version": "1.2.0-alpha08-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-window-size-class.klib",
+          "url": "material3-window-size-class-iosarm64-1.2.0-alpha08-topping02.klib",
+          "size": 19412,
+          "sha512": "2bcc2411222ca84f001e02a9fc4acb00a200585489d0cad5a336c35d5e9c372b119b1e4b1a5464209b3a8539aa45f526a3bb7b5062e2be4de1cbd3c3449e7ac3",
+          "sha256": "eb24293f0f80fdf5cf1fbc4bf0449f9ecae1732262e03f9a3f39f3fbf7dbd406",
+          "sha1": "15e60e03f2eb9db5351d314ae8b3ad8b7859e3ca",
+          "md5": "b307ed68daaa8acf6536abbf8d891abb"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "material3-window-size-class-iosarm64-1.2.0-alpha08-topping02-sources.jar",
+          "url": "material3-window-size-class-iosarm64-1.2.0-alpha08-topping02-sources.jar",
+          "size": 6726,
+          "sha512": "59342ba0b8edc3d01a1299db68afcd2344fb8b32c918ad3921f1c13c2f21b95880486567e5b6b86da32f094e3d25f42203edcc5bca375ce7a2f9462873abb2fc",
+          "sha256": "20bb8f43ae651c5186c1b76ff3a36a61561ee0f7961653f671d9fdf2a0e2b1c1",
+          "sha1": "dec79d508c791e33344eb76b72611495ee43b7f1",
+          "md5": "543c06c03154595a796c93dd94967b51"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-window-size-class-iosarm64-1.2.0-alpha08-topping02-metadata.jar",
+          "url": "material3-window-size-class-iosarm64-1.2.0-alpha08-topping02-metadata.jar",
+          "size": 4249,
+          "sha512": "ebe14186b36b2335ff9daa3b7c822169d7b4b5d611ceab3faa59a7c58b83084ee784ac946a1125faf6124c67c3c456216e3adaf54c675ac6a6042be5b53db066",
+          "sha256": "3fc0e5a9494f9eb8692e51de96252480f7e3e0230ead625d8a42977ac13a8980",
+          "sha1": "15d360cb103ccdd88238e9ba8d30af445c8ff2d0",
+          "md5": "e9518072a11a03893501d4044ebcacf9"
+        }
+      ]
+    }
+  ]
+}

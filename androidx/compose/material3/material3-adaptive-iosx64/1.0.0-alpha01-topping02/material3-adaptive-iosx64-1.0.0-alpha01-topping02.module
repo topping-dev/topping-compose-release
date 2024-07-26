@@ -1,0 +1,171 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../material3-adaptive/1.0.0-alpha01-topping02/material3-adaptive-1.0.0-alpha01-topping02.module",
+    "group": "androidx.compose.material3",
+    "module": "material3-adaptive",
+    "version": "1.0.0-alpha01-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.2.0-alpha08-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3-window-size-class",
+          "version": {
+            "requires": "1.2.0-alpha08-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-adaptive.klib",
+          "url": "material3-adaptive-iosx64-1.0.0-alpha01-topping02.klib",
+          "size": 109997,
+          "sha512": "bc5d4199411dc243e7727f40e685ec929d92f80d080804f143a95da72c622225471758efc52ae556007dc3c47f5b2f2ea35c3b068ec1186d719cef6b1f242b29",
+          "sha256": "ae13620aa5d3dcd227313d21b5a5eb7c441e4ce58ab1ec4ab3d24095b3a28e49",
+          "sha1": "dc73ddc663f39d907c3ffb3607752d485b5ace50",
+          "md5": "0a0a5f5487b7a63c8cc1165d5b8654e2"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "material3-adaptive-iosx64-1.0.0-alpha01-topping02-sources.jar",
+          "url": "material3-adaptive-iosx64-1.0.0-alpha01-topping02-sources.jar",
+          "size": 30792,
+          "sha512": "d69dfafb8ed615066206ed3d2515e0257a6c75963203b08c0d78a0dc24850aa001c64f40b3732ceab2f4bee466fd6e2598697b58f61f2b5e33049198be55d3a0",
+          "sha256": "da31d1b156eb504f133b22231617bedd1979f5a7afaf979bbba382243ddfe304",
+          "sha1": "dbe5953ab302442193f2be6a8856b29cad272c41",
+          "md5": "b6626812cb793255de812cd8519a5ab4"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.2.0-alpha08-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3-window-size-class",
+          "version": {
+            "requires": "1.2.0-alpha08-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-adaptive-iosx64-1.0.0-alpha01-topping02-metadata.jar",
+          "url": "material3-adaptive-iosx64-1.0.0-alpha01-topping02-metadata.jar",
+          "size": 6055,
+          "sha512": "238bc8015d3f8604a1ac05afd12723e399e2a4c48b4c2c0800031b26102d9d77797bf3d1270d1a18ec6a432c1bef964dd13f87184dbd39bf2d1fc161bc7035c4",
+          "sha256": "2cf8bd0159e3da8f52b5190e3005e9ca345df951c4ddd35338c7b131f8fd59a8",
+          "sha1": "493dc01839ef00ba1f2b58e016b4d332f3b5ef73",
+          "md5": "424b7eafc6e7b932a7aac9fdbf81166e"
+        }
+      ]
+    }
+  ]
+}

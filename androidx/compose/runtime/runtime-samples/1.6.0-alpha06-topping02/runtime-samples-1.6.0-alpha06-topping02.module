@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.runtime",
+    "module": "runtime-samples",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "runtime-samples-1.6.0-alpha06-topping02.aar",
+          "url": "runtime-samples-1.6.0-alpha06-topping02.aar",
+          "size": 187710,
+          "sha512": "eae6f14369bf7af1112e37bc69e3dcbea4dd8879c2a4a0abca56c563d70f88f942ba8148a2133570d47efc97d6c9a4d870e938e1408be3b52c93b7f3149433b1",
+          "sha256": "fd02ccfac2d3fd55259cf65185b3c7c9ca5acc1487b479943c4582d211901306",
+          "sha1": "185b0c0566593fa37e37714a50d2fc25f862bbd7",
+          "md5": "4f4298eb8e166f4a0c66059a88d0621f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "runtime-samples-1.6.0-alpha06-topping02.aar",
+          "url": "runtime-samples-1.6.0-alpha06-topping02.aar",
+          "size": 187710,
+          "sha512": "eae6f14369bf7af1112e37bc69e3dcbea4dd8879c2a4a0abca56c563d70f88f942ba8148a2133570d47efc97d6c9a4d870e938e1408be3b52c93b7f3149433b1",
+          "sha256": "fd02ccfac2d3fd55259cf65185b3c7c9ca5acc1487b479943c4582d211901306",
+          "sha1": "185b0c0566593fa37e37714a50d2fc25f862bbd7",
+          "md5": "4f4298eb8e166f4a0c66059a88d0621f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "runtime-samples-1.6.0-alpha06-topping02-sources.jar",
+          "url": "runtime-samples-1.6.0-alpha06-topping02-sources.jar",
+          "size": 17531,
+          "sha512": "6a308710d7d8b06f8495c60175404fdc69f17c864c5efff888d9d0aa62c9eb1f4b353dc150755a1a492c78265301862a0a0b7abe7c55a8109d0b00d234a4aae6",
+          "sha256": "516eb7891ab131e436ec647714f66da7cec1e2ad68eb726d7355f46b5babba4a",
+          "sha1": "d3ca01caa9b6e68552ade79dda62ff94324f3f72",
+          "md5": "6a33c060f9e4643c2f1610078958c59f"
+        }
+      ]
+    }
+  ]
+}

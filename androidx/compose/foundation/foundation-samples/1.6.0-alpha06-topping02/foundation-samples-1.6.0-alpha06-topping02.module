@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.foundation",
+    "module": "foundation-samples",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "foundation-samples-1.6.0-alpha06-topping02.aar",
+          "url": "foundation-samples-1.6.0-alpha06-topping02.aar",
+          "size": 1049980,
+          "sha512": "efaced44c82070b7ba50de4aa6fcb4077732632069f206f6c0a5c9f3b6d5e79d26dc79fb10d06c45410d47b4f3cd3bd3133e55181d3087798718281e9d59079c",
+          "sha256": "e9902f1026541a86904449a9e39250e954dfef3756f5a256718a37520d3c1abf",
+          "sha1": "9b8c246d882d6bbbb8a07a5525da3955d855eca1",
+          "md5": "a5b8916cf16155895386c2575a797e1a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-text",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.4.0-beta02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation-samples-1.6.0-alpha06-topping02.aar",
+          "url": "foundation-samples-1.6.0-alpha06-topping02.aar",
+          "size": 1049980,
+          "sha512": "efaced44c82070b7ba50de4aa6fcb4077732632069f206f6c0a5c9f3b6d5e79d26dc79fb10d06c45410d47b4f3cd3bd3133e55181d3087798718281e9d59079c",
+          "sha256": "e9902f1026541a86904449a9e39250e954dfef3756f5a256718a37520d3c1abf",
+          "sha1": "9b8c246d882d6bbbb8a07a5525da3955d855eca1",
+          "md5": "a5b8916cf16155895386c2575a797e1a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "foundation-samples-1.6.0-alpha06-topping02-sources.jar",
+          "url": "foundation-samples-1.6.0-alpha06-topping02-sources.jar",
+          "size": 61339,
+          "sha512": "9305e71dac5b6f366328c5c01af8848def95e492014b9fddc1f71df6e904b1447b334f39e75af668b42b5feb7876dd11b7ea1215033839b893cee4674df3635d",
+          "sha256": "9a09f3d6a8586ad59019d6135ff0fac6b8e2af4633b0b9840205bad3ac97ee39",
+          "sha1": "23150775f477cba8da8670cc2f9152641a0e4d3c",
+          "md5": "05035c5dc7ff2c2df907166e45ae8900"
+        }
+      ]
+    }
+  ]
+}

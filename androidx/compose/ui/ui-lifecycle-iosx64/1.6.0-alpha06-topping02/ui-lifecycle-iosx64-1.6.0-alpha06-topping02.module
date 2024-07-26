@@ -1,0 +1,171 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-lifecycle/1.6.0-alpha06-topping02/ui-lifecycle-1.6.0-alpha06-topping02.module",
+    "group": "androidx.compose.ui",
+    "module": "ui-lifecycle",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.4.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-lifecycle.klib",
+          "url": "ui-lifecycle-iosx64-1.6.0-alpha06-topping02.klib",
+          "size": 63186,
+          "sha512": "59563e720ef8f92696de099bebff6ebe6010ee85c5f3b52c99b3028e4fd1830e92612b4279f098d57a56e7c942fb2905ee402a075bc92c5fa57cd9f68cf2e122",
+          "sha256": "51a6d6bad7fa0eb908362e17d344069a4154937d8ee5bf25a517c72bc4e01053",
+          "sha1": "bc215fd1ebdfa5a0bf18482dd3c1f3a824d6d205",
+          "md5": "5e2de5431276efe3034f3524786d22f0"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ui-lifecycle-iosx64-1.6.0-alpha06-topping02-sources.jar",
+          "url": "ui-lifecycle-iosx64-1.6.0-alpha06-topping02-sources.jar",
+          "size": 16865,
+          "sha512": "805360c3933cb75e56fb8ea72d28653da23f664bf5d0898a04f9c53cf398a202b323be1354015990f92b45b3ffd6b2a2ec23449c066acee1288755167c8e7f74",
+          "sha256": "6035e37dd7e31325c69a939ba93cd1f2dda8b1bd7cc53fb7d94c6545fa73ba9d",
+          "sha1": "579850bb4f929a842d78805c0b5c2d5672a58fb3",
+          "md5": "958c6ad07409dfcb8098739351828d42"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.4.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-lifecycle-iosx64-1.6.0-alpha06-topping02-metadata.jar",
+          "url": "ui-lifecycle-iosx64-1.6.0-alpha06-topping02-metadata.jar",
+          "size": 7288,
+          "sha512": "d7fdae82fe2aaa6172fe320a96f90fe27758ce11453caa2b4adc79b8e4d2e785fe8ca43d2311c9661f9b1e22dbd3bbc035adbfe77024db489475692f81d6bb08",
+          "sha256": "10b2bf016df227f08fedadb55b40b05e145215d4b0a121c7bfedf89aeca162f5",
+          "sha1": "a668a4889a9e3f794b7f11481e7da22728e1f27f",
+          "md5": "7da8cc32771127550ed0b75e5778f776"
+        }
+      ]
+    }
+  ]
+}

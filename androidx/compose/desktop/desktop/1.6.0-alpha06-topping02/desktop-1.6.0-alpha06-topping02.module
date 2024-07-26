@@ -1,0 +1,142 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.desktop",
+    "module": "desktop",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "desktop-metadata-1.6.0-alpha06-topping02.jar",
+          "url": "desktop-1.6.0-alpha06-topping02.jar",
+          "size": 710,
+          "sha512": "f015ceddee17a3d38117ff064bc722443eb90191d3c17a614995f7ca22856b4d12581f7afb672979666cd6989b4d807844c2a580cf8e04a7d0c066a0670b1c84",
+          "sha256": "01c9739f1ad815f38e64df5c055af6ce303974602b21924fccaac32eb616634f",
+          "sha1": "4ecfc4a582ce32c8336659243c79388e1097b33e",
+          "md5": "6cf82a81a127480c38e2001490ceec85"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "desktop-kotlin-1.6.0-alpha06-topping02-sources.jar",
+          "url": "desktop-1.6.0-alpha06-topping02-sources.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../desktop-jvm/1.6.0-alpha06-topping02/desktop-jvm-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.desktop",
+        "module": "desktop-jvm",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../desktop-jvm/1.6.0-alpha06-topping02/desktop-jvm-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.desktop",
+        "module": "desktop-jvm",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../desktop-jvm/1.6.0-alpha06-topping02/desktop-jvm-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.desktop",
+        "module": "desktop-jvm",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    }
+  ]
+}

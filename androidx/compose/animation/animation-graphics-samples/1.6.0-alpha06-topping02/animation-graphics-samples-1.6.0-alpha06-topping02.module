@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.animation",
+    "module": "animation-graphics-samples",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "animation-graphics-samples-1.6.0-alpha06-topping02.aar",
+          "url": "animation-graphics-samples-1.6.0-alpha06-topping02.aar",
+          "size": 7740,
+          "sha512": "d00a2b250c8bf52715159437c25b88d45826867056a921677298cd7618a1b4ba42c359add8e85ce1241311fd5c612e8f0264a90c628354889b1277aaf25efb2b",
+          "sha256": "d69bb596fb285c5b1191761f31f03809a4e5acacbe58560b809d49f7565d8bbc",
+          "sha1": "89f3940691b8acab0c94fe0988bcad1272d5063e",
+          "md5": "75ef7bbfef09d814f8766495ce9baa0e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-graphics",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-text",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "animation-graphics-samples-1.6.0-alpha06-topping02.aar",
+          "url": "animation-graphics-samples-1.6.0-alpha06-topping02.aar",
+          "size": 7740,
+          "sha512": "d00a2b250c8bf52715159437c25b88d45826867056a921677298cd7618a1b4ba42c359add8e85ce1241311fd5c612e8f0264a90c628354889b1277aaf25efb2b",
+          "sha256": "d69bb596fb285c5b1191761f31f03809a4e5acacbe58560b809d49f7565d8bbc",
+          "sha1": "89f3940691b8acab0c94fe0988bcad1272d5063e",
+          "md5": "75ef7bbfef09d814f8766495ce9baa0e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "animation-graphics-samples-1.6.0-alpha06-topping02-sources.jar",
+          "url": "animation-graphics-samples-1.6.0-alpha06-topping02-sources.jar",
+          "size": 1904,
+          "sha512": "1de2936d87e3b1e163e6f36551f48096cc2f3bfbe799ef0828c91e5d3961c95353e0d5fbe86ef7473441c0beb9db9bb8c6f861ae4854d0e56a65de8de1e23bf5",
+          "sha256": "4ad11d173c06d7e8d46dc5794d7e015d9b2e84d1fca30e10bdcd37ac89562b44",
+          "sha1": "2e4b63c37e6d66a08bfdc65104248933aa0487aa",
+          "md5": "ecdd0a4c90773a2a65bfedda699dfb3f"
+        }
+      ]
+    }
+  ]
+}

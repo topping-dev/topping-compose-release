@@ -1,0 +1,162 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../foundation/1.6.0-alpha06-topping02/foundation-1.6.0-alpha06-topping02.module",
+    "group": "androidx.compose.foundation",
+    "module": "foundation",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation-desktop-1.6.0-alpha06-topping02.jar",
+          "url": "foundation-desktop-1.6.0-alpha06-topping02.jar",
+          "size": 3492857,
+          "sha512": "d0b3df2c31af2c2158a0c84975661dfd6d8e036b8b3ad8ddf40de060972a9b0940779d3ff41edacd5a268b332e577074295e7d5bff31a110823ad779a01ca8d1",
+          "sha256": "95087ff8318eeefa65e224ecaa19ef3ffb989b6036f32d87b1fea1343798f691",
+          "sha1": "7799269cfea6f93588c8d3fc8cd46d4dcfe2360f",
+          "md5": "2cd93092375b78569bd073a6875cf10d"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-text",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation-desktop-1.6.0-alpha06-topping02.jar",
+          "url": "foundation-desktop-1.6.0-alpha06-topping02.jar",
+          "size": 3492857,
+          "sha512": "d0b3df2c31af2c2158a0c84975661dfd6d8e036b8b3ad8ddf40de060972a9b0940779d3ff41edacd5a268b332e577074295e7d5bff31a110823ad779a01ca8d1",
+          "sha256": "95087ff8318eeefa65e224ecaa19ef3ffb989b6036f32d87b1fea1343798f691",
+          "sha1": "7799269cfea6f93588c8d3fc8cd46d4dcfe2360f",
+          "md5": "2cd93092375b78569bd073a6875cf10d"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "foundation-desktop-1.6.0-alpha06-topping02-sources.jar",
+          "url": "foundation-desktop-1.6.0-alpha06-topping02-sources.jar",
+          "size": 691540,
+          "sha512": "b973cbaf8346e74b1ea5013b83774d9bf2b5efc05ed78f74f3e887409e1d213f4862e3533304d01e40e9326081301e1fb5307752c07760c7d76f979e53bde2bd",
+          "sha256": "8f3ee9c1627137aa037d1aef1c3b4af83245da7e49b2b93dc072ac0d39bbbfde",
+          "sha1": "a114fdafe8381bf1682cb35ebd041f3082134463",
+          "md5": "e3f0ac46d247c4c151492e77954c1e5e"
+        }
+      ]
+    }
+  ]
+}

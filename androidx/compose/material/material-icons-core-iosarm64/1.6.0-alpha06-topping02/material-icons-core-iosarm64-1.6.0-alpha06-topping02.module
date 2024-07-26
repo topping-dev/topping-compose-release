@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../material-icons-core/1.6.0-alpha06-topping02/material-icons-core-1.6.0-alpha06-topping02.module",
+    "group": "androidx.compose.material",
+    "module": "material-icons-core",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-icons-core.klib",
+          "url": "material-icons-core-iosarm64-1.6.0-alpha06-topping02.klib",
+          "size": 353196,
+          "sha512": "6b5adc1fe200d3cc6e85f7a9bd1d30df8163448885391af3b900ea506c131c86a57828338ea46fe04b166afd7beebfb0a98c0449f1554de754108afe673b5434",
+          "sha256": "859bd4f351201fea7288afb8a7faa29d4ba7b20fbbaf7c89772dbba77b7601c6",
+          "sha1": "369be41b7fb921ea11cacf3a746e48e08ca972b0",
+          "md5": "ff6ef93ae80f90980c2ac65988c2f7e5"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "material-icons-core-iosarm64-1.6.0-alpha06-topping02-sources.jar",
+          "url": "material-icons-core-iosarm64-1.6.0-alpha06-topping02-sources.jar",
+          "size": 283974,
+          "sha512": "02d465292fe52dead7601c1ee5f5823f267fb2aeff6e6252c86e42f68a4810fd00cede92c047182a475041f1ef077358bbdfa9ed13a1fe3cce5d7713a485c704",
+          "sha256": "38663dc3908f433c7704b02fe77e26179319d9a36a632df238fa5bbdfbe07710",
+          "sha1": "f6d8ca49ccaa1ac695f9156ffc6a4e43b8b221b2",
+          "md5": "f034303c181015a75e68965be14aca8e"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-icons-core-iosarm64-1.6.0-alpha06-topping02-metadata.jar",
+          "url": "material-icons-core-iosarm64-1.6.0-alpha06-topping02-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

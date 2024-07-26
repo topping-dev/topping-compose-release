@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.ui",
+    "module": "ui-text-samples",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ui-text-samples-1.6.0-alpha06-topping02.aar",
+          "url": "ui-text-samples-1.6.0-alpha06-topping02.aar",
+          "size": 83383,
+          "sha512": "e54ff0f9af482098e5b3f9895972c304176a30e08e1aca883c2d181777ae7deac4225e610f0e60300e7f77f9feb309c766a43a50b9b99f183bfe589adaef9e3b",
+          "sha256": "8a315b6b1c40837d2ee5b541d59fec98b46f6731a7e7537a410ef05c50ab17ae",
+          "sha1": "5548e37f02fd6acc19956e0fa36e2fb084729c2c",
+          "md5": "8d42b58e68240a3a8188a1ce3b920810"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-text",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-text-samples-1.6.0-alpha06-topping02.aar",
+          "url": "ui-text-samples-1.6.0-alpha06-topping02.aar",
+          "size": 83383,
+          "sha512": "e54ff0f9af482098e5b3f9895972c304176a30e08e1aca883c2d181777ae7deac4225e610f0e60300e7f77f9feb309c766a43a50b9b99f183bfe589adaef9e3b",
+          "sha256": "8a315b6b1c40837d2ee5b541d59fec98b46f6731a7e7537a410ef05c50ab17ae",
+          "sha1": "5548e37f02fd6acc19956e0fa36e2fb084729c2c",
+          "md5": "8d42b58e68240a3a8188a1ce3b920810"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-text-samples-1.6.0-alpha06-topping02-sources.jar",
+          "url": "ui-text-samples-1.6.0-alpha06-topping02-sources.jar",
+          "size": 15616,
+          "sha512": "d8be291a2736b365baba3ea57bdcadc848e08dbd78dc90071f5a00060790df319fd11ba0d34432b6b85507ffec97735813261d82ed7bfc6d2e9086705bb439b5",
+          "sha256": "7275f9750f46eab08a494f0d1d6bcbd2a65e31e4443eb1aa6e9577daa21bc7ad",
+          "sha1": "0bf70899d2c5df29eb7176d961b1bee4aa963b4e",
+          "md5": "3183be640abf9266564ca61926698731"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../material-ripple/1.6.0-alpha06-topping02/material-ripple-1.6.0-alpha06-topping02.module",
+    "group": "androidx.compose.material",
+    "module": "material-ripple",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-ripple-release.aar",
+          "url": "material-ripple-android-1.6.0-alpha06-topping02.aar",
+          "size": 72703,
+          "sha512": "01c3a59e31347e1200c99bdf8a59e2a473804113ad7b5a07a1720c1c69b37867f0fae052121a784283deabd7cb587afe4e770a82db5ab7027d043c07035cef42",
+          "sha256": "374cff76453c2be92babdefa3b3bc798e98ec141a4808fce7437871c83844182",
+          "sha1": "d89003d65df4ae9ef17ec8a65b0f54def5727e61",
+          "md5": "ff9cbc0a9c15c40aab34a1a7be0c9673"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "material-ripple-release.aar",
+          "url": "material-ripple-android-1.6.0-alpha06-topping02.aar",
+          "size": 72703,
+          "sha512": "01c3a59e31347e1200c99bdf8a59e2a473804113ad7b5a07a1720c1c69b37867f0fae052121a784283deabd7cb587afe4e770a82db5ab7027d043c07035cef42",
+          "sha256": "374cff76453c2be92babdefa3b3bc798e98ec141a4808fce7437871c83844182",
+          "sha1": "d89003d65df4ae9ef17ec8a65b0f54def5727e61",
+          "md5": "ff9cbc0a9c15c40aab34a1a7be0c9673"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "fake-sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "material-ripple-android-1.6.0-alpha06-topping02-sources.jar",
+          "url": "material-ripple-android-1.6.0-alpha06-topping02-sources.jar",
+          "size": 23206,
+          "sha512": "f6426df97edac266493871eaffc791ed6f7cde582b784cca18597e3fd3982353399adabb983255c8b2d24c4e10663997d7b3381c49ebef10907381c714e70cce",
+          "sha256": "f06ce878da3eea5a917288ec95095f07d496fe6593f231a8ffcdf9631cd81525",
+          "sha1": "58b3cb3adf6ee58a526d90582cd67acfa2469ad6",
+          "md5": "3b33cdff7c6efd91aa8e276866bd020e"
+        }
+      ]
+    }
+  ]
+}

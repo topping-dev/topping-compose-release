@@ -54,56 +54,56 @@
           "group": "androidx.compose.foundation",
           "module": "foundation",
           "version": {
-            "requires": "1.6.0-alpha06-topping01"
+            "requires": "1.6.0-alpha06-topping02"
           }
         },
         {
           "group": "androidx.compose.foundation",
           "module": "foundation-layout",
           "version": {
-            "requires": "1.6.0-alpha06-topping01"
+            "requires": "1.6.0-alpha06-topping02"
           }
         },
         {
           "group": "androidx.compose.material",
           "module": "material-icons-core",
           "version": {
-            "requires": "1.6.0-alpha06-topping01"
+            "requires": "1.6.0-alpha06-topping02"
           }
         },
         {
           "group": "androidx.compose.runtime",
           "module": "runtime",
           "version": {
-            "requires": "1.6.0-alpha06-topping01"
+            "requires": "1.6.0-alpha06-topping02"
           }
         },
         {
           "group": "androidx.compose.ui",
           "module": "ui",
           "version": {
-            "requires": "1.6.0-alpha06-topping01"
+            "requires": "1.6.0-alpha06-topping02"
           }
         },
         {
           "group": "androidx.compose.ui",
           "module": "ui-text",
           "version": {
-            "requires": "1.6.0-alpha06-topping01"
+            "requires": "1.6.0-alpha06-topping02"
           }
         },
         {
           "group": "androidx.compose.ui",
           "module": "ui-tooling",
           "version": {
-            "requires": "1.6.0-alpha06-topping01"
+            "requires": "1.6.0-alpha06-topping02"
           }
         },
         {
           "group": "androidx.compose.ui",
           "module": "ui-tooling-preview",
           "version": {
-            "requires": "1.6.0-alpha06-topping01"
+            "requires": "1.6.0-alpha06-topping02"
           }
         },
         {

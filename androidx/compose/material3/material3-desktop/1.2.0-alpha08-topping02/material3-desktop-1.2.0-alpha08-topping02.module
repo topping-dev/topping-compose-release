@@ -1,0 +1,239 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../material3/1.2.0-alpha08-topping02/material3-1.2.0-alpha08-topping02.module",
+    "group": "androidx.compose.material3",
+    "module": "material3",
+    "version": "1.2.0-alpha08-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-core",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-ripple",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-text",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-desktop-1.2.0-alpha08-topping02.jar",
+          "url": "material3-desktop-1.2.0-alpha08-topping02.jar",
+          "size": 3123945,
+          "sha512": "f32174fe85dfae9a6288754d52c746e1a4b39d13434f2ec285cdd349c704f4dc24b0c6fe9dc1a9d434489745f522cfffab4b0ca5e698a1f99f2b3e41008a917b",
+          "sha256": "a025ee107f738fe2e22dfc2e6eb6bb0e5c1c94172e15a819d711b3e100fd6c05",
+          "sha1": "9dbd686445bae6dffb05af8a311db71dfb4c03d1",
+          "md5": "6c140de603ad18b90a88465aacee8202"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-core",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-ripple",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-text",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-desktop-1.2.0-alpha08-topping02.jar",
+          "url": "material3-desktop-1.2.0-alpha08-topping02.jar",
+          "size": 3123945,
+          "sha512": "f32174fe85dfae9a6288754d52c746e1a4b39d13434f2ec285cdd349c704f4dc24b0c6fe9dc1a9d434489745f522cfffab4b0ca5e698a1f99f2b3e41008a917b",
+          "sha256": "a025ee107f738fe2e22dfc2e6eb6bb0e5c1c94172e15a819d711b3e100fd6c05",
+          "sha1": "9dbd686445bae6dffb05af8a311db71dfb4c03d1",
+          "md5": "6c140de603ad18b90a88465aacee8202"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "material3-desktop-1.2.0-alpha08-topping02-sources.jar",
+          "url": "material3-desktop-1.2.0-alpha08-topping02-sources.jar",
+          "size": 384053,
+          "sha512": "3bb30d72df06baf8a36813735390aa7b0e55bcf54bc346e1a4d2e07fb6f18871fb6919e8a602838179c9a53d76d6776b9e6b84fc73c7c5cf19f5630ba7923657",
+          "sha256": "6e66b68b2a6285ff13135f1178b3eb30c2b9cdcb79ea5b06816b708f97db2470",
+          "sha1": "a545d9a2d9b6fe951c29e9e06dc3b9db30498716",
+          "md5": "79d0d1bbce9deb7583dbd8baaa05102c"
+        }
+      ]
+    }
+  ]
+}

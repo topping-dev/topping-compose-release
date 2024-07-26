@@ -1,0 +1,213 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../animation/1.6.0-alpha06-topping02/animation-1.6.0-alpha06-topping02.module",
+    "group": "androidx.compose.animation",
+    "module": "animation",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-core",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "animation.klib",
+          "url": "animation-iosx64-1.6.0-alpha06-topping02.klib",
+          "size": 209175,
+          "sha512": "17a1e92e60b15ac70767060041585eb78f20ba82cf8cc890bd5a9e85d33d6ea8d0e76285137f0192acbd1818af86dd32668c2c1b59e92830b089760a014522eb",
+          "sha256": "346af35578a9f575271684b4bcb430da194fb67b20d43b8ac4119063b9f542c3",
+          "sha1": "561d4f6e8eac754f166f9812bdc8b0ca2166b901",
+          "md5": "0480b7b8ed36a5d686808cc2407b6f24"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "animation-iosx64-1.6.0-alpha06-topping02-sources.jar",
+          "url": "animation-iosx64-1.6.0-alpha06-topping02-sources.jar",
+          "size": 47874,
+          "sha512": "56790bc88bb6e3001ded79383ccbe69a5dd15e1a9b66d30bd5dfd0921123b030c4a903d1d8d0249709c9804309ff65bb9239fa033e56df55d3f4ad9de4f2e853",
+          "sha256": "a88625ddb3bf7a5c25ce47a76199bae4e89fd91d97c01e9412a8458bef63c6c9",
+          "sha1": "e2f7093ab240689daabd14706889bfb59d34599f",
+          "md5": "5a5cbbb0d23be967235b04c929f151d7"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-core",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "animation-iosx64-1.6.0-alpha06-topping02-metadata.jar",
+          "url": "animation-iosx64-1.6.0-alpha06-topping02-metadata.jar",
+          "size": 4601,
+          "sha512": "9717c50807eab9de6fb46d891485b274edc608d722225b3ea6fa7c2f2abc85d93bac2f4e23897b11bdcc67a056e772e12d61d1bbbebed348b32db86e1c068f83",
+          "sha256": "4b1fca660511a5de1d7a4b42c648adef5c98360c9bc6399cd369cb253a39e076",
+          "sha1": "a4a3d895bcc4657ac5037086aff167b838d4d696",
+          "md5": "763686ad26202147182bf6eb31515f1e"
+        }
+      ]
+    }
+  ]
+}

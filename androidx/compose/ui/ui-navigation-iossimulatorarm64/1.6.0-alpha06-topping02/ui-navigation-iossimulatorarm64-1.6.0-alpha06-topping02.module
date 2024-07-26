@@ -1,0 +1,213 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-navigation/1.6.0-alpha06-topping02/ui-navigation-1.6.0-alpha06-topping02.module",
+    "group": "androidx.compose.ui",
+    "module": "ui-navigation",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.4.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-lifecycle",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-navigation.klib",
+          "url": "ui-navigation-iossimulatorarm64-1.6.0-alpha06-topping02.klib",
+          "size": 470768,
+          "sha512": "2d58fb6db817b95698fa1b163eda8e3fff08c605d28127260709b4ccf94cfd186d56df3c4bf61289fbdf841a6566a7d08749a5acf29f1f18b52a51229a91233f",
+          "sha256": "2c536f175d46094ff5b0e067f77dedca936d46f98b04fc390949d3a69434b766",
+          "sha1": "cf20bb35feae2e336e841321ed84c303d27a2f7c",
+          "md5": "813278b47c50b0f8f1f8265b94709a92"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ui-navigation-iossimulatorarm64-1.6.0-alpha06-topping02-sources.jar",
+          "url": "ui-navigation-iossimulatorarm64-1.6.0-alpha06-topping02-sources.jar",
+          "size": 104837,
+          "sha512": "6bac96149fd54a268d0688b7b2e239c39a46e17bf049780b5df0f19389cf91963299556e048a6443769a1d0089d85f50069ff0b705f11dff430eedc40203e73d",
+          "sha256": "0ac43eb203c9ad7fc91d0107baecf6852e1f6063e40e4d7589829af24345523d",
+          "sha1": "f505f37e3375b390c8f46887571438864d4b9433",
+          "md5": "b52165bb7ebcb1f0e551bf58ff5770a3"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.4.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-lifecycle",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-navigation-iossimulatorarm64-1.6.0-alpha06-topping02-metadata.jar",
+          "url": "ui-navigation-iossimulatorarm64-1.6.0-alpha06-topping02-metadata.jar",
+          "size": 21793,
+          "sha512": "c4d89182bb101dc29a56811edfcfb10c15a9cc37ea8a416f056e537e0212980844e255c55122df88405b820a7e5cf539be3b941b81d59a086be94ff406c9d41e",
+          "sha256": "2f0bfffa08bd9294d1a3afea5bae6af8e2c04af17a757af8466db236972c94b3",
+          "sha1": "528c3df2b4074725812db5545f21aa64ad3ce001",
+          "md5": "b58a1b44f368d7831a70acb4a6ceceec"
+        }
+      ]
+    }
+  ]
+}

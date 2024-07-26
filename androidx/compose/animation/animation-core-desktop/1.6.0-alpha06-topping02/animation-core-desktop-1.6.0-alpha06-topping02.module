@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../animation-core/1.6.0-alpha06-topping02/animation-core-1.6.0-alpha06-topping02.module",
+    "group": "androidx.compose.animation",
+    "module": "animation-core",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "animation-core-desktop-1.6.0-alpha06-topping02.jar",
+          "url": "animation-core-desktop-1.6.0-alpha06-topping02.jar",
+          "size": 333629,
+          "sha512": "db50e55f96ac69be52ec45145efe1fdca4893c7a62291f584c50a7661ac454af80e4fe9a22d3bdf7b73c5e2a71d1cd2ee9101972d4708760ebf419386d4130ff",
+          "sha256": "9cb2b8a2b23216ee6e5f8f5b225053d6d479f15246a6e3a993dcc741e90971a5",
+          "sha1": "37d71576dc162ba4ccc1161464da20e4f4372733",
+          "md5": "ee9a870d84cffb4afb2c05f9dbf071d9"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "animation-core-desktop-1.6.0-alpha06-topping02.jar",
+          "url": "animation-core-desktop-1.6.0-alpha06-topping02.jar",
+          "size": 333629,
+          "sha512": "db50e55f96ac69be52ec45145efe1fdca4893c7a62291f584c50a7661ac454af80e4fe9a22d3bdf7b73c5e2a71d1cd2ee9101972d4708760ebf419386d4130ff",
+          "sha256": "9cb2b8a2b23216ee6e5f8f5b225053d6d479f15246a6e3a993dcc741e90971a5",
+          "sha1": "37d71576dc162ba4ccc1161464da20e4f4372733",
+          "md5": "ee9a870d84cffb4afb2c05f9dbf071d9"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "animation-core-desktop-1.6.0-alpha06-topping02-sources.jar",
+          "url": "animation-core-desktop-1.6.0-alpha06-topping02-sources.jar",
+          "size": 83300,
+          "sha512": "f6ee9881acb8cf82100b003be777964d17f293af58f3efcd749cc42b300083c1f05c3070cbb0341c4a85331f370d53e4198a32e09a7e897e462fb1273957ada1",
+          "sha256": "0bf5409d93d83bc0b36a50ee47636b2f88427a7c974d1ff1d69cda1c0a4b9bff",
+          "sha1": "f6c909889e51a0dd07789330edcd4149e75780fb",
+          "md5": "909a39ca4bb76c10d7bb21c208003263"
+        }
+      ]
+    }
+  ]
+}

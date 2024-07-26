@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-unit/1.6.0-alpha06-topping02/ui-unit-1.6.0-alpha06-topping02.module",
+    "group": "androidx.compose.ui",
+    "module": "ui-unit",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-geometry",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-unit-desktop-1.6.0-alpha06-topping02.jar",
+          "url": "ui-unit-desktop-1.6.0-alpha06-topping02.jar",
+          "size": 72238,
+          "sha512": "68a707415a55bd958f88adfdfcbb597a3739714af338c73bfd113fe767c46559cbbe51c96585f1a176549ddeaa8cb16d9c4268706131778f73ff9a6dacac0959",
+          "sha256": "0bbdb600d036453c355117ba3b9163b2aabbc452a60a926a2ab5582f7557e489",
+          "sha1": "afb94280d7c57cd8c9f4a5e5663f124e14427037",
+          "md5": "9b31ed8d8619398d57da6045597b1cec"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-geometry",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-unit-desktop-1.6.0-alpha06-topping02.jar",
+          "url": "ui-unit-desktop-1.6.0-alpha06-topping02.jar",
+          "size": 72238,
+          "sha512": "68a707415a55bd958f88adfdfcbb597a3739714af338c73bfd113fe767c46559cbbe51c96585f1a176549ddeaa8cb16d9c4268706131778f73ff9a6dacac0959",
+          "sha256": "0bbdb600d036453c355117ba3b9163b2aabbc452a60a926a2ab5582f7557e489",
+          "sha1": "afb94280d7c57cd8c9f4a5e5663f124e14427037",
+          "md5": "9b31ed8d8619398d57da6045597b1cec"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ui-unit-desktop-1.6.0-alpha06-topping02-sources.jar",
+          "url": "ui-unit-desktop-1.6.0-alpha06-topping02-sources.jar",
+          "size": 28002,
+          "sha512": "fc9b74142ec1c478e473a71977065c0558dacc2e6f05b7faec7491d3d78ad5c6f26ed7e254ca3e079d3f9ee179f02a41c17a41c3556a2e02ea95037128152996",
+          "sha256": "9ad7cb0622b6254c137670b513a793dc632059d8905342a20850eba079473e59",
+          "sha1": "c2950e45b59f14ab8456216d60912b277b3b3c9a",
+          "md5": "c7491082ed952349495d50f1cbd97082"
+        }
+      ]
+    }
+  ]
+}

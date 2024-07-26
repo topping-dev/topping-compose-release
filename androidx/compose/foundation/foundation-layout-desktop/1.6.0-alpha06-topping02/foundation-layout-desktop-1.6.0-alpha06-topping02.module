@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../foundation-layout/1.6.0-alpha06-topping02/foundation-layout-1.6.0-alpha06-topping02.module",
+    "group": "androidx.compose.foundation",
+    "module": "foundation-layout",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation-layout-desktop-1.6.0-alpha06-topping02.jar",
+          "url": "foundation-layout-desktop-1.6.0-alpha06-topping02.jar",
+          "size": 470957,
+          "sha512": "1233bc61c5702874a4d03f90ad14163c0d908ee83ceb059138e4423280ce7aab11f3d9210c6840dca5aabfce67eb4fbaff903c68788af2327522dee9de3d0ff5",
+          "sha256": "5b86345ad0fc5bbc232b957699604d066ae725f5b1536c3d74c78897d7d1711d",
+          "sha1": "31f78585fe21046a227e84375bd88074ca5b5875",
+          "md5": "35e44889799da92e9313c607fd85d42c"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation-layout-desktop-1.6.0-alpha06-topping02.jar",
+          "url": "foundation-layout-desktop-1.6.0-alpha06-topping02.jar",
+          "size": 470957,
+          "sha512": "1233bc61c5702874a4d03f90ad14163c0d908ee83ceb059138e4423280ce7aab11f3d9210c6840dca5aabfce67eb4fbaff903c68788af2327522dee9de3d0ff5",
+          "sha256": "5b86345ad0fc5bbc232b957699604d066ae725f5b1536c3d74c78897d7d1711d",
+          "sha1": "31f78585fe21046a227e84375bd88074ca5b5875",
+          "md5": "35e44889799da92e9313c607fd85d42c"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "foundation-layout-desktop-1.6.0-alpha06-topping02-sources.jar",
+          "url": "foundation-layout-desktop-1.6.0-alpha06-topping02-sources.jar",
+          "size": 64183,
+          "sha512": "1902d024a01830f894b48438716983155dd364dcdf51dbd49618c9e7382dc8ff70dd787e84c4103d437f5c57615cade6657e0b7e6b6288b754688cac1675a25e",
+          "sha256": "7130ee26e7ecd2cbca1cce7f976d39859dfa6f45dee59e411dd11603a56f4d1b",
+          "sha1": "8d1735a64e14612359b8018cce9e563e150ffd08",
+          "md5": "64fa8bdbfb2169120d3843a728a514dd"
+        }
+      ]
+    }
+  ]
+}

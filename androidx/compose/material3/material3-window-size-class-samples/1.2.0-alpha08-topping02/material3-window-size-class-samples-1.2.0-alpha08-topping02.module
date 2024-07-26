@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.material3",
+    "module": "material3-window-size-class-samples",
+    "version": "1.2.0-alpha08-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "material3-window-size-class-samples-1.2.0-alpha08-topping02.aar",
+          "url": "material3-window-size-class-samples-1.2.0-alpha08-topping02.aar",
+          "size": 7231,
+          "sha512": "fefc94f7b9d5dbc631cf21198166edfdd406532d0cfdcf32dc0727f083d78ac475dde0118003a2ad794f95c23d40b1516f2a6b26e532bc310b54897d1f77e10d",
+          "sha256": "ce58a5296b3edc3175964333e5aef277ef9f570b5bca110df7d165b242ba434b",
+          "sha1": "201aa302f33b756599fb0c3c815efe297375d952",
+          "md5": "24cdafc4a6bc490d71cdd759a08251f7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3-window-size-class",
+          "version": {
+            "requires": "1.2.0-alpha08-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-window-size-class-samples-1.2.0-alpha08-topping02.aar",
+          "url": "material3-window-size-class-samples-1.2.0-alpha08-topping02.aar",
+          "size": 7231,
+          "sha512": "fefc94f7b9d5dbc631cf21198166edfdd406532d0cfdcf32dc0727f083d78ac475dde0118003a2ad794f95c23d40b1516f2a6b26e532bc310b54897d1f77e10d",
+          "sha256": "ce58a5296b3edc3175964333e5aef277ef9f570b5bca110df7d165b242ba434b",
+          "sha1": "201aa302f33b756599fb0c3c815efe297375d952",
+          "md5": "24cdafc4a6bc490d71cdd759a08251f7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "material3-window-size-class-samples-1.2.0-alpha08-topping02-sources.jar",
+          "url": "material3-window-size-class-samples-1.2.0-alpha08-topping02-sources.jar",
+          "size": 2091,
+          "sha512": "c4ac844ea57ede2735c4cb0b65f7918d85a3a7477f8adc7ffdab162e5bc24a92fbfce59387b94788a8ef6fd7f8a95ff4230e977c79ba40e9d785f5589015809d",
+          "sha256": "c7cbdf095e517a6c5ac11ed66768a6e7fe5cd15ff63b8c6e8648bd443cebf201",
+          "sha1": "f75d5997f0ca689a6f23cfd6691159e3d730a8f7",
+          "md5": "1920115e5c0b725089bd50f1d7b01fc0"
+        }
+      ]
+    }
+  ]
+}

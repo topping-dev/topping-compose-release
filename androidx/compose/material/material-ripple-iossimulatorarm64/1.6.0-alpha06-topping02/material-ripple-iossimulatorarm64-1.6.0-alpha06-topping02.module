@@ -1,0 +1,157 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../material-ripple/1.6.0-alpha06-topping02/material-ripple-1.6.0-alpha06-topping02.module",
+    "group": "androidx.compose.material",
+    "module": "material-ripple",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-ripple.klib",
+          "url": "material-ripple-iossimulatorarm64-1.6.0-alpha06-topping02.klib",
+          "size": 42438,
+          "sha512": "f515c13c0f6b34aa24817b21f03b611d0836ed4dfcc07e41df976c2500c7f8377183d98f6e1fba34817b1b0bc5e42ff27d6a5de2838d9a4ef9280dc170057e49",
+          "sha256": "23b9e30d6fbe079dd1c356412557884e1d67ea839877f7287a3a71f63de56ad5",
+          "sha1": "99704b883272caba6d9cfe7e65cd263dcd3df961",
+          "md5": "b1124eca530a63b7b7e3636cffb4a4c2"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "material-ripple-iossimulatorarm64-1.6.0-alpha06-topping02-sources.jar",
+          "url": "material-ripple-iossimulatorarm64-1.6.0-alpha06-topping02-sources.jar",
+          "size": 12374,
+          "sha512": "3bfc833078586218ebd54d6422c35b579d28df07e66b52bc0ce154d023ab7a16be8159160a119951c5574341e483ee723c360ae0265770a449cf002714af781c",
+          "sha256": "37c61ee00e6e0fa74c5fd7b50ae2abccfa65fe6571eb41132c5d5b416eb107fc",
+          "sha1": "3d9e912c89f9fe8a07979dfdaedc2935673def9b",
+          "md5": "b2ff47b69a3c93878af7b64ffe16c4ae"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-ripple-iossimulatorarm64-1.6.0-alpha06-topping02-metadata.jar",
+          "url": "material-ripple-iossimulatorarm64-1.6.0-alpha06-topping02-metadata.jar",
+          "size": 4102,
+          "sha512": "a71ac1e6598c60ecb8b95438efe1ee24ac1c6cf5b5c573e4ae5d25e9e9ee36d00fc9efe0fe8598e39c4a1253f0863bd48c5b4728de824b559af2806318c05fbc",
+          "sha256": "664c4e5459d7bacd12edbc5533a04124e7e0a61d19c44a4f5ee375f8a5ffef10",
+          "sha1": "4123963ce2fc84d54b8d9e28c84723b718ec3496",
+          "md5": "7ff95bee9bf88675f5039b462c4ffe6d"
+        }
+      ]
+    }
+  ]
+}

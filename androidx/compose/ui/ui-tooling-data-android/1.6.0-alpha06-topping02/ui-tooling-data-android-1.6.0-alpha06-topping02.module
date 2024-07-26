@@ -1,0 +1,188 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-tooling-data/1.6.0-alpha06-topping02/ui-tooling-data-1.6.0-alpha06-topping02.module",
+    "group": "androidx.compose.ui",
+    "module": "ui-tooling-data",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-tooling-data-release.aar",
+          "url": "ui-tooling-data-android-1.6.0-alpha06-topping02.aar",
+          "size": 36862,
+          "sha512": "14b1cbe27edc22abf32865beb45d8d11e3b94aff0be91aa7b8369d640d532658ad123474fc38364658669245ab700b92296912ebe98b3b267432b828b157f449",
+          "sha256": "c8c4fb497a4b146f8173d15dd71b681fc94fa62bcdf836d9844cdb3752022849",
+          "sha1": "a4ebd26d2fad0e95dabd2c57571d4aed1bc9d6ff",
+          "md5": "575aad23183597a1c871ce471008454e"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-tooling-data-release.aar",
+          "url": "ui-tooling-data-android-1.6.0-alpha06-topping02.aar",
+          "size": 36862,
+          "sha512": "14b1cbe27edc22abf32865beb45d8d11e3b94aff0be91aa7b8369d640d532658ad123474fc38364658669245ab700b92296912ebe98b3b267432b828b157f449",
+          "sha256": "c8c4fb497a4b146f8173d15dd71b681fc94fa62bcdf836d9844cdb3752022849",
+          "sha1": "a4ebd26d2fad0e95dabd2c57571d4aed1bc9d6ff",
+          "md5": "575aad23183597a1c871ce471008454e"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "fake-sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "ui-tooling-data-android-1.6.0-alpha06-topping02-sources.jar",
+          "url": "ui-tooling-data-android-1.6.0-alpha06-topping02-sources.jar",
+          "size": 9037,
+          "sha512": "0a4d519fa714f9311404ea2ffe58136eb17719a373fee54bfabfd47dd84ac03a3fa3838e022e24a677f51c78b6bdcdba681f9c810cc26248ca4d7845d10b2e84",
+          "sha256": "d030df2ebc4b8ade5437227186fc7f32b60fc2d1e0c697415f2ad2004e81047b",
+          "sha1": "faa62ec7c94b6b0025dd79225da9590361036ef7",
+          "md5": "61cbd844518e19f91c0c46e31534697a"
+        }
+      ]
+    }
+  ]
+}

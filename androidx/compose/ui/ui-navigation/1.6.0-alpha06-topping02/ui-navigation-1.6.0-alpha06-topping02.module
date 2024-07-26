@@ -1,0 +1,401 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.ui",
+    "module": "ui-navigation",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidxSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "androidx-multiplatform-docs"
+      },
+      "files": [
+        {
+          "name": "ui-navigation-1.6.0-alpha06-topping02-multiplatform-sources.jar",
+          "url": "ui-navigation-1.6.0-alpha06-topping02-multiplatform-sources.jar",
+          "size": 120506,
+          "sha512": "72e5a662b713d879b4dc5870b572f803a473f2885a2c9168fa4626d6cae2ce3c2f12cf2d6819f955d451bee77df4a0e57cb39d24258337a71acaf13ffb104ab1",
+          "sha256": "6c61d2bdfad534c980f9e8fd33fbaeab80b25f7c88abb929ce352e97854f1d89",
+          "sha1": "379c20c8cc60dd3d9ea15ab720b4b17c6eba565e",
+          "md5": "d9eb0568a2206322103c7852c061f1c6"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "apiLevels.json",
+          "url": "ui-navigation-1.6.0-alpha06-topping02-versionMetadata.json",
+          "size": 24958,
+          "sha512": "0f8d339a2e0dcce65fc3e759211128d9d1b8dc74afaec4f1faa3d720765ad94aa9057aa5adefe217d77389eb123f8b39e32f1af7cfd3fbff8c6c3cdf05683928",
+          "sha256": "ac7a74c0775a893be523d1fc51e5d3e3834a6628ff560453dbfed2312bf97445",
+          "sha1": "c10ccc4da28c0433a44c555e28727389987983ad",
+          "md5": "a01c6039e06291ea7804f7aa69766c77"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.4.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-lifecycle",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-navigation-metadata-1.6.0-alpha06-topping02.jar",
+          "url": "ui-navigation-1.6.0-alpha06-topping02.jar",
+          "size": 6797,
+          "sha512": "ae199a21255efe8794c7b034a59810af46bbe4a16839dfe9196d9a97a2bb1d4b64dc17219e0489e0986c5a70e5a6fcaaead19f4bca83551251abf54997ad7635",
+          "sha256": "6d912412d275a81369c808825b301dde01bb043a8e3cff1fafd996b13652791a",
+          "sha1": "8e3bf2d324985de37a2f38bd548fee2e50b530ce",
+          "md5": "f2daa19293c021f515ad6db30deae57c"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "ui-navigation-kotlin-1.6.0-alpha06-topping02-sources.jar",
+          "url": "ui-navigation-1.6.0-alpha06-topping02-sources.jar",
+          "size": 105461,
+          "sha512": "e871e46a9449c8a0e5263c0d9e9d1b3394fc83ebadf06e04e3b1726b285b92b318d149ff750057c0d2e0eeacd6e2411c227d4a08cdeeffdc9dd72d65ba0e8531",
+          "sha256": "5eafcd89566d53b737368b7bc5bbf5191f1e6ac63c8766694c7824a6a59223d4",
+          "sha1": "05f212aa72517941c46fda7c7f6e7133f99a0c9a",
+          "md5": "aeab05e3cb74322a9b6493d5482c46b1"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ui-navigation-android/1.6.0-alpha06-topping02/ui-navigation-android-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-navigation-android",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ui-navigation-android/1.6.0-alpha06-topping02/ui-navigation-android-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-navigation-android",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "fake-sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ui-navigation-android/1.6.0-alpha06-topping02/ui-navigation-android-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-navigation-android",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ui-navigation-desktop/1.6.0-alpha06-topping02/ui-navigation-desktop-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-navigation-desktop",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ui-navigation-desktop/1.6.0-alpha06-topping02/ui-navigation-desktop-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-navigation-desktop",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ui-navigation-desktop/1.6.0-alpha06-topping02/ui-navigation-desktop-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-navigation-desktop",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-navigation-iosarm64/1.6.0-alpha06-topping02/ui-navigation-iosarm64-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-navigation-iosarm64",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-navigation-iosarm64/1.6.0-alpha06-topping02/ui-navigation-iosarm64-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-navigation-iosarm64",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-navigation-iosarm64/1.6.0-alpha06-topping02/ui-navigation-iosarm64-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-navigation-iosarm64",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-navigation-iossimulatorarm64/1.6.0-alpha06-topping02/ui-navigation-iossimulatorarm64-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-navigation-iossimulatorarm64",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-navigation-iossimulatorarm64/1.6.0-alpha06-topping02/ui-navigation-iossimulatorarm64-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-navigation-iossimulatorarm64",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-navigation-iossimulatorarm64/1.6.0-alpha06-topping02/ui-navigation-iossimulatorarm64-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-navigation-iossimulatorarm64",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-navigation-iosx64/1.6.0-alpha06-topping02/ui-navigation-iosx64-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-navigation-iosx64",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-navigation-iosx64/1.6.0-alpha06-topping02/ui-navigation-iosx64-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-navigation-iosx64",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-navigation-iosx64/1.6.0-alpha06-topping02/ui-navigation-iosx64-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-navigation-iosx64",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    }
+  ]
+}

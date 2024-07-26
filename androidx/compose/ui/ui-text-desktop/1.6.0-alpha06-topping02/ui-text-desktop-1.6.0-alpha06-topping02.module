@@ -1,0 +1,169 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-text/1.6.0-alpha06-topping02/ui-text-1.6.0-alpha06-topping02.module",
+    "group": "androidx.compose.ui",
+    "module": "ui-text",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.skiko",
+          "module": "skiko",
+          "version": {
+            "requires": "0.7.81"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-text-desktop-1.6.0-alpha06-topping02.jar",
+          "url": "ui-text-desktop-1.6.0-alpha06-topping02.jar",
+          "size": 630661,
+          "sha512": "ea3a115dec1a64dff5820318e28a50345975a88da67da5fdaec06a2abae422e6c65548faf6ce572a9e176bd5ef46d34bda2543a0f397e60ea160d60fd240a036",
+          "sha256": "040e8b512820d5b26bbb43681945aae8bd5b3e22894e51878b299ee56c32b9c7",
+          "sha1": "e11a3beaf0bc452f8955e0387c798c52ec47ebf5",
+          "md5": "927a56113f64017f95c2fd99a26c7c79"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.skiko",
+          "module": "skiko",
+          "version": {
+            "requires": "0.7.81"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-text-desktop-1.6.0-alpha06-topping02.jar",
+          "url": "ui-text-desktop-1.6.0-alpha06-topping02.jar",
+          "size": 630661,
+          "sha512": "ea3a115dec1a64dff5820318e28a50345975a88da67da5fdaec06a2abae422e6c65548faf6ce572a9e176bd5ef46d34bda2543a0f397e60ea160d60fd240a036",
+          "sha256": "040e8b512820d5b26bbb43681945aae8bd5b3e22894e51878b299ee56c32b9c7",
+          "sha1": "e11a3beaf0bc452f8955e0387c798c52ec47ebf5",
+          "md5": "927a56113f64017f95c2fd99a26c7c79"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ui-text-desktop-1.6.0-alpha06-topping02-sources.jar",
+          "url": "ui-text-desktop-1.6.0-alpha06-topping02-sources.jar",
+          "size": 205555,
+          "sha512": "b7f32a57632c369341aae56f7c0f58ca67c2f7f06fab00a1bc697608486c90af347e3579cbb03c7d3eb7b36a35c11d40ec32849ea7e7c60f5e4151a01b99daa7",
+          "sha256": "f2d91c48878ac28481dea2761c958654576fdea928b57c4e267e0e253d48e204",
+          "sha1": "7ddef8e3e64cc2f2ae36f0fbdb000e3a70d89b42",
+          "md5": "6a030d9dec388deb7f3dd9d391ee70ce"
+        }
+      ]
+    }
+  ]
+}

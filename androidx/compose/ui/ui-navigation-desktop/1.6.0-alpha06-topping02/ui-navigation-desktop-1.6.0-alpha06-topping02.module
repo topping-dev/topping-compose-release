@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-navigation/1.6.0-alpha06-topping02/ui-navigation-1.6.0-alpha06-topping02.module",
+    "group": "androidx.compose.ui",
+    "module": "ui-navigation",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-navigation-desktop-1.6.0-alpha06-topping02.jar",
+          "url": "ui-navigation-desktop-1.6.0-alpha06-topping02.jar",
+          "size": 44886,
+          "sha512": "390ae84a1d73f5b802ea9ac3c44eb6c1324e6dd1c3e178f4fbad4e6b70f9da02e8facec34b675c535ac6ec4dfe3450959c66f3d731aaa9668605b97b30a3df2a",
+          "sha256": "92b75f230a8afb4d0b2a1a8485541defa1b65987f6afe77f83ab94de1ee434c6",
+          "sha1": "fad8c1abb31622130824c679eb747c20ee24b887",
+          "md5": "f3e09760d35ae8fca4265399b9834968"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-lifecycle",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-navigation-desktop-1.6.0-alpha06-topping02.jar",
+          "url": "ui-navigation-desktop-1.6.0-alpha06-topping02.jar",
+          "size": 44886,
+          "sha512": "390ae84a1d73f5b802ea9ac3c44eb6c1324e6dd1c3e178f4fbad4e6b70f9da02e8facec34b675c535ac6ec4dfe3450959c66f3d731aaa9668605b97b30a3df2a",
+          "sha256": "92b75f230a8afb4d0b2a1a8485541defa1b65987f6afe77f83ab94de1ee434c6",
+          "sha1": "fad8c1abb31622130824c679eb747c20ee24b887",
+          "md5": "f3e09760d35ae8fca4265399b9834968"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ui-navigation-desktop-1.6.0-alpha06-topping02-sources.jar",
+          "url": "ui-navigation-desktop-1.6.0-alpha06-topping02-sources.jar",
+          "size": 15145,
+          "sha512": "c2347b6d5d814a3b2c6d5f55af41713df90b04d59c029d1d7228e4fbfb4fcceb124ba9f78050e7efb0028c6d940383b31c72ea99412cbc9a3a133a88f246c560",
+          "sha256": "c359ce3fb84ed77cddcb40d9ce11cbf880689e7ad64d7629d30199ef2a6fc820",
+          "sha1": "6bf9b63931f7a9f73c8ac67bb28fa495bf2b0250",
+          "md5": "87c75bfc5af7b4955b7ddbe931b1d1fa"
+        }
+      ]
+    }
+  ]
+}

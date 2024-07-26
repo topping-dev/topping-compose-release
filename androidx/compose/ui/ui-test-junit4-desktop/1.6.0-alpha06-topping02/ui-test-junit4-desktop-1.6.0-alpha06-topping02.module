@@ -1,0 +1,169 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-test-junit4/1.6.0-alpha06-topping02/ui-test-junit4-1.6.0-alpha06-topping02.module",
+    "group": "androidx.compose.ui",
+    "module": "ui-test-junit4",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-test",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-test-junit4-desktop-1.6.0-alpha06-topping02.jar",
+          "url": "ui-test-junit4-desktop-1.6.0-alpha06-topping02.jar",
+          "size": 89044,
+          "sha512": "6eb397c8677eb761f52046bf094e37b6be126d981142f2b659d737cdece0095af7f6440b410c0d7872ddf1f9c4ab23c1b373311cb7e2a871fbed239867c71cbe",
+          "sha256": "81225b620e87df33fb77e5a16c54ee9c6243654643adc8f41584b98aa28fef99",
+          "sha1": "fb7a2091f09b631ba13db70096615187cfc7adce",
+          "md5": "d68d38287344b656708b08b1360d607d"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-test",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "com.google.truth",
+          "module": "truth",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.skiko",
+          "module": "skiko-awt",
+          "version": {
+            "requires": "0.7.81"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-test-junit4-desktop-1.6.0-alpha06-topping02.jar",
+          "url": "ui-test-junit4-desktop-1.6.0-alpha06-topping02.jar",
+          "size": 89044,
+          "sha512": "6eb397c8677eb761f52046bf094e37b6be126d981142f2b659d737cdece0095af7f6440b410c0d7872ddf1f9c4ab23c1b373311cb7e2a871fbed239867c71cbe",
+          "sha256": "81225b620e87df33fb77e5a16c54ee9c6243654643adc8f41584b98aa28fef99",
+          "sha1": "fb7a2091f09b631ba13db70096615187cfc7adce",
+          "md5": "d68d38287344b656708b08b1360d607d"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ui-test-junit4-desktop-1.6.0-alpha06-topping02-sources.jar",
+          "url": "ui-test-junit4-desktop-1.6.0-alpha06-topping02-sources.jar",
+          "size": 25990,
+          "sha512": "fe1aa4557ad64598aed53dfdeea79a2d22788208d62c54c4ce9d94b3ca313c599a23bfc1deee9e964219b927c8ef5b9ac223265e480f60c9af9f13b7ddb0e52a",
+          "sha256": "3e2a0b7cfeca28d58eea08ce3c80e83769ad0e913b985649bd02e866477e6dd4",
+          "sha1": "1df53345e05fcc520ab4fcee766dd496c663630e",
+          "md5": "a3accf7d9ea176cf015dd152113d9b97"
+        }
+      ]
+    }
+  ]
+}

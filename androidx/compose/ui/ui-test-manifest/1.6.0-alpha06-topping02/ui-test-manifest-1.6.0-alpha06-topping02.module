@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.ui",
+    "module": "ui-test-manifest",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-test-manifest-1.6.0-alpha06-topping02.aar",
+          "url": "ui-test-manifest-1.6.0-alpha06-topping02.aar",
+          "size": 9403,
+          "sha512": "e0bd6f437ba8d99074075f9d4e0ff9135d64d1ab6ca7f3bd4a1653f1754392a932b13144c14e98b2f225999752af15797b72c39b3ba473f8b005c3518983bd7b",
+          "sha256": "caf26cdb831088fba53da2f4c956484d5ed8b1df093140503a58448387558c4a",
+          "sha1": "b1ec3bc29c4724fa0e8ccddf06af913fc387902b",
+          "md5": "3c88828c2a1e9f2fdc1c5a1d8e6c98eb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-test-manifest-1.6.0-alpha06-topping02.aar",
+          "url": "ui-test-manifest-1.6.0-alpha06-topping02.aar",
+          "size": 9403,
+          "sha512": "e0bd6f437ba8d99074075f9d4e0ff9135d64d1ab6ca7f3bd4a1653f1754392a932b13144c14e98b2f225999752af15797b72c39b3ba473f8b005c3518983bd7b",
+          "sha256": "caf26cdb831088fba53da2f4c956484d5ed8b1df093140503a58448387558c4a",
+          "sha1": "b1ec3bc29c4724fa0e8ccddf06af913fc387902b",
+          "md5": "3c88828c2a1e9f2fdc1c5a1d8e6c98eb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-test-manifest-1.6.0-alpha06-topping02-sources.jar",
+          "url": "ui-test-manifest-1.6.0-alpha06-topping02-sources.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "ui-test-manifest-1.6.0-alpha06-topping02-versionMetadata.json",
+          "url": "ui-test-manifest-1.6.0-alpha06-topping02-versionMetadata.json",
+          "size": 2,
+          "sha512": "b25b294cb4deb69ea00a4c3cf3113904801b6015e5956bd019a8570b1fe1d6040e944ef3cdee16d0a46503ca6e659a25f21cf9ceddc13f352a3c98138c15d6af",
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "sha1": "97d170e1550eee4afc0af065b78cda302a97674c",
+          "md5": "d751713988987e9331980363e24189ce"
+        }
+      ]
+    }
+  ]
+}

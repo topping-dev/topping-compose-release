@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../material3-adaptive/1.0.0-alpha01-topping02/material3-adaptive-1.0.0-alpha01-topping02.module",
+    "group": "androidx.compose.material3",
+    "module": "material3-adaptive",
+    "version": "1.0.0-alpha01-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-adaptive-desktop-1.0.0-alpha01-topping02.jar",
+          "url": "material3-adaptive-desktop-1.0.0-alpha01-topping02.jar",
+          "size": 129085,
+          "sha512": "26e39d633e953ba0b162f3a2b91a4a8e83fa33694565ba6bde0ca3eeed9872361c9a6138b9f0bda418d0a8e4befed4af5014c77f8d5fe1028ba0af48e084c01a",
+          "sha256": "ca90c927fc378d108a88e2a70d9bd66700eda8999ed69103443ab2ba1b03b9ff",
+          "sha1": "a241baa790a5c5ad89eef0b165d00cd267e0a871",
+          "md5": "654d98af36d4374996cd239ac6bb8550"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.2.0-alpha08-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3-window-size-class",
+          "version": {
+            "requires": "1.2.0-alpha08-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-adaptive-desktop-1.0.0-alpha01-topping02.jar",
+          "url": "material3-adaptive-desktop-1.0.0-alpha01-topping02.jar",
+          "size": 129085,
+          "sha512": "26e39d633e953ba0b162f3a2b91a4a8e83fa33694565ba6bde0ca3eeed9872361c9a6138b9f0bda418d0a8e4befed4af5014c77f8d5fe1028ba0af48e084c01a",
+          "sha256": "ca90c927fc378d108a88e2a70d9bd66700eda8999ed69103443ab2ba1b03b9ff",
+          "sha1": "a241baa790a5c5ad89eef0b165d00cd267e0a871",
+          "md5": "654d98af36d4374996cd239ac6bb8550"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "material3-adaptive-desktop-1.0.0-alpha01-topping02-sources.jar",
+          "url": "material3-adaptive-desktop-1.0.0-alpha01-topping02-sources.jar",
+          "size": 25092,
+          "sha512": "1e071fe3337c70fa6d5c9208e274fd4700aac92aa3a2502d74a7005396a9e458afb4588a1a22d372781624c5d79c1293613ea108aeaf99e8f6cc033e9db41087",
+          "sha256": "5e91f7acaee2d88717e63aedcfbcb7f5f89ecd5be11ea09c5ece2f9814eb3afe",
+          "sha1": "c42b5c7bdf0a4e083ffbecbea2c87a76e9bd7c94",
+          "md5": "4266baad6a1dca4060703ab44ffb899b"
+        }
+      ]
+    }
+  ]
+}

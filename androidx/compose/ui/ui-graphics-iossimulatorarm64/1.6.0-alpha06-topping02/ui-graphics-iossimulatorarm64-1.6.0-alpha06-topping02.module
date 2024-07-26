@@ -1,0 +1,171 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-graphics/1.6.0-alpha06-topping02/ui-graphics-1.6.0-alpha06-topping02.module",
+    "group": "androidx.compose.ui",
+    "module": "ui-graphics",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.4.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-graphics.klib",
+          "url": "ui-graphics-iossimulatorarm64-1.6.0-alpha06-topping02.klib",
+          "size": 582298,
+          "sha512": "d10f169afa56ab43ebf92e094b26cee9d5b7ccee769cb2c1bf2b57269caf4adf151e814c82e60292433ecba9a581986083c6432ae657ac5d1615cdc4036d0bef",
+          "sha256": "345c4b1594c1ac18d3fcadd35bd4008fa5ced83aa713b42f4b1b642b7b37c99a",
+          "sha1": "1b2ca52d3ffa9efd2ea264d38eb683ec92d6fd8f",
+          "md5": "b65b942a97e9734631c1bde6f2554719"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ui-graphics-iossimulatorarm64-1.6.0-alpha06-topping02-sources.jar",
+          "url": "ui-graphics-iossimulatorarm64-1.6.0-alpha06-topping02-sources.jar",
+          "size": 192411,
+          "sha512": "5980df0341139b46b6552cf881b5e8e6ad188872c231e81d7e0151eee2274514b181e1f4c26ee4d0e82383e801626b7ae6d30bbdb923d105933d4db12c81072d",
+          "sha256": "8989167d8ebe0bd427c72a1c7a9ce1493799eb2eb5b8c537204739e301cae6bc",
+          "sha1": "d3a46238d0ec9485760d780a29201f40328bf2ea",
+          "md5": "65c00313ff5a762376a39f41ef4bef1d"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.4.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-graphics-iossimulatorarm64-1.6.0-alpha06-topping02-metadata.jar",
+          "url": "ui-graphics-iossimulatorarm64-1.6.0-alpha06-topping02-metadata.jar",
+          "size": 16937,
+          "sha512": "db6c250efc73e1e9df0017568cfee5a20ea8951649b95347be7bfc562baf0bdba0a9d4dbb2bb4e3d1c845c815eafe76291bc3ffaca305f5ae9f5dac95d2032c7",
+          "sha256": "590ca927f4481da7faec9009f50e3253a7a7c0f91729f4cfa8564ea5246ecadc",
+          "sha1": "069b06805ecb7dda048a41eff5dadd3b143ea507",
+          "md5": "79726b32cf6470c4e4e437b1d38acc54"
+        }
+      ]
+    }
+  ]
+}

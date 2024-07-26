@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.ui",
+    "module": "ui-graphics-samples",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-graphics-samples-1.6.0-alpha06-topping02.aar",
+          "url": "ui-graphics-samples-1.6.0-alpha06-topping02.aar",
+          "size": 36479,
+          "sha512": "44ee1a3034b97bea2d985ce3e4a7a045c95b3345337f3abe86f09bb4a54a95c8e27efac26435dd68874bc48fde93d342fa461a89035956783a30cceb99a3e866",
+          "sha256": "3b0e0c6107bf68a9f4efdd7e77a91694983acf28845947483d1d573b347575cb",
+          "sha1": "23561e60bf8c6931b31e85690fc99726e663d3ba",
+          "md5": "08ebd8135010a22eeff625c63b5bbb4a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-graphics-samples-1.6.0-alpha06-topping02.aar",
+          "url": "ui-graphics-samples-1.6.0-alpha06-topping02.aar",
+          "size": 36479,
+          "sha512": "44ee1a3034b97bea2d985ce3e4a7a045c95b3345337f3abe86f09bb4a54a95c8e27efac26435dd68874bc48fde93d342fa461a89035956783a30cceb99a3e866",
+          "sha256": "3b0e0c6107bf68a9f4efdd7e77a91694983acf28845947483d1d573b347575cb",
+          "sha1": "23561e60bf8c6931b31e85690fc99726e663d3ba",
+          "md5": "08ebd8135010a22eeff625c63b5bbb4a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-graphics-samples-1.6.0-alpha06-topping02-sources.jar",
+          "url": "ui-graphics-samples-1.6.0-alpha06-topping02-sources.jar",
+          "size": 6689,
+          "sha512": "566d6d6e1c34abf7593f9d6b55974760d6a7a812f74a30381cee3f902076a0a86006f14543ee9040a52d72ef5d58fe7b19f89491c0d692e13e44229df9cd05d6",
+          "sha256": "6c9136127a61fb6fdf5057fa969706801167d3fa4db18113dcc4c2cf8149c192",
+          "sha1": "1bc26cfae5fc42ebd10d3ebaf966ba4cf5edf04c",
+          "md5": "df491ef0e37bc7e29ccd296fcf7cc505"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui-tooling-data/1.6.0-alpha06-topping02/ui-tooling-data-1.6.0-alpha06-topping02.module",
+    "group": "androidx.compose.ui",
+    "module": "ui-tooling-data",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-tooling-data-desktop-1.6.0-alpha06-topping02.jar",
+          "url": "ui-tooling-data-desktop-1.6.0-alpha06-topping02.jar",
+          "size": 38399,
+          "sha512": "0d433d926c76171ed3e6cf2e5ef6b6f26738258d3360cecafca643d5ffe9956fc3dccc9bcf608eb2926e41219c6b5cce3d29da3220e344249bb2882df4eba10c",
+          "sha256": "5bb62649d358f51006c0c304243ac1975cd4d93b7e6a227e4075d6bcea0fd355",
+          "sha1": "387790effe813c94f6fed7153def832d23746939",
+          "md5": "55d5463b6acced2a3efa6f559280f23a"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-tooling-data-desktop-1.6.0-alpha06-topping02.jar",
+          "url": "ui-tooling-data-desktop-1.6.0-alpha06-topping02.jar",
+          "size": 38399,
+          "sha512": "0d433d926c76171ed3e6cf2e5ef6b6f26738258d3360cecafca643d5ffe9956fc3dccc9bcf608eb2926e41219c6b5cce3d29da3220e344249bb2882df4eba10c",
+          "sha256": "5bb62649d358f51006c0c304243ac1975cd4d93b7e6a227e4075d6bcea0fd355",
+          "sha1": "387790effe813c94f6fed7153def832d23746939",
+          "md5": "55d5463b6acced2a3efa6f559280f23a"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ui-tooling-data-desktop-1.6.0-alpha06-topping02-sources.jar",
+          "url": "ui-tooling-data-desktop-1.6.0-alpha06-topping02-sources.jar",
+          "size": 9037,
+          "sha512": "0a4d519fa714f9311404ea2ffe58136eb17719a373fee54bfabfd47dd84ac03a3fa3838e022e24a677f51c78b6bdcdba681f9c810cc26248ca4d7845d10b2e84",
+          "sha256": "d030df2ebc4b8ade5437227186fc7f32b60fc2d1e0c697415f2ad2004e81047b",
+          "sha1": "faa62ec7c94b6b0025dd79225da9590361036ef7",
+          "md5": "61cbd844518e19f91c0c46e31534697a"
+        }
+      ]
+    }
+  ]
+}

@@ -49,7 +49,7 @@
     <dependency>
       <groupId>androidx.compose.foundation</groupId>
       <artifactId>foundation</artifactId>
-      <version>1.6.0-alpha06-topping01</version>
+      <version>1.6.0-alpha06-topping02</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -85,7 +85,7 @@
     <dependency>
       <groupId>androidx.compose.ui</groupId>
       <artifactId>ui-util</artifactId>
-      <version>1.6.0-alpha06-topping01</version>
+      <version>1.6.0-alpha06-topping02</version>
       <scope>compile</scope>
     </dependency>
     <dependency>

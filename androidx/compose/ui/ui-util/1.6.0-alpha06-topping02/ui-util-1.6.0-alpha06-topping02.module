@@ -1,0 +1,366 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.ui",
+    "module": "ui-util",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidxSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "androidx-multiplatform-docs"
+      },
+      "files": [
+        {
+          "name": "ui-util-1.6.0-alpha06-topping02-multiplatform-sources.jar",
+          "url": "ui-util-1.6.0-alpha06-topping02-multiplatform-sources.jar",
+          "size": 54996,
+          "sha512": "f4a8da251b28ee3293832a94c2202eaff6e56537630031ba37369f75feeb6656eaef432f7e9d1f59b33ec61326ca9e207ef848862624098700d92ab4442dfe52",
+          "sha256": "c338f13dce8ab7d2926554f01485071ca27be687927fb27ac7e84344558d4468",
+          "sha1": "683d5e250868008b66699c8db44519494f7ff192",
+          "md5": "5c2bbbc161f7d7db80543c544ff3ce1c"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "apiLevels.json",
+          "url": "ui-util-1.6.0-alpha06-topping02-versionMetadata.json",
+          "size": 5943,
+          "sha512": "077860b98bb07ad090b4d787475f8887f158f7489f7fbc27490e5809d89a7ce097420dd1287b1009279674e772b93e3288c54d10372ea9535e59d8d75081383c",
+          "sha256": "ead85a04a4822461d98d3b338626d7335ac0a7f017c60d20f3fec6a199a0a92b",
+          "sha1": "ce6ff98d619eea32cd65d2510275839541129eb0",
+          "md5": "0050ab6d0c69c9eeae032b7d8807fd6e"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.4.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-util-metadata-1.6.0-alpha06-topping02.jar",
+          "url": "ui-util-1.6.0-alpha06-topping02.jar",
+          "size": 5973,
+          "sha512": "acb0ce5acf33ad05d65b09b018b77806d111415e85a3dc7c33c6b8aa41bc35bd185c50dd7c8f7945eef3255155ebddb8a6886d84e9038d89156416a6cd1a7805",
+          "sha256": "17a80021c25f1e4ca7d0d708f6837b17472e134e5734e24d01a4fdca3a086a32",
+          "sha1": "b63e4220d0561e6811eea58a9e1d49ac9077e893",
+          "md5": "ba458c1b90ed461d1b1dec9f1073d84b"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "ui-util-kotlin-1.6.0-alpha06-topping02-sources.jar",
+          "url": "ui-util-1.6.0-alpha06-topping02-sources.jar",
+          "size": 50668,
+          "sha512": "cc24db83e6e6b202c17b4589d4fa8713ffab7f3015f3f98b3cf4afb158295325bb64493b9f179f805ec392a435ef1266f8165756ce8cc1d86c3d2c0e16c066f1",
+          "sha256": "fc1b3c532fc584ce9dc734dd148dbc528705a39d9074b3be09f06fd5bbab350e",
+          "sha1": "e245ef50e2094acf708b8a216116130a7ce91398",
+          "md5": "2ceb2b1756866fb951e9afaa5f319712"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ui-util-android/1.6.0-alpha06-topping02/ui-util-android-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-util-android",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ui-util-android/1.6.0-alpha06-topping02/ui-util-android-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-util-android",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "fake-sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ui-util-android/1.6.0-alpha06-topping02/ui-util-android-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-util-android",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ui-util-desktop/1.6.0-alpha06-topping02/ui-util-desktop-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-util-desktop",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ui-util-desktop/1.6.0-alpha06-topping02/ui-util-desktop-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-util-desktop",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ui-util-desktop/1.6.0-alpha06-topping02/ui-util-desktop-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-util-desktop",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-util-iosarm64/1.6.0-alpha06-topping02/ui-util-iosarm64-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-util-iosarm64",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-util-iosarm64/1.6.0-alpha06-topping02/ui-util-iosarm64-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-util-iosarm64",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-util-iosarm64/1.6.0-alpha06-topping02/ui-util-iosarm64-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-util-iosarm64",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-util-iossimulatorarm64/1.6.0-alpha06-topping02/ui-util-iossimulatorarm64-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-util-iossimulatorarm64",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-util-iossimulatorarm64/1.6.0-alpha06-topping02/ui-util-iossimulatorarm64-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-util-iossimulatorarm64",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-util-iossimulatorarm64/1.6.0-alpha06-topping02/ui-util-iossimulatorarm64-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-util-iossimulatorarm64",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-util-iosx64/1.6.0-alpha06-topping02/ui-util-iosx64-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-util-iosx64",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-util-iosx64/1.6.0-alpha06-topping02/ui-util-iosx64-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-util-iosx64",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ui-util-iosx64/1.6.0-alpha06-topping02/ui-util-iosx64-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.ui",
+        "module": "ui-util-iosx64",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    }
+  ]
+}

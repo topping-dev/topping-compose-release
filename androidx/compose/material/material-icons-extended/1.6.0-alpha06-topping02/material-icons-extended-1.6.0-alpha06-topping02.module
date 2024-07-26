@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.material",
+    "module": "material-icons-extended",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-icons-extended-metadata-1.6.0-alpha06-topping02.jar",
+          "url": "material-icons-extended-1.6.0-alpha06-topping02.jar",
+          "size": 736,
+          "sha512": "f3e6bc74480e57d8f3bd0c641450efefddcc8f7c5dfd25f5e1e95906269b934e4624c181ffd4f3884c98f3a9b63d11994d512aa556ca361dda931c2f31516425",
+          "sha256": "714e2bfc4095b291e0dbcbd7626bc0e420fc2f6a78f2416398596504debd9117",
+          "sha1": "dc62b0482b48b733105221b084a2c4628fbcd77a",
+          "md5": "cad069f63e19a0f9e5d337ecb3b361e5"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "material-icons-extended-kotlin-1.6.0-alpha06-topping02-sources.jar",
+          "url": "material-icons-extended-1.6.0-alpha06-topping02-sources.jar",
+          "size": 12080783,
+          "sha512": "5d0b09db16bf09809f582f749d1b93543b3c47b55bc2a65b67a36120e8758b0ab24f322a6f307441e0cefba3d12f14573575afebafae480466f1ec04a4534d22",
+          "sha256": "35289e3d5752507a4acb790db571f23c0d58c1490522bf7c656df06cf7e25981",
+          "sha1": "6f4948306bce90951b9a3f2158e2d158b0a997e6",
+          "md5": "e5e9865cbb276c8d128a772e52b830cc"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../material-icons-extended-android/1.6.0-alpha06-topping02/material-icons-extended-android-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.material",
+        "module": "material-icons-extended-android",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../material-icons-extended-android/1.6.0-alpha06-topping02/material-icons-extended-android-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.material",
+        "module": "material-icons-extended-android",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "fake-sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../material-icons-extended-android/1.6.0-alpha06-topping02/material-icons-extended-android-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.material",
+        "module": "material-icons-extended-android",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../material-icons-extended-desktop/1.6.0-alpha06-topping02/material-icons-extended-desktop-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.material",
+        "module": "material-icons-extended-desktop",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../material-icons-extended-desktop/1.6.0-alpha06-topping02/material-icons-extended-desktop-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.material",
+        "module": "material-icons-extended-desktop",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../material-icons-extended-desktop/1.6.0-alpha06-topping02/material-icons-extended-desktop-1.6.0-alpha06-topping02.module",
+        "group": "androidx.compose.material",
+        "module": "material-icons-extended-desktop",
+        "version": "1.6.0-alpha06-topping02"
+      }
+    }
+  ]
+}

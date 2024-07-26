@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.ui",
+    "module": "ui-text-google-fonts",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ui-text-google-fonts-1.6.0-alpha06-topping02.aar",
+          "url": "ui-text-google-fonts-1.6.0-alpha06-topping02.aar",
+          "size": 22990,
+          "sha512": "7ff65049f64380678f2fe73e40642b2cbdb77f190d4fc7ef64291211b7ee43fe837ca30000f7059cbe20035554fb3cfd3879647f8227a9984aecc7a98c5fffe8",
+          "sha256": "1759a2493193ca10a44c25fb7ca2df268375554f7fbbcc5cb23983560d5dc93d",
+          "sha1": "8fd8413f2cf4a732b6eb0a2879a067c079ccea42",
+          "md5": "dfa68153a3298d9cedb02f28a4e327f1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-text",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-text-google-fonts-1.6.0-alpha06-topping02.aar",
+          "url": "ui-text-google-fonts-1.6.0-alpha06-topping02.aar",
+          "size": 22990,
+          "sha512": "7ff65049f64380678f2fe73e40642b2cbdb77f190d4fc7ef64291211b7ee43fe837ca30000f7059cbe20035554fb3cfd3879647f8227a9984aecc7a98c5fffe8",
+          "sha256": "1759a2493193ca10a44c25fb7ca2df268375554f7fbbcc5cb23983560d5dc93d",
+          "sha1": "8fd8413f2cf4a732b6eb0a2879a067c079ccea42",
+          "md5": "dfa68153a3298d9cedb02f28a4e327f1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-text-google-fonts-1.6.0-alpha06-topping02-sources.jar",
+          "url": "ui-text-google-fonts-1.6.0-alpha06-topping02-sources.jar",
+          "size": 7551,
+          "sha512": "574ac214e543a3f81881ff8e421a7c6fe65a4d23c6b1479c53240bf8fbacd9e65f314822f9a37cdfba68d28e2fe6b710e8d48ae64e402a56915aa55ca07a1554",
+          "sha256": "496cbf57ef2de45c90a455c1952da0d05e3fc33780035b703f25835582300e32",
+          "sha1": "b2415d2299d9bfd0f4ee175d4a3f127f80f035eb",
+          "md5": "f73e4a27f9b3c2e0efd5d23a22931294"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "ui-text-google-fonts-1.6.0-alpha06-topping02-versionMetadata.json",
+          "url": "ui-text-google-fonts-1.6.0-alpha06-topping02-versionMetadata.json",
+          "size": 1456,
+          "sha512": "a46ab261410c54654a064a1bc1572116a5f853a59b9975ebfe13082a40535f3a389a817abb5abc3bcce22f99df430ee4a2394eb4172a965dc70b00b124a575aa",
+          "sha256": "8a60fc6a81290a88c004ea02c0e9d936034733bc560305ba42839461313d3c6d",
+          "sha1": "5d613a6e6cabb83bb8bb38dc2eb1b9879e2beebd",
+          "md5": "5bfda8e962b2426d42caf56795f89d61"
+        }
+      ]
+    }
+  ]
+}

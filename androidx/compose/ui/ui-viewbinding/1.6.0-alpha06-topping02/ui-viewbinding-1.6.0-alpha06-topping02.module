@@ -1,0 +1,134 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.ui",
+    "module": "ui-viewbinding",
+    "version": "1.6.0-alpha06-topping02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ui-viewbinding-1.6.0-alpha06-topping02.aar",
+          "url": "ui-viewbinding-1.6.0-alpha06-topping02.aar",
+          "size": 17988,
+          "sha512": "53d032d5a79b029e030a30cfe55fb91acd591538e0022e9dd4f4c0ac044980e488f749d3e31361d40ba59b551ad18bca84ada3775c6f3d6e77d119f2a4c92a1b",
+          "sha256": "38599c86126acd436720d2d2344db3a185d7067a9b3e8007f875acac096f49b9",
+          "sha1": "f36cde82afce1cf0a1230cfa0a315c23f1d60fe6",
+          "md5": "0814cf825af4041def42630ada339144"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.6.0-alpha06-topping02"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "4.1.2"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-viewbinding-1.6.0-alpha06-topping02.aar",
+          "url": "ui-viewbinding-1.6.0-alpha06-topping02.aar",
+          "size": 17988,
+          "sha512": "53d032d5a79b029e030a30cfe55fb91acd591538e0022e9dd4f4c0ac044980e488f749d3e31361d40ba59b551ad18bca84ada3775c6f3d6e77d119f2a4c92a1b",
+          "sha256": "38599c86126acd436720d2d2344db3a185d7067a9b3e8007f875acac096f49b9",
+          "sha1": "f36cde82afce1cf0a1230cfa0a315c23f1d60fe6",
+          "md5": "0814cf825af4041def42630ada339144"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-viewbinding-1.6.0-alpha06-topping02-sources.jar",
+          "url": "ui-viewbinding-1.6.0-alpha06-topping02-sources.jar",
+          "size": 4544,
+          "sha512": "55413dd610614314828023d9b9828512c7818791cfa0927b839ff7169111a3803f7cbb06b15fba9fd4345221da054fa94833f08adb54b5caaa5d4950fec1eaf6",
+          "sha256": "b499af98f42ca96df7efe0216ca1e1d8d5a8a7bd64c6344eb5566b7b0e165489",
+          "sha1": "b0c811d5f9903513697808065eb41af8952b2d86",
+          "md5": "0280c4576ac10d0bf525aa56cf2dd711"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "ui-viewbinding-1.6.0-alpha06-topping02-versionMetadata.json",
+          "url": "ui-viewbinding-1.6.0-alpha06-topping02-versionMetadata.json",
+          "size": 846,
+          "sha512": "6c62500da82cc410a8a9805c3c9da0f4ce092d409b416d3687bda06c4ccc291f550969e6a887b58214e78f4170eca9f0063ef55998ea9696abc9b625915bf7e7",
+          "sha256": "e4f0314f2fe5fd3a4393f7289126c4af201e334091509efa462e0476ad056897",
+          "sha1": "f79dd0f6d6d2e6e2bd20857e878f5f3c39232fdc",
+          "md5": "9207ec3d11b75b36aebb617d9b1323db"
+        }
+      ]
+    }
+  ]
+}
